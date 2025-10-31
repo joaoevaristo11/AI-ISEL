@@ -7,8 +7,19 @@ import fitz  # PyMuPDF
 import io
 
 
-# === 1️⃣ LER O CSV ===
-df = pd.read_csv("../data/pages.csv", sep=";")
+# === 1️⃣ LER O CSV CORRETAMENTE ===
+csv_path = "../data/pagesEva.csv"
+
+# Detectar automaticamente a linha onde começa o cabeçalho
+with open(csv_path, "r", encoding="utf-8") as f:
+    lines = f.readlines()
+
+# Encontrar a primeira linha que contenha "Secção"
+header_line = next(i for i, line in enumerate(lines) if "Secção" in line)
+
+# Ler o CSV a partir dessa linha
+df = pd.read_csv(csv_path, sep=";", header=header_line)
+df = df.fillna(method="ffill")
 
 # Lista para guardar as páginas extraídas
 pages = []
@@ -23,15 +34,21 @@ def limpar_texto(texto):
 
 # === 2️⃣ LER AS PÁGINAS HTML ===
 for i, row in df.iterrows():
-    categoria = str(row["Categoria"])
-    url = str(row["URL completo"])
-    titulo = str(row["Título"])
+    secao = str(row.get("Secção", ""))
+    subsecao = str(row.get("Subsecção", ""))
+    url = str(row.get("URL completo", ""))
+    titulo = str(row.get("Título", ""))
+
+    # Ignora URLs vazios ou inválidos
+    if not url or not url.startswith("http"):
+        print(f"⚠️ URL inválido (linha {i}): '{url}'")
+        continue
 
     # Ignora PDFs (tratamos depois)
     if "pdf" in url.lower():
         continue
 
-    print(f"📖 A ler: {url}")
+    print(f"📖 [{secao or '?'} > {subsecao or '?'}] A ler: {url}")
 
     try:
         resposta = requests.get(url, headers=headers, timeout=20)
@@ -43,6 +60,8 @@ for i, row in df.iterrows():
 
         # Extrai o conteúdo principal (<main>) ou todo o HTML
         main = soup.select_one("main") or soup
+
+        # Extrai parágrafos
         paragrafos = [p.get_text(" ", strip=True) for p in main.find_all("p")]
         texto = limpar_texto(" ".join(paragrafos))
 
@@ -52,7 +71,8 @@ for i, row in df.iterrows():
             texto = limpar_texto(" ".join(heads + paragrafos))
 
         pages.append({
-            "categoria": categoria,
+            "secção": secao,
+            "subsecção": subsecao,
             "url": url,
             "titulo": titulo,
             "conteudo": texto
@@ -64,45 +84,9 @@ for i, row in df.iterrows():
     except Exception as e:
         print(f"❌ Erro a processar {url}: {e}")
 
-
-# === 3️⃣ LER PDFs (como a brochura dos cursos) ===
-pdf_rows = df[df["Caminho"].str.contains("ficheiro PDF", case=False, na=False)]
-
-for i, row in pdf_rows.iterrows():
-    pdf_url = str(row["URL completo"])
-    titulo = str(row["Título"])
-    categoria = str(row["Categoria"])
-
-    print(f"📄 A extrair texto do PDF: {pdf_url}")
-
-    try:
-        res = requests.get(pdf_url, headers=headers, timeout=30)
-        res.raise_for_status()
-        pdf_bytes = io.BytesIO(res.content)
-
-        # Abre o PDF com fitz (PyMuPDF)
-        doc = fitz.open(stream=pdf_bytes, filetype="pdf")
-        texto_total = ""
-        for pagina in doc:
-            texto_total += pagina.get_text("text") + "\n"
-
-        doc.close()
-
-        pages.append({
-            "categoria": categoria,
-            "url": pdf_url,
-            "titulo": titulo,
-            "conteudo": limpar_texto(texto_total)
-        })
-
-        print(f"✅ PDF extraído com sucesso ({len(texto_total)} caracteres)")
-
-    except Exception as e:
-        print(f"❌ Erro a processar PDF {pdf_url}: {e}")
-
-
 # === 4️⃣ GUARDAR O RESULTADO EM JSON ===
-with open("../data/pages.json", "w", encoding="utf-8") as f:
+output_path = "../data/pages.json"
+with open(output_path, "w", encoding="utf-8") as f:
     json.dump(pages, f, ensure_ascii=False, indent=2)
 
 print("\n🎉 Ficheiro pages.json criado com sucesso!")
