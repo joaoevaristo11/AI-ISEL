@@ -1,0 +1,46 @@
+﻿;;;;;
+;;;;;
+;;;;;
+;;;;;
+;Secção;Subsecção;Caminho;URL completo;Título
+;Cursos;Licenciatura;(ficheiro PDF);https://isel.pt/sites/default/files/001_imagens_isel/pdf/flyers_2025_04/Brochura_L-2025.2026.pdf;Brochura dos Cursos 2025/2026
+;;;/cursos/licenciaturas;https://www.isel.pt/cursos/licenciaturas;Licenciaturas do ISEL
+;;;/curso/licenciatura/licenciatura-em-engenharia-civil;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-civil;Engenharia Civil
+;;;/curso/licenciatura/licenciatura-em-tecnologias-e-gestao-municipal;https://www.isel.pt/curso/licenciatura/licenciatura-em-tecnologias-e-gestao-municipal;Tecnologias e Gestão Municipal
+;;;/curso/licenciatura/licenciatura-em-engenharia-informatica-e-de-computadores;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-informatica-e-de-computadores;Eng. Informática e de Computadores
+;;;/curso/licenciatura/licenciatura-em-engenharia-informatica-e-multimedia;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-informatica-e-multimedia;Eng. Informática e Multimédia
+;;;/curso/licenciatura/licenciatura-em-engenharia-eletronica-e-telecomunicacoes-e-de-computadores;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-eletronica-e-telecomunicacoes-e-de-computadores;Eng. Eletrónica e Telecomunicações e de Computadores
+;;;/curso/licenciatura/licenciatura-em-engenharia-informatica-redes-e-telecomunicacoes;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-informatica-redes-e-telecomunicacoes;Eng. Informática, Redes e Telecomunicações
+;;;/curso/licenciatura/licenciatura-em-engenharia-fisica-aplicada;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-fisica-aplicada; Eng. Física Aplicada
+;;;/curso/licenciatura/licenciatura-em-engenharia-eletrotecnica;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-eletrotecnica;Eng. Eletrotécnica
+;;;/curso/licenciatura/licenciatura-em-matematica-aplicada-tecnologia-e-empresa;https://www.isel.pt/curso/licenciatura/licenciatura-em-matematica-aplicada-tecnologia-e-empresa;Matemática Aplicada à Tecnologia e à Empresa
+;;;/curso/licenciatura/licenciatura-em-engenharia-mecanica;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-mecanica;Eng. Mecânica
+;;;/curso/licenciatura/licenciatura-em-engenharia-quimica-e-biologica;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-quimica-e-biologica;Eng. Química e Biológica
+;;;/curso/licenciatura/licenciatura-em-engenharia-biomedica;https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-biomedica;Eng. Biomédica
+;;Mestrados;/cursos/mestrados;https://www.isel.pt/cursos/mestrados;Mestrados ISEL
+;;;/curso/mestrado/mestrado-em-engenharia-civil;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-civil;Engenharia Civil
+;;;/curso/mestrado/mestrado-em-engenharia-informatica-e-de-computadores;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-informatica-e-de-computadores;Eng. Informática e de Computadores
+;;;/curso/mestrado/mestrado-em-engenharia-informatica-e-multimedia;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-informatica-e-multimedia;Eng. Informática e Multimédia
+;;;/curso/mestrado/mestrado-em-engenharia-de-eletronica-e-telecomunicacoes;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-de-eletronica-e-telecomunicacoes;Eng. de Eletrónica e Telecomunicações
+;;;/curso/mestrado/mestrado-em-engenharia-eletrotecnica;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-eletrotecnica;Eng. Eletrotécnica
+;;;/curso/mestrado/mestrado-em-matematica-aplicada-para-industria;https://www.isel.pt/curso/mestrado/mestrado-em-matematica-aplicada-para-industria;Matemática Aplicada para Industria
+;;;/curso/mestrado/mestrado-em-engenharia-e-gestao-industrial;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-e-gestao-industrial;Engenharia e Gestão Industrial
+;;;/curso/mestrado/mestrado-em-engenharia-mecanica;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-mecanica;Eng. Mecânica
+;;;/curso/mestrado/mestrado-em-engenharia-biomedica;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-biomedica;Eng. Biomédica
+;;;/curso/mestrado/mestrado-em-engenharia-da-qualidade-e-ambiente;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-da-qualidade-e-ambiente;Eng. da Qualidade e Ambiente
+;;;/curso/mestrado/mestrado-em-engenharia-quimica-e-biologica;https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-quimica-e-biologica;Eng. Química e Biológica
+;;Pós graduações;/cursos/pos-graduacoes;https://www.isel.pt/cursos/pos-graduacoes;Pós Graduações
+;;;/curso/pos-graduacao/pos-graduacao-especializacao-em-engenharia-ferroviaria;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-especializacao-em-engenharia-ferroviaria;Especialização em Engenharia Ferroviaria
+;;;/curso/pos-graduacao/pos-graduacao-em-conservacao-e-reabilitacao-de-construcoes;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-conservacao-e-reabilitacao-de-construcoes;Conservação e Reabiliitação de Construções
+;;;/curso/pos-graduacao/pos-graduacao-em-novas-abordagens-em-acustica-aplicada-e-audio;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-novas-abordagens-em-acustica-aplicada-e-audio;Novas Abordagens em Acústica Aplicada e Áudio
+;;;curso/pos-graduacao/pos-graduacao-em-engenharia-optoeletronica-e-fotonica;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-engenharia-optoeletronica-e-fotonica;Eng. Optoeletrónica e Fotónica
+;;;/curso/pos-graduacao/pos-graduacao-engenharia_e_gestao_do_risco_de_desastres;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-engenharia_e_gestao_do_risco_de_desastres;
+;;;/curso/pos-graduacao/pos-graduacao-em-engenharia-e-gestao-de-energias-renovaveis;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-engenharia-e-gestao-de-energias-renovaveis;Engenharia e Gestão de Energias Renováveis
+;;;/curso/pos-graduacao/pos-graduacao-em-projeto-e-manutencao-de-instalacoes-eletricas;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-projeto-e-manutencao-de-instalacoes-eletricas;Engenharia e Gestão Industrial
+;;;/curso/pos-graduacao/pos-graduacao-em-matematica-para-ciencia-de-dados;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-matematica-para-ciencia-de-dados;Eng. Mecânica
+;;;/curso/pos-graduacao/pos-graduacao-em-eficiencia-energetica-e-sustentabilidade-em-edificios;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-eficiencia-energetica-e-sustentabilidade-em-edificios;Eng. Biomédica
+;;;/curso/pos-graduacao/pos-graduacao-em-processos-avancados-de-fabrico;https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-processos-avancados-de-fabrico;
+;;Outros Cursos;/ensino/cursos/outros-cursos/academia-mikrotik;https://www.isel.pt/ensino/cursos/outros-cursos/academia-mikrotik;Academia MikroTik
+;;;/curso/outros-cursos/curso-preparatorio-de-fisica;https://www.isel.pt/curso/outros-cursos/curso-preparatorio-de-fisica;Curso Preparatório de Física
+;;;/curso/outros-cursos/curso-preparatorio-de-matematica;https://www.isel.pt/curso/outros-cursos/curso-preparatorio-de-matematica;Curso Preparatório de Matemática
+;;;/curso/outros-cursos/formacao-de-analistas-quimicos;https://www.isel.pt/curso/outros-cursos/formacao-de-analistas-quimicos;Formação de Analistas Químicos

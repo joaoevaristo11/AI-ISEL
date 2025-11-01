@@ -8,7 +8,7 @@ import io
 
 
 # === 1️⃣ LER O CSV CORRETAMENTE ===
-csv_path = "../data/pagesEva.csv"
+csv_path = "../data/pages2.csv"
 
 # Detectar automaticamente a linha onde começa o cabeçalho
 with open(csv_path, "r", encoding="utf-8") as f:
