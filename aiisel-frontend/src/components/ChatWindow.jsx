@@ -7,13 +7,15 @@ export default function ChatWindow({ isOpen }) {
   ]);
 
   const [inputValue, setInputValue] = useState("");
+  const [isTyping, setIsTyping] = useState(false); // ⬅️ novo estado
+
 
   const messagesEndRef = useRef(null);
 
   // ✅ Todos os hooks são sempre chamados, independentemente do isOpen
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
+  }, [messages, isTyping]);
 
   // 🔽 só aqui verificamos o isOpen
   if (!isOpen) return null;
@@ -24,6 +26,14 @@ export default function ChatWindow({ isOpen }) {
 
     setMessages((prev) => [...prev, { sender: "user", text: trimmedInput }]);
     setInputValue("");
+    setIsTyping(true)
+
+    setTimeout(()=>{
+      setMessages((prev)=>[
+        ...prev, {sender: "bot", text: getFakeResponse(trimmedInput)}
+      ])
+      setIsTyping(false)
+    },1500)
   };
 
   const handleEnter = (e) => {
@@ -31,6 +41,17 @@ export default function ChatWindow({ isOpen }) {
       e.preventDefault();
       handleSendMessage();
     }
+  };
+
+    // 🔮 Função de resposta simulada (mock)
+  const getFakeResponse = (userMsg) => {
+    const lower = userMsg.toLowerCase();
+    if (lower.includes("olá") || lower.includes("ola"))
+      return "Olá! 😊 Como estás hoje?";
+    if (lower.includes("isel")) return "O ISEL é uma excelente escolha! 🎓";
+    if (lower.includes("obrigado"))
+      return "De nada! Estou aqui para ajudar. 🤖";
+    return "Interessante... conta-me mais sobre isso!";
   };
 
   return (
@@ -46,6 +67,11 @@ export default function ChatWindow({ isOpen }) {
             {msg.text}
           </div>
         ))}
+
+         {/* 💭 Indicador “a escrever...” */}
+        {isTyping && (
+          <div className="message bot typing">💭 ISEL ChatBot está a responder...</div>
+        )}
 
         <div ref={messagesEndRef} /> {/* 🔽 Elemento invisível para scroll */}
       </div>
