@@ -46,29 +46,33 @@ print(f"🎓 Total de licenciaturas encontradas: {len(degree_links)}\n")
 # 3️⃣ Função auxiliar – Ignorar menus globais
 # ==============================
 def is_in_navigation(a_tag, base_path):
-    # Ignora links dentro de header/nav/footer/aside ou com role="navigation"
+    # Ignorar menus globais (header/nav/footer/aside ou role="navigation")
     if a_tag.find_parent(['header', 'nav', 'footer', 'aside']):
         return True
+
     role = a_tag.get('role', '')
     if role and 'navigation' in role.lower():
         return True
 
-    # classes comuns de menus/rodapés
     parent = a_tag.parent
     while parent:
         cls = " ".join(parent.get('class', []))
+        # ⚠️ Só ignorar se for um menu global — evitar remover menus internos do curso
         if any(k in cls.lower() for k in ('menu', 'nav', 'navbar', 'header', 'footer', 'cookie', 'skip')):
+            # ✅ EXCEÇÃO: se estiver dentro de uma área de curso, não ignorar
+            if parent.find_parent(class_="banner-curso") or parent.find_parent(class_="views-field-field-menu"):
+                return False
             return True
         parent = parent.parent
 
-    # ⚠️ exceção: se for um link interno de curso (/curso/...), não ignorar
+    # ⚠️ exceção: se for link interno de curso (/curso/...), não ignorar
     href = a_tag.get('href', '')
     if href and href.startswith("/curso/"):
-        # permitir se for subpágina do mesmo curso (ex: plano de estudos)
         if base_path in href:
             return False
 
     return False
+
 
 # ==============================
 # 4️⃣ Varredura de cada licenciatura
@@ -132,20 +136,15 @@ for degree_name, degree_url in degree_links:
 # ==============================
 # 5️⃣ Identificar links comuns
 # ==============================
-link_count = defaultdict(int)
-for lic, links in links_por_lic.items():
-    for _, url in links:
-        link_count[url] += 1
-
 for lic, links in links_por_lic.items():
     for text, url in links:
-        lic_name = "Licenciaturas Comum" if link_count[url] > 1 else lic
+        lic_name = lic
         all_rows.append({
             "Licenciatura": lic_name,
             "Texto": text,
             "URL": url
         })
-
+        
 # ==============================
 # 6️⃣ Limpeza e gravação
 # ==============================
