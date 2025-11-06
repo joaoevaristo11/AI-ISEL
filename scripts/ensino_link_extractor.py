@@ -150,16 +150,16 @@ def explorar_cursos(tipo, base_url):
 all_rows = []
 total_cursos = 0
 
-visitados = set()  # 🧩 NOVO — conjunto de URLs já processadas
+visitados = set()  #  conjunto de URLs já processadas
 
 for categoria, subcats in SECTIONS.items():
     for subcat, url in subcats.items():
         print(f"\n🚀 A aceder à página de {subcat}: {url}\n")
 
-        if url in visitados:  # 🧩 NOVO
+        if url in visitados: 
             print(f"⚠️ Já visitado: {url}")
             continue
-        visitados.add(url)  # 🧩 NOVO
+        visitados.add(url) 
 
         if categoria == "Cursos":
             cursos = explorar_cursos(subcat, url)
@@ -167,9 +167,9 @@ for categoria, subcats in SECTIONS.items():
             total_cursos += len(cursos)
 
             for nome, link in cursos:
-                if link in visitados:  # 🧩 NOVO
+                if link in visitados: 
                     continue
-                visitados.add(link)  # 🧩 NOVO
+                visitados.add(link)
 
                 print(f"🔍 [{subcat}] A processar: {nome}")
                 links = extrair_links(link, categoria)
@@ -201,16 +201,16 @@ for categoria, subcats in SECTIONS.items():
                 if any(x in sublink for x in [
                     "/ensino/", "/servicos/", "/programas-", "/erasmus", "/mobilidade"
                 ]):
-                    if sublink in visitados:  # 🧩 NOVO
+                    if sublink in visitados:
                         continue
-                    visitados.add(sublink)  # 🧩 NOVO
+                    visitados.add(sublink)
 
                     sublinks = extrair_links(sublink, categoria)
                     for st, su in sublinks:
                         all_rows.append({
                             "Categoria": categoria,
                             "Subcategoria": subcat,
-                            "Página": t or sublink,   # 🪄 usa o texto do link, se existir
+                            "Página": t or sublink,   # usa o texto do link, se existir
                             "Texto": st,
                             "URL": su
                         })
