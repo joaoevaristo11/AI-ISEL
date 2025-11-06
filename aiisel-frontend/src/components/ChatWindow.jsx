@@ -8,6 +8,8 @@ export default function ChatWindow({ isOpen }) {
 
   const [inputValue, setInputValue] = useState("")
   const [isTyping, setIsTyping] = useState(false) // ⬅️ novo estado
+  const [isDark, setIsDark] = useState(false);
+
 
 
   const messagesEndRef = useRef(null)
@@ -16,9 +18,6 @@ export default function ChatWindow({ isOpen }) {
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
   }, [messages, isTyping])
-
-  // 🔽 só aqui verificamos o isOpen
-  if (!isOpen) return null
 
   const handleSendMessage = async () => {
     const trimmedInput = inputValue.trim()
@@ -79,8 +78,16 @@ export default function ChatWindow({ isOpen }) {
   }
 
   return (
-    <div className="chat-window">
-      <div className="chat-header">ISEL ChatBot 🤖</div>
+    <div className={`chat-window ${isOpen ? "open" : ""} ${isDark ? "dark" : ""}`}>
+      <div className="chat-header">ISEL ChatBot 🤖
+        <button
+          className="theme-toggle"
+          onClick={() => setIsDark(!isDark)}
+          title="Alternar tema"
+        >
+          {isDark ? "☀️" : "🌙"}
+        </button>
+      </div>
 
       <div className="chat-body">
         {messages.map((msg, index) => (
