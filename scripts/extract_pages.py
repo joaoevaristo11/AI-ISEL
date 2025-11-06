@@ -14,7 +14,6 @@ INPUT_XLSX = "../data/isel_site_tree.xlsx"
 INPUT_CSV = "../data/isel_links_hierarquico.csv"
 OUTPUT_JSON = "../data/isel_site_tree_pages.json"
 
-<<<<<<< Updated upstream
 # padrões de subpáginas que queremos capturar (fragmento do href -> rótulo)
 SUBPAGE_PATTERNS = {
     "plano-de-estudos": "Plano de Estudos",
@@ -53,7 +52,6 @@ def extract_subpages_from_html(page_url, soup):
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         if not href:
-=======
 # === 1️⃣ LER O NOVO CSV ===
 csv_path = "../data/isel_site_tree.csv"
 
@@ -103,7 +101,6 @@ for i, row in df.iterrows():
         resposta = requests.get(url, headers=headers, timeout=20)
         if resposta.status_code != 200:
             print(f"⚠️ Erro {resposta.status_code} ao abrir {url}")
->>>>>>> Stashed changes
             continue
         # cria full url
         full = href if href.startswith("http") else urljoin(page_url, href)
