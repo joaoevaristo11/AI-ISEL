@@ -197,7 +197,7 @@ for categoria, subcats in SECTIONS.items():
                     "URL": u
                 })
 
-            for _, sublink in links:
+            for t, sublink in links:
                 if any(x in sublink for x in [
                     "/ensino/", "/servicos/", "/programas-", "/erasmus", "/mobilidade"
                 ]):
@@ -210,7 +210,7 @@ for categoria, subcats in SECTIONS.items():
                         all_rows.append({
                             "Categoria": categoria,
                             "Subcategoria": subcat,
-                            "Página": sublink,
+                            "Página": t or sublink,   # 🪄 usa o texto do link, se existir
                             "Texto": st,
                             "URL": su
                         })
