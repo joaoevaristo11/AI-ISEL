@@ -14,7 +14,7 @@ SECTIONS = {
         "Licenciaturas": "https://www.isel.pt/cursos/licenciaturas",
         "Mestrados": "https://www.isel.pt/cursos/mestrados",
         "Pós-Graduações": "https://www.isel.pt/cursos/pos-graduacoes",
-        "Outros Cursos": "https://www.isel.pt/cursos/outros-cursos"
+        "Outros Cursos": "https://www.isel.pt/cursos/outros-cursos",
     },
     "Candidatos": {
         "Porquê o ISEL?": "https://www.isel.pt/candidatos/porque_o_ISEL",
@@ -137,7 +137,7 @@ def explorar_cursos(tipo, base_url):
         if not href:
             continue
         full_url = urljoin(base_url, href)
-        if "/curso/" in full_url and DOMAIN in full_url:
+        if any(p in full_url for p in ["/curso/", "/ensino/cursos/outros-cursos/"]) and DOMAIN in full_url:
             nome = a.get_text(strip=True) or a.get("title") or a.get("aria-label") or ""
             if nome:
                 cursos.append((nome, full_url))
