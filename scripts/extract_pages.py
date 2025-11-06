@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import json
 import time
 <<<<<<< Updated upstream
@@ -194,3 +195,6 @@ with open(output_path, "w", encoding="utf-8") as f:
 print("\n🎉 Ficheiro pages.json criado com sucesso!")
 print(f"Total de páginas extraídas: {len(pages)}")
 >>>>>>> Stashed changes
+=======
+''''''
+>>>>>>> fbceb9678bc163a0ce03bf166962bf8f2b13f95e

@@ -8,8 +8,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <ChatWindow isOpen={isOpen} />
-      <ChatButton onClick={() => setIsOpen(!isOpen)} isOpen={isOpen} />
+      <ChatButton onClick={() => setIsOpen(o => !o)} isOpen={isOpen} />
+      <ChatWindow isOpen={isOpen} />   {/* SEM && */}
     </div>
   );
 }
