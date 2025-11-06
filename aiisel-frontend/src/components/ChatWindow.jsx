@@ -1,58 +1,82 @@
-import React, { useState, useRef, useEffect } from "react";
-import "./ChatWindow.css";
+import React, { useState, useRef, useEffect } from "react"
+import "./ChatWindow.css"
 
 export default function ChatWindow({ isOpen }) {
   const [messages, setMessages] = useState([
     { sender: "bot", text: "👋 Olá! Como posso ajudar?" },
-  ]);
+  ])
 
-  const [inputValue, setInputValue] = useState("");
-  const [isTyping, setIsTyping] = useState(false); // ⬅️ novo estado
+  const [inputValue, setInputValue] = useState("")
+  const [isTyping, setIsTyping] = useState(false) // ⬅️ novo estado
 
 
-  const messagesEndRef = useRef(null);
+  const messagesEndRef = useRef(null)
 
   // ✅ Todos os hooks são sempre chamados, independentemente do isOpen
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, isTyping]);
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+  }, [messages, isTyping])
 
   // 🔽 só aqui verificamos o isOpen
-  if (!isOpen) return null;
+  if (!isOpen) return null
 
-  const handleSendMessage = () => {
-    const trimmedInput = inputValue.trim();
-    if (!trimmedInput) return;
+  const handleSendMessage = async () => {
+    const trimmedInput = inputValue.trim()
+    if (!trimmedInput) return
 
-    setMessages((prev) => [...prev, { sender: "user", text: trimmedInput }]);
-    setInputValue("");
-    setIsTyping(true)
+    setMessages((prev) => [...prev, { sender: "user", text: trimmedInput }])
+    setInputValue("")
+    setIsTyping(true) 
 
-    setTimeout(()=>{
-      setMessages((prev)=>[
-        ...prev, {sender: "bot", text: getFakeResponse(trimmedInput)}
-      ])
-      setIsTyping(false)
-    },1500)
-  };
+    try{
+      const botReply = await sendToBackEnd(trimmedInput)
+      setMessages((prev)=>[...prev,{sender: "bot", text: botReply}])
+    }catch(err){
+      setMessages((prev)=>[...prev, {sender: "bot", text: "❌ Erro ao responder. Tenta novamente."}])
+    }finally{
+      setIsTyping(false)  
+    }
+
+  }
 
   const handleEnter = (e) => {
     if (e.key === "Enter") {
-      e.preventDefault();
-      handleSendMessage();
+      e.preventDefault()
+      handleSendMessage()
     }
-  };
+  }
 
     // 🔮 Função de resposta simulada (mock)
   const getFakeResponse = (userMsg) => {
-    const lower = userMsg.toLowerCase();
+    const lower = userMsg.toLowerCase()
     if (lower.includes("olá") || lower.includes("ola"))
-      return "Olá! 😊 Como estás hoje?";
-    if (lower.includes("isel")) return "O ISEL é uma excelente escolha! 🎓";
+      return "Olá! 😊 Como estás hoje?"
+    if (lower.includes("isel")) return "O ISEL é uma excelente escolha! 🎓"
     if (lower.includes("obrigado"))
-      return "De nada! Estou aqui para ajudar. 🤖";
-    return "Interessante... conta-me mais sobre isso!";
-  };
+      return "De nada! Estou aqui para ajudar. 🤖"
+    return "Interessante... conta-me mais sobre isso!"
+  }
+
+  async function sendToBackEnd(userMsg){
+    try{
+      const res = await fetch("http://localhost:5000/api/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({message: userMsg})
+      })
+
+      if(!res.ok) throw new Error("Erro no servidor...")
+
+      const data = await res.json()
+
+      // ✅ Quando backend estiver pronto, espera que devolva { reply: "..." }
+      return data.reply || "Sem resposta definida no backend."
+    }catch(err){
+      console.warn("Backend não disponível, usando mock:", err)
+
+      return getFakeResponse(userMsg)
+    }
+  }
 
   return (
     <div className="chat-window">
@@ -87,5 +111,5 @@ export default function ChatWindow({ isOpen }) {
         <button onClick={handleSendMessage}>➤</button>
       </div>
     </div>
-  );
+  )
 }
