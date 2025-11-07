@@ -1,0 +1,2489 @@
+{
+  "root": "https://www.isel.pt",
+  "config": {
+    "user_agent": "isel-link-extractor/1.0",
+    "timeout": 7.0,
+    "delay": 0.5,
+    "depth_limit": 2,
+    "same_domain": true,
+    "confine_prefix": null,
+    "exclude_prefixes": [],
+    "max_pages": null
+  },
+  "pages": {
+    "https://www.isel.pt/": [
+      "http://webmail.isel.pt",
+      "http://www.sas.ipl.pt",
+      "https://agendacultural.ipl.pt",
+      "https://agendadeatendimento-saas.ano.pt/agendadeatendimento/public/isel",
+      "https://iselpt.sharepoint.com/:f:/s/intrausers/emttqgb2hqvjgbjotnobbimbnsi-ufwodozhflv7av9veq",
+      "https://iselpt.sharepoint.com/sites/intrausers",
+      "https://moodle.isel.pt/auth/oidc",
+      "https://portal.ipl.pt/isel/netpa/page",
+      "https://repositorio.ipl.pt/home",
+      "https://www.escs.ipl.pt",
+      "https://www.esd.ipl.pt",
+      "https://www.eselx.ipl.pt",
+      "https://www.esml.ipl.pt",
+      "https://www.estc.ipl.pt",
+      "https://www.estesl.ipl.pt",
+      "https://www.facebook.com/isel.pt",
+      "https://www.flickr.com/photos/isel-lisboa",
+      "https://www.instagram.com/isel_lisbon_school_engineering",
+      "https://www.ipl.pt",
+      "https://www.ipl.pt/estudar/clic-ipl",
+      "https://www.iscal.ipl.pt",
+      "https://www.isel.pt",
+      "https://www.isel.pt/a-descoberta-do-isel/isel-alive",
+      "https://www.isel.pt/a-descoberta-do-isel/isel-formula-student",
+      "https://www.isel.pt/a-descoberta-do-isel/energy-week",
+      "https://www.isel.pt/a-descoberta-do-isel/open-days",
+      "https://www.isel.pt/candidatos/estudar-no-isel/cartao-universitario",
+      "https://www.isel.pt/candidatos/porque_o_isel",
+      "https://www.isel.pt/comunidade/alem-aulas/associacao-de-estudantes",
+      "https://www.isel.pt/comunidade/alem-aulas/estudantina-academica",
+      "https://www.isel.pt/comunidade/alem-aulas/rede-de-nucleos-estudantis",
+      "https://www.isel.pt/comunidade/alem-aulas/tuna-feminina",
+      "https://www.isel.pt/comunidade/alem-aulas/world-action-isel",
+      "https://www.isel.pt/comunidade/alumni/rede-alumnisel",
+      "https://www.isel.pt/comunidade/alumni/rede-alumnisel/fundadores",
+      "https://www.isel.pt/comunidade/alumni/rede-alumnisel/iniciativas",
+      "https://www.isel.pt/comunidade/estudantes/bolsa-para-estudantes",
+      "https://www.isel.pt/comunidade/estudantes/informacoes-academicas",
+      "https://www.isel.pt/comunidade/estudantes/informacoes-para-novos-alunos",
+      "https://www.isel.pt/comunidade/estudantes/premios-para-estudantes",
+      "https://www.isel.pt/cursos/licenciaturas",
+      "https://www.isel.pt/cursos/mestrados",
+      "https://www.isel.pt/cursos/outros-cursos",
+      "https://www.isel.pt/cursos/pos-graduacoes",
+      "https://www.isel.pt/ecossistema-de-inovacao/unidades-de-ied/estruturas-e-unidades",
+      "https://www.isel.pt/en",
+      "https://www.isel.pt/ensino/candidatos/modalidades-de-ingresso",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/bip",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-incoming/informacoes-gerais",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-outgoing/informacoes-gerais",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-staff/informacoes-gerais",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/outros-programas/informacoes-gerais/programas-de-intercambio",
+      "https://www.isel.pt/eventos",
+      "https://www.isel.pt/eventos/coil-flywheel-inverted-pendulum",
+      "https://www.isel.pt/eventos/conferencia-anual-do-comite-nacional-do-cigre",
+      "https://www.isel.pt/eventos/formacao-de-capacitacao-educacao-para-diversidade",
+      "https://www.isel.pt/eventos/roadshow-souipl-2025",
+      "https://www.isel.pt/eventos/seminario-de-fisica-fluidos-activos-quirais-e-reologia-complexa-de-biosuspensoes",
+      "https://www.isel.pt/horarios-de-salas-de-estudo",
+      "https://www.isel.pt/informacoes",
+      "https://www.isel.pt/informacoes-academicas/calendario-academico",
+      "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/modelos-de-incubacao",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/procedimento-de-aquisicao-id",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-e-inovacao/propriedade-intelectual",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-e-inovacao/publicacoes",
+      "https://www.isel.pt/investigacao-e-inovacao/oportunidades/isel-guest-editors-special-issues",
+      "https://www.isel.pt/isel-nos-media",
+      "https://www.isel.pt/isel/quem-somos/departamentos",
+      "https://www.isel.pt/isel/quem-somos/instituicao",
+      "https://www.isel.pt/isel/quem-somos/orgaos",
+      "https://www.isel.pt/isel/quem-somos/servicos",
+      "https://www.isel.pt/news",
+      "https://www.isel.pt/noticias/estudante-do-isel-distinguida-com-mencao-honrosa-no-erasmusdays-2025",
+      "https://www.isel.pt/noticias/estudante-do-isel-vence-primeiro-premio-no-h2o-sustainability-innovation-hub",
+      "https://www.isel.pt/noticias/fundacao-santander-e-isel-atribuem-incentivo-investigacao-exploratoria",
+      "https://www.isel.pt/noticias/isel-assinala-instalacao-da-sinaletica-do-ponto-de-encontro-de-emergencia",
+      "https://www.isel.pt/noticias/isel-disponibiliza-dois-novos-moocs-no-ambito-do-projeto-prodigi",
+      "https://www.isel.pt/noticias/isel-e-policia-judiciaria-desenvolvem-jogo-educativo",
+      "https://www.isel.pt/noticias/professor-nuno-henriques-integra-equipa-de-acreditacao-eur-ace-universidade-de-navarra",
+      "https://www.isel.pt/noticias/saude-mental-no-ensino-superior-em-debate-no-isel",
+      "https://www.isel.pt/o-isel-apresenta-se/estudar-no-isel",
+      "https://www.isel.pt/o-isel-apresenta-se/onde-estamos",
+      "https://www.isel.pt/o-isel-apresenta-se/os-nossos-espacos",
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade",
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus",
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/isel-carbono-zero",
+      "https://www.isel.pt/plano-para-igualdade-de-genero",
+      "https://www.isel.pt/politica-de-privacidade",
+      "https://www.isel.pt/premios-e-eventos-externos",
+      "https://www.isel.pt/projetos-com-alunos",
+      "https://www.isel.pt/quem-somos/documentos-publicos",
+      "https://www.isel.pt/quem-somos/qualidade",
+      "https://www.isel.pt/servicos/biblioteca",
+      "https://www.isel.pt/servicos/comunidade/estudantes/empregabilidade/alunos/plataforma-de-emprego",
+      "https://www.isel.pt/servicos/comunidade/estudantes/espaco-de-apoio-ao-aluno",
+      "https://www.isel.pt/servicos/comunidade/estudantes/integracao",
+      "https://www.isel.pt/servicos/investigacao-e-inovacao/empreendedorismo/innovation-labs",
+      "https://www.isel.pt/servicos/investigacao-e-inovacao/oportunidades/bolsas-de-investigacao",
+      "https://www.isel.pt/servicos/investigacao-e-inovacao/oportunidades/financiamento",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/estudante-internacional",
+      "https://www.isel.pt/servicos/servico-de-comunicacao-e-imagem/identidade-institucional",
+      "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/concursos-de-pessoal",
+      "https://www.isel.pt/servicos/servico-de-informatica-e-redes-de-comunicacao/recursos-informaticos",
+      "https://www.isel.pt/sugestoes-reclamacoes-ou-denuncias",
+      "https://www.isel.pt/termos-e-condicoes",
+      "https://www.isel.pt/user/register",
+      "https://www.linkedin.com/edu/isel---instituto-superior-de-engenharia-de-lisboa-3155127",
+      "https://www.net.ipl.pt"
+    ],
+    "https://outlook.office365.com/mail/?realm=isel.pt&vd=webmail": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=d39db2fa-cad3-4f9f-ada5-38cbd0759f2b&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hL4tWnu5cun5vuvXWpx-kLpfO1ZjFzFiXqZxak5egUlOxgZLzAyvmBkXMXE52dmaZBikGhglmppZGJyi4nf37G0JMMIROQXZValfmLiTMsvyo0vyC8umcXM72helJFsUOSZVpZcWepjsYpZOqOkpKDYSl8_vSixIEMvNzO5KL84P61ELzk_dxMzG5DMzc87xSySX5Cal5miUFCUn5aZk6qQmpuYmXOBhfEHC-MiVqB7OdmqftzefdVrnXVXfAeLHMMpVn1vI5fkQr9M8-CMnBwzI6PcJCMLC8u0NM_yvADHNIu80nDP1Arv0oDEPC9PWwMrwwlsjB_YGDvYGXZxqsLcZGRqZJabn5-Skwrzun4i0GP6-ZkpyfoHeBl-8D15c23Lw3Xt7z02CDA8ACJBhh-CAgA1": [],
+    "https://www.isel.pt/a-descoberta-do-isel/ISEL-Alive": [],
+    "https://www.isel.pt/a-descoberta-do-isel/ISEL-Formula-Student": [
+      "https://formulastudent.isel.pt",
+      "https://www.facebook.com/iselformulastudent",
+      "https://www.instagram.com/isel.formulastudent"
+    ],
+    "https://www.isel.pt/a-descoberta-do-isel/energy-week": [
+      "https://new.siemens.com/pt/pt.html",
+      "https://www.edp.pt",
+      "https://www.ren.pt"
+    ],
+    "https://www.isel.pt/a-descoberta-do-isel/open-days": [],
+    "https://www.isel.pt/candidatos/estudar-no-isel/cartao-universitario": [
+      "https://apps.apple.com/us/app/isel-digital/id6695757960",
+      "https://play.google.com/store/apps/details",
+      "https://www.santander.pt/universitarios/cartao-universitario-inteligente"
+    ],
+    "https://www.isel.pt/candidatos/porque_o_ISEL": [
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-biomedica",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-civil",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-eletronica-e-telecomunicacoes-e-de-computadores",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-eletrotecnica",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-fisica-aplicada",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-informatica-e-de-computadores",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-informatica-e-multimedia",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-informatica-redes-e-telecomunicacoes",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-mecanica",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-quimica-e-biologica",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-matematica-aplicada-tecnologia-e-empresa",
+      "https://www.isel.pt/curso/licenciatura/licenciatura-em-tecnologias-e-gestao-municipal",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-biomedica",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-civil",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-da-qualidade-e-ambiente",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-de-eletronica-e-telecomunicacoes",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-e-gestao-industrial",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-eletrotecnica",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-informatica-e-de-computadores",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-informatica-e-multimedia",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-mecanica",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-quimica-e-biologica",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-matematica-aplicada-para-industria",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-conservacao-e-reabilitacao-de-construcoes",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-eficiencia-energetica-e-sustentabilidade-em-edificios",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-engenharia-e-gestao-de-energias-renovaveis",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-engenharia-optoeletronica-e-fotonica",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-matematica-para-ciencia-de-dados",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-novas-abordagens-em-acustica-aplicada-e-audio",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-processos-avancados-de-fabrico",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-projeto-e-manutencao-de-instalacoes-eletricas",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-engenharia_e_gestao_do_risco_de_desastres",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-especializacao-em-engenharia-ferroviaria"
+    ],
+    "https://www.isel.pt/comunidade/alem-aulas/associacao-de-estudantes": [
+      "https://www.facebook.com/aeisel.1984",
+      "https://www.instagram.com/ae_isel",
+      "https://www.linkedin.com/company/aeisel"
+    ],
+    "https://www.isel.pt/comunidade/alem-aulas/estudantina-academica": [
+      "https://instagram.com/eaisel93",
+      "https://www.facebook.com/estudantinaacademicaisel"
+    ],
+    "https://www.isel.pt/comunidade/alem-aulas/rede-de-nucleos-estudantis": [
+      "https://aeris.isel.pt",
+      "https://iselgamestudios.com"
+    ],
+    "https://www.isel.pt/comunidade/alem-aulas/tuna-feminina": [
+      "https://www.facebook.com/tunafemininaisel",
+      "https://www.instagram.com/tfisel"
+    ],
+    "https://www.isel.pt/comunidade/alem-aulas/world-action-isel": [
+      "https://www.isel.pt/comunidade/alem-aulas/world-action-isel-eventos"
+    ],
+    "https://www.isel.pt/comunidade/alumni/rede-alumnISEL": [
+      "https://forms.office.com/r/kyv6gqw4vb"
+    ],
+    "https://www.isel.pt/comunidade/alumni/rede-alumnISEL/fundadores": [
+      "http://www.linkedin.com/in/mário-grácio-b5027b48",
+      "https://www.algarveprimeiro.com/d/joaquim-correia-peres/28621-26",
+      "https://www.isel.pt/docente/ana-catarina-cardoso-de-sousa",
+      "https://www.isel.pt/docente/claudia-sofia-seneca-da-luz-casaca",
+      "https://www.isel.pt/docente/jaime-filipe-borges-puna",
+      "https://www.isel.pt/docente/jose-augusto-da-silva-sobral",
+      "https://www.isel.pt/docente/jose-luis-rosa-de-almeida",
+      "https://www.isel.pt/docente/maria-alexandra-cardoso-da-costa",
+      "https://www.isel.pt/docente/nuno-antonio-fraga-juliano-cota",
+      "https://www.isel.pt/docente/nuno-miguel-machado-cruz",
+      "https://www.isel.pt/docente/rita-marcos-fontes-murta-pereira",
+      "https://www.linkedin.com/in/alexandra-costa-33571044",
+      "https://www.linkedin.com/in/ana-catarina-de-sousa-5a7401102",
+      "https://www.linkedin.com/in/cláudia-casaca-71b54b1a6",
+      "https://www.linkedin.com/in/jaime-puna-22453033",
+      "https://www.linkedin.com/in/josé-luis-rosa-de-almeida-4662429",
+      "https://www.linkedin.com/in/josé-sobral-81065947",
+      "https://www.linkedin.com/in/joão-martins-71b55b20",
+      "https://www.linkedin.com/in/luis-pereira-8b6b3725",
+      "https://www.linkedin.com/in/luisbrites",
+      "https://www.linkedin.com/in/monicascrodrigues",
+      "https://www.linkedin.com/in/ncruz",
+      "https://www.linkedin.com/in/nuno-cota",
+      "https://www.linkedin.com/in/nunoborges",
+      "https://www.linkedin.com/in/paulo-quintino-1a24b913",
+      "https://www.linkedin.com/in/pedro-gray-19a6743",
+      "https://www.linkedin.com/in/rupeal"
+    ],
+    "https://www.isel.pt/comunidade/alumni/rede-alumnISEL/iniciativas": [
+      "https://www.90segundosdeciencia.pt/episodes/ep-577-teresa-rodrigues/"
+    ],
+    "https://www.isel.pt/comunidade/estudantes/bolsa-para-estudantes": [
+      "https://app.santanderopenacademy.com/pt/program/bolsas-fundacao-santander-apoio-universitario-2025-2o-edicao",
+      "https://app.santanderopenacademy.com/pt/program/bolsas-fundacao-santander-para-erasmus-2025-2026",
+      "https://app.santanderopenacademy.com/pt/program/bolsas-santander-apoio-universitario-2024-2o-edicao",
+      "https://www.ipl.pt/estudar/viver-o-ipl/premios-e-bolsas/bolsas-de-merito",
+      "https://www.isel.pt/comunidade/estudantes/bolsas-next-level-higher-education-all-politecnico-de-lisboa",
+      "https://www.sas.ipl.pt/bolsas/candidatura"
+    ],
+    "https://www.isel.pt/comunidade/estudantes/informacoes-academicas": [
+      "https://diariodarepublica.pt/dr/detalhe/despacho/9921-2025-932716788",
+      "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/editais-tfm",
+      "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/horarios",
+      "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/legislacao-normas-regulamentos",
+      "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/propinas",
+      "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/salas_testes_e_exames",
+      "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/testes_e_exames",
+      "https://www.isel.pt/informacoes-academicas/calendario-atos-academicos",
+      "https://www.isel.pt/informacoes-academicas/faqs",
+      "https://www.isel.pt/informacoes-academicas/normas-trabalhos-finais",
+      "https://www.isel.pt/informacoes-academicas/requerimentos-e-pedidos",
+      "https://www.isel.pt/informacoes-academicas/seguro-escolar",
+      "https://www.isel.pt/servicos/servico-de-gestao-academica-e-apoio-ao-estudante",
+      "https://www.isel.pt/servicos/servico-de-gestao-de-infraestruturas-e-equipamentos/estacionamento",
+      "https://www.isel.pt/servicos/servico-de-gestao-financeira"
+    ],
+    "https://www.isel.pt/comunidade/estudantes/informacoes-para-novos-alunos": [
+      "https://forms.office.com/pages/responsepage.aspx",
+      "https://r.ipl.pt/2025",
+      "https://static.ipl.pt/landingpage/c",
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_mji3mmy2ywitmzjmoc00mtvhltlhnzmtnwvizwq4nmiyzdk3%40thread.v2/0",
+      "https://www.imt-ip.pt/sites/imtt/portugues/tarifas/passe-sub23-superior-tp/paginas/passe-sub23_superior_tp.aspx",
+      "https://www.isel.pt/servicos/biblioteca/recursos-de-pesquisa",
+      "https://www.sas.ipl.pt"
+    ],
+    "https://www.isel.pt/comunidade/estudantes/premios-para-estudantes": [],
+    "https://www.isel.pt/cursos/licenciaturas": [],
+    "https://www.isel.pt/cursos/mestrados": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/mestrado"
+    ],
+    "https://www.isel.pt/cursos/outros-cursos": [
+      "https://www.isel.pt/curso/outros-cursos/curso-preparatorio-de-fisica",
+      "https://www.isel.pt/curso/outros-cursos/curso-preparatorio-de-matematica",
+      "https://www.isel.pt/curso/outros-cursos/formacao-de-analistas-quimicos",
+      "https://www.isel.pt/ensino/cursos/outros-cursos/academia-mikrotik"
+    ],
+    "https://www.isel.pt/cursos/pos-graduacoes": [],
+    "https://www.isel.pt/ecossistema-de-inovacao/unidades-de-ied/estruturas-e-unidades": [
+      "http://cfisica.isel.pt/index.html",
+      "http://cimosm.isel.pt",
+      "http://giaapp.isel.pt",
+      "http://www.cc.isel.ipl.pt",
+      "https://ceec.isel.ipl.pt",
+      "https://ceeq.isel.pt/divulga",
+      "https://fit.isel.pt",
+      "https://giamos.isel.pt",
+      "https://lcec.isel.pt",
+      "https://sites.google.com/view/ceem-isel/apresenta%c3%a7%c3%a3o",
+      "https://unire.isel.pt",
+      "https://www.isel.pt/ecossistema-de-inovacao/unidades-de-ied/unidades-de-id",
+      "https://www.isel.pt/grupo-investigacao/gise"
+    ],
+    "https://www.isel.pt/en": [
+      "https://form.ipl.pt/en/webform/compliments_suggestions_complain",
+      "https://info.net.ipl.pt",
+      "https://oficinadigital.isel.pt",
+      "https://www.ipl.pt/en/study/centre-for-languages-and-culture",
+      "https://www.ipl.pt/internacionalizacao/clic-ipl",
+      "https://www.isel.pt/en/academic-calendar",
+      "https://www.isel.pt/en/connect/beyond-classes/music",
+      "https://www.isel.pt/en/connect/beyond-classes/sports",
+      "https://www.isel.pt/en/connect/beyond-isel/around-lisbon",
+      "https://www.isel.pt/en/connect/students/academic-info",
+      "https://www.isel.pt/en/connect/students/erasmus-student-network",
+      "https://www.isel.pt/en/discover/what-we-are/isel-eco-campus",
+      "https://www.isel.pt/en/discover/what-we-are/isel-eco-campus/isel-carbono-zero",
+      "https://www.isel.pt/en/discover/what-we-are/top-reasons-to-study-at-isel",
+      "https://www.isel.pt/en/discover/where-we-are/get-in-touch",
+      "https://www.isel.pt/en/discover/where-we-are/how-to-get-gere",
+      "https://www.isel.pt/en/discover/where-we-are/lisbon-portugal",
+      "https://www.isel.pt/en/discover/who-we-are/a-little-bit-of-our-history",
+      "https://www.isel.pt/en/discover/who-we-are/about-isel",
+      "https://www.isel.pt/en/discover/who-we-are/departments",
+      "https://www.isel.pt/en/ecossistema-de-inovacao/unidades-de-ied/centros-de-investigacao",
+      "https://www.isel.pt/en/ensino/programas-de-mobilidade/erasmus-alunos-incoming/informacoes-gerais",
+      "https://www.isel.pt/en/ensino/programas-de-mobilidade/erasmus-staff/informacoes-gerais",
+      "https://www.isel.pt/en/gender-equality-plan",
+      "https://www.isel.pt/en/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/modelos-de-incubacao",
+      "https://www.isel.pt/en/investigacao-e-inovacao/ecossistema-e-inovacao/publicacoes",
+      "https://www.isel.pt/en/news",
+      "https://www.isel.pt/en/news/isel-forefront-quantum-technologies",
+      "https://www.isel.pt/en/news/isel-marks-installation-emergency-meeting-point-signage",
+      "https://www.isel.pt/en/news/isel-professors-featured-ranking-worlds-most-cited-scientists",
+      "https://www.isel.pt/en/news/isel-student-wins-first-prize-h2o-sustainability-innovation-hub",
+      "https://www.isel.pt/en/news/nuno-cruz-presents-results-iselnokia-partnership",
+      "https://www.isel.pt/en/news/prl-highlights-article-professor-hugo-tercas",
+      "https://www.isel.pt/en/news/professor-nuno-henriques-joins-eur-ace-accreditation-team-university-navarra",
+      "https://www.isel.pt/en/node/38201",
+      "https://www.isel.pt/en/node/38908",
+      "https://www.isel.pt/en/noticias/isel-e-policia-judiciaria-desenvolvem-jogo-educativo",
+      "https://www.isel.pt/en/privacy-policy",
+      "https://www.isel.pt/en/research/projects",
+      "https://www.isel.pt/en/servicos/comunidade/estudantes/espaco-de-apoio-ao-aluno",
+      "https://www.isel.pt/en/study/comming-from-abroad/accommodation",
+      "https://www.isel.pt/en/study/comming-from-abroad/health-services",
+      "https://www.isel.pt/en/study/comming-from-abroad/security",
+      "https://www.isel.pt/en/study/comming-from-abroad/travelling",
+      "https://www.isel.pt/en/study/mobility/bip",
+      "https://www.isel.pt/en/study/mobility/international-studente",
+      "https://www.isel.pt/en/study/programs/masters",
+      "https://www.isel.pt/en/study/programs/postgraduate",
+      "https://www.isel.pt/en/study/programs/undergratuate",
+      "https://www.isel.pt/en/terms-and-conditions",
+      "https://www.isel.pt/en/user/register",
+      "https://www.isel.pt/informacoes-docentes",
+      "https://www.visitlisboa.com/en/c/sightseeing-and-activities/attractions",
+      "https://www.visitlisboa.com/en/c/sightseeing-and-activities/great-views-of-lisbon",
+      "https://www.visitlisboa.com/en/c/sightseeing-and-activities/museums-and-monuments",
+      "https://www.visitlisboa.com/en/c/sightseeing-and-activities/tours"
+    ],
+    "https://www.isel.pt/ensino/candidatos/modalidades-de-ingresso": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/concurso-m23",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/concurso-nacional-de-acesso",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/mudanca-de-par-instituicao-curso",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/pos-graduacao",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/reingresso-licenciatura",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/reingresso-mestrado",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-diploma-de-especializacao-tecnologica",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-diploma-de-tecnico-superior-profissional",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-outros-cursos-superiores",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/unidades-curriculares-de-ciclos-de-estudo-subsequentes",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/unidades-curriculares-isoladas"
+    ],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/bip": [
+      "https://www.euclidesnet.eu/projects",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/bip/bip-2425"
+    ],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-incoming/informacoes-gerais": [
+      "https://esn.org",
+      "https://visitsintra.travel/en",
+      "https://www.cascaisportugaltourism.com",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-incoming/os-nossos-cursos",
+      "https://www.visitlisboa.com"
+    ],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-outgoing/informacoes-gerais": [
+      "https://portal.ipl.pt/mobilidade/page",
+      "https://prezi.com/view/kbylyed6usxe3onu3zdf",
+      "https://www.isel.pt/docente/pedro-emanuel-albuquerque-e-baptista-dos-santos",
+      "https://www.isel.pt/docentes/alessandro-fantoni",
+      "https://www.isel.pt/docentes/andre-rui-dantas-carvalho",
+      "https://www.isel.pt/docentes/antonio-joao-nunes-serrador",
+      "https://www.isel.pt/docentes/catia-sofia-peniche-lente-dinis-dias",
+      "https://www.isel.pt/docentes/elisabete-clara-bastos-do-amaral-alegria",
+      "https://www.isel.pt/docentes/isabel-maria-da-silva-joao",
+      "https://www.isel.pt/docentes/joao-manuel-ferreira-martins",
+      "https://www.isel.pt/docentes/manfred-niehus",
+      "https://www.isel.pt/docentes/maria-teresa-loureiro-dos-santos",
+      "https://www.isel.pt/docentes/nuno-miguel-da-costa-de-sousa-leite",
+      "https://www.isel.pt/docentes/nuno-miguel-soares-datia",
+      "https://www.isel.pt/docentes/nuno-ricardo-piedade-antunes-serra",
+      "https://www.isel.pt/docentes/paulo-gil-figueiredo-tavares-pedro",
+      "https://www.isel.pt/docentes/pedro-manuel-alves-patricio-da-silva",
+      "https://www.isel.pt/docentes/ricardo-jorge-ferreira-luis",
+      "https://www.isel.pt/docentes/teresa-maria-de-araujo-melo-quinteiro",
+      "https://www.isel.pt/docentes/vitor-manuel-rodrigues-anes",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-outgoing/faq",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-outgoing/testemunhos"
+    ],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-staff/informacoes-gerais": [
+      "https://portal.ipl.pt/mobilidade",
+      "https://www.ipl.pt/internacional/mobilidade/erasmus/staff-docente",
+      "https://www.ipl.pt/internacional/mobilidade/erasmus/staff-nao-docente",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-staff/instituicoes-parceiras"
+    ],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/outros-programas/informacoes-gerais/programas-de-intercambio": [
+      "https://www.isel.pt/ensino/programas-de-mobilidade/outros-programas/informacoes-gerais/programa-vulcanus"
+    ],
+    "https://www.isel.pt/eventos": [
+      "https://www.isel.pt/eventos/arquivados"
+    ],
+    "https://www.isel.pt/eventos/coil-flywheel-inverted-pendulum": [
+      "https://www.amsterdamuas.com",
+      "https://www.isel.pt/docentes/francisco-mateus-marnoto-de-oliveira-campos",
+      "https://www.isel.pt/docentes/mario-jose-goncalves-cavaco-mendes",
+      "https://www.isel.pt/eventos/apresentacao-microsoft-copilot-365",
+      "https://www.isel.pt/eventos/palestra-protecao-da-investigacao-e-inovacao-por-propriedade-intelectualindustrial",
+      "https://www.isel.pt/eventos/seminario-de-fisica-ai-physicist-learning-equations-data"
+    ],
+    "https://www.isel.pt/eventos/conferencia-anual-do-comite-nacional-do-cigre": [
+      "https://sites.google.com/view/conferencia-cigre-pt/confer%c3%aancia-2025",
+      "https://sites.google.com/view/conferencia-cigre-pt/inscri%c3%a7%c3%b5es",
+      "https://www.cigre.org"
+    ],
+    "https://www.isel.pt/eventos/formacao-de-capacitacao-educacao-para-diversidade": [
+      "https://forms.office.com/e/2av3em9v0d"
+    ],
+    "https://www.isel.pt/eventos/roadshow-souipl-2025": [
+      "https://www.ipl.pt/welcome-ipl-2025-vai-escolas",
+      "https://www.isel.pt/noticias/mais-de-3500-estudantes-no-welcome-ipl"
+    ],
+    "https://www.isel.pt/eventos/seminario-de-fisica-fluidos-activos-quirais-e-reologia-complexa-de-biosuspensoes": [
+      "https://www.isel.pt/departamento/fisica"
+    ],
+    "https://www.isel.pt/horarios-de-salas-de-estudo": [],
+    "https://www.isel.pt/informacoes": [
+      "https://www.isel.pt/informacoes/202509",
+      "https://www.isel.pt/informacoes/202510",
+      "https://www.isel.pt/node/39410",
+      "https://www.isel.pt/node/39448",
+      "https://www.isel.pt/node/39548",
+      "https://www.isel.pt/node/39599",
+      "https://www.isel.pt/node/39601",
+      "https://www.isel.pt/node/40233",
+      "https://www.isel.pt/node/41140",
+      "https://www.isel.pt/node/41202"
+    ],
+    "https://www.isel.pt/informacoes-academicas/calendario-academico": [],
+    "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/modelos-de-incubacao": [
+      "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/candidatura",
+      "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/empresas-incubadas",
+      "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/espacos",
+      "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/servicos"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/procedimento-de-aquisicao-id": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos": [
+      "https://isel.pt/tomatoval",
+      "https://www.isel.pt/innovbivalves",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2017/ipropbio",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2017/isel-greenlab",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2017/iselgreen",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2017/reabilita",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/5g-mobix",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/atlas",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/automotive",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/bsafe4sea",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/foam4ener",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/indeed",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/lab4mat",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/labit",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/multifun",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/pefpplateletvalue",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/photoaki",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/renefuel",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/sigaisel",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/sight",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/to-sealert",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/uhpgrade",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2019/bluesafeport",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2019/c-streets",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2019/cisrobcle",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2019/clean-forest",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/ai4green",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/c4g",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/covis",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/ferrovia-4-0",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/healcap",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/plano-a-saude-c19",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/premo",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/restless",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/revaconstruction",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/sshm4dams",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/invisible-5g",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/mysafewater",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/pafse",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2022/custodian",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2022/gemma",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2022/nkboost",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2022/unprecedented",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/icsefactory",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/aser-meta",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/ate",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/caseus",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/ptqci",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/sft-edih",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2024/prodigi",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2025/c4g",
+      "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2025/resonance"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-e-inovacao/propriedade-intelectual": [
+      "https://pt.espacenet.com/publicationdetails/biblio",
+      "https://servicosonline.inpi.justica.gov.pt/pesquisas/main/design.jsp",
+      "https://site.isel.pt/docentes/maria-teresa-oliveira-moura-e-silva",
+      "https://worldwide.espacenet.com/publicationdetails/biblio",
+      "https://www.isel.pt/docentes/alexandra-isabel-martins-paulo-costa",
+      "https://www.isel.pt/docentes/hiren-canacsinh",
+      "https://www.isel.pt/docentes/jose-virgilio-sousa-coelho-prata",
+      "https://www.isel.pt/docentes/luis-manuel-dos-santos-redondo",
+      "https://www.isel.pt/docentes/luis-manuel-faria-da-rocha-evangelista",
+      "https://www.isel.pt/docentes/patricia-alexandra-miranda-david-barata",
+      "https://www.isel.pt/docentes/pedro-lucio-maia-marques-almeida"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-e-inovacao/publicacoes": [],
+    "https://www.isel.pt/investigacao-e-inovacao/oportunidades/isel-guest-editors-special-issues": [
+      "https://www.mdpi.com/journal/applsci/special_issues/eg746zvfe1",
+      "https://www.mdpi.com/journal/applsci/special_issues/gmt545dob7",
+      "https://www.mdpi.com/journal/axioms/special_issues/03fu302eat",
+      "https://www.mdpi.com/journal/axioms/special_issues/4ary1i59gl",
+      "https://www.mdpi.com/journal/bioengineering/special_issues/o1q2q26xv2",
+      "https://www.mdpi.com/journal/mathematics/special_issues/struct_eng_mech_ii",
+      "https://www.scipedia.com/sj/specialissuerimni68"
+    ],
+    "https://www.isel.pt/isel-nos-media": [
+      "https://centralpress.pt/page/110981/redacao/2025/10/13/conferencia-da-pj-analisa-tendencias-e-prevencao-do-cibercrime",
+      "https://digitalinside.sapo.pt/escola-nautica-reforca-presenca-portuguesa-no-maior-exercicio-mundial-de-robotica-maritima",
+      "https://expresso.pt/podcasts/o-ceo-e-o-limite/2025-08-04-bruno-mota-trabalhar-na-tecnologia-e-espetacular-mas-parece-que-estas-sempre-a-correr-atras-de-um-comboio-e-o-comboio-sempre-a-acelerar-43c6175f",
+      "https://olharesdelisboa.pt/2025/10/la-dolce-vita-italiana-em-oeiras",
+      "https://pt.cision.com/cp/clippingdetails.aspx",
+      "https://pt.cision.com/cp2013/clippingdetails.aspx",
+      "https://sapo.pt/artigo/escola-nautica-reforca-presenca-portuguesa-no-maior-exercicio-mundial-de-robotica-maritima-68c435dc0e9d7127e2de960f",
+      "https://www.isel.pt/isel-nos-media/2021",
+      "https://www.isel.pt/isel-nos-media/2022",
+      "https://www.isel.pt/isel-nos-media/2023",
+      "https://www.isel.pt/isel-nos-media/2024",
+      "https://www.isel.pt/isel-nos-media/2025",
+      "https://www.publico.pt/2025/09/02/opiniao/opiniao/combate-incendios-florestais-designio-nacional-2145803",
+      "https://www.publico.pt/2025/09/26/estudiop/conteudo_patrocinado/europa-transformacao-inovacao-talento-aliancas-competir-futuro-2148485",
+      "https://www.securitymagazine.pt/2025/09/03/a-coordenacao-interinstitucional-e-a-espinha-dorsal-da-seguranca-proteccao-portuaria-moderna"
+    ],
+    "https://www.isel.pt/isel/quem-somos/departamentos": [
+      "https://www.isel.pt/departamento/engenharia-civil",
+      "https://www.isel.pt/departamento/engenharia-electronica-e-telecomunicacoes-e-de-computadores",
+      "https://www.isel.pt/departamento/engenharia-electrotecnica-de-energia-e-automacao",
+      "https://www.isel.pt/departamento/engenharia-informatica",
+      "https://www.isel.pt/departamento/engenharia-mecanica",
+      "https://www.isel.pt/departamento/engenharia-quimica",
+      "https://www.isel.pt/departamento/matematica"
+    ],
+    "https://www.isel.pt/isel/quem-somos/instituicao": [
+      "https://www.isel.pt/isel/quem-somos/instituicao/historia",
+      "https://www.isel.pt/isel/quem-somos/instituicao/missao"
+    ],
+    "https://www.isel.pt/isel/quem-somos/orgaos": [
+      "https://www.isel.pt/quem-somos/comissao-de-etica",
+      "https://www.isel.pt/quem-somos/conselho-administrativo",
+      "https://www.isel.pt/quem-somos/conselho-consultivo-estrategico",
+      "https://www.isel.pt/quem-somos/conselho-de-gestao-da-qualidade",
+      "https://www.isel.pt/quem-somos/conselho-pedagogico",
+      "https://www.isel.pt/quem-somos/conselho-permanente",
+      "https://www.isel.pt/quem-somos/conselho-representantes",
+      "https://www.isel.pt/quem-somos/conselho-tecnico-cientifico",
+      "https://www.isel.pt/quem-somos/organograma",
+      "https://www.isel.pt/quem-somos/presidente"
+    ],
+    "https://www.isel.pt/isel/quem-somos/servicos": [
+      "https://www.isel.pt/servicos/servico-de-avaliacao-qualidade-e-planeamento",
+      "https://www.isel.pt/servicos/servico-de-biblioteca-e-documentacao",
+      "https://www.isel.pt/servicos/servico-de-comunicacao-e-imagem",
+      "https://www.isel.pt/servicos/servico-de-gestao-de-infraestruturas-e-equipamentos",
+      "https://www.isel.pt/servicos/servico-de-gestao-de-projetos",
+      "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos",
+      "https://www.isel.pt/servicos/servico-de-informatica-e-redes-de-comunicacao",
+      "https://www.isel.pt/servicos/servico-de-relacoes-externas-e-internacionalizacao",
+      "https://www.isel.pt/servicos/servico-de-secretariado-dos-orgaos-de-governo-do-isel"
+    ],
+    "https://www.isel.pt/news": [
+      "https://www.isel.pt/noticias/2021",
+      "https://www.isel.pt/noticias/2022",
+      "https://www.isel.pt/noticias/2023",
+      "https://www.isel.pt/noticias/2024",
+      "https://www.isel.pt/noticias/202501",
+      "https://www.isel.pt/noticias/202502",
+      "https://www.isel.pt/noticias/202503",
+      "https://www.isel.pt/noticias/202504",
+      "https://www.isel.pt/noticias/202505",
+      "https://www.isel.pt/noticias/202506",
+      "https://www.isel.pt/noticias/202507",
+      "https://www.isel.pt/noticias/202508",
+      "https://www.isel.pt/noticias/202509",
+      "https://www.isel.pt/noticias/202510",
+      "https://www.isel.pt/noticias/202511"
+    ],
+    "https://www.isel.pt/noticias/estudante-do-isel-distinguida-com-mencao-honrosa-no-erasmusdays-2025": [
+      "https://www.ipl.pt/noticias/resultados-do-premio-de-fotografia-erasmusdays-2025"
+    ],
+    "https://www.isel.pt/noticias/estudante-do-isel-vence-primeiro-premio-no-h2o-sustainability-innovation-hub": [
+      "https://www.h2o-sustainability-hub.com",
+      "https://www.linkedin.com/in/jan-halfar",
+      "https://www.linkedin.com/in/miosa",
+      "https://www.lisboa.pt",
+      "https://www.oeiras.pt"
+    ],
+    "https://www.isel.pt/noticias/fundacao-santander-e-isel-atribuem-incentivo-investigacao-exploratoria": [
+      "https://www.isel.pt/docente/maria-manuela-almeida-carvalho-vieira",
+      "https://www.isel.pt/docentes/jose-maria-cantista-de-castro-tavares",
+      "https://www.isel.pt/noticias/isel-comemora-abertura-do-ano-letivo-202526-com-uma-sessao-solene"
+    ],
+    "https://www.isel.pt/noticias/isel-assinala-instalacao-da-sinaletica-do-ponto-de-encontro-de-emergencia": [
+      "https://flic.kr/s/ahbqjcz4az",
+      "https://informacao.lisboa.pt/noticias/detalhe/pontos-de-encontro-de-emergencia-sinalizados-em-lisboa",
+      "https://www.isel.pt/docentes/maria-alexandra-cardoso-da-costa"
+    ],
+    "https://www.isel.pt/noticias/isel-disponibiliza-dois-novos-moocs-no-ambito-do-projeto-prodigi": [
+      "https://www.ipl.pt/politecnico/orgaos-de-governo/presidencia",
+      "https://www.isel.pt/docentes/catia-raquel-jesus-vaz",
+      "https://www.isel.pt/docentes/pedro-alexandre-de-seia-e-cunha-ribeiro-pereira",
+      "https://www.isel.pt/noticias/isel-participa-em-nova-formacao-online-em-competencias-digitais",
+      "https://www.nau.edu.pt/pt/curso/algoritmos-e-complexidade",
+      "https://www.nau.edu.pt/pt/curso/estruturas-de-dados",
+      "https://www.nau.edu.pt/pt/curso/fundamentos-de-bases-de-dados",
+      "https://www.nau.edu.pt/pt/curso/tecnicas-de-desenvolvimento-de-software"
+    ],
+    "https://www.isel.pt/noticias/isel-e-policia-judiciaria-desenvolvem-jogo-educativo": [
+      "https://ragequit.pj.pt/",
+      "https://www.isel.pt/docentes/jose-manuel-peixoto-nascimento",
+      "https://www.policiajudiciaria.pt"
+    ],
+    "https://www.isel.pt/noticias/professor-nuno-henriques-integra-equipa-de-acreditacao-eur-ace-universidade-de-navarra": [
+      "https://www.isel.pt/docentes/nuno-paulo-ferreira-henriques",
+      "https://www.isel.pt/noticias/docentes-do-isel-participam-em-workshop-de-acreditacao-de-especialistas-com-o-selo-eur-ace"
+    ],
+    "https://www.isel.pt/noticias/saude-mental-no-ensino-superior-em-debate-no-isel": [
+      "https://flic.kr/s/ahbqjcyumq",
+      "https://open.spotify.com/episode/72yvbzglvvswptaurfgdwf",
+      "https://www.isel.pt/docentes/paulo-alexandre-carapinha-marques",
+      "https://www.isel.pt/eventos/mesa-redonda-instituicoes-de-ensino-superior-e-saude-mental-para-onde-vamos"
+    ],
+    "https://www.isel.pt/o-isel-apresenta-se/estudar-no-ISEL": [],
+    "https://www.isel.pt/o-isel-apresenta-se/onde-estamos": [
+      "https://www.carris.pt/viaje/carreiras/208-cais-sodre-est-oriente",
+      "https://www.carris.pt/viaje/carreiras/31b-vale-formoso-b-º-alfinetes",
+      "https://www.carris.pt/viaje/carreiras/32b-amendoeiras-metro-circulacao-bela-vista",
+      "https://www.carris.pt/viaje/carreiras/718-isel-alameda-d-a-henriques",
+      "https://www.carris.pt/viaje/carreiras/755-poco-bispo-sete-rios",
+      "https://www.carris.pt/viaje/carreiras/759-restauradores-est-oriente",
+      "https://www.carris.pt/viaje/carreiras/794-restauradores-est-oriente",
+      "https://www.linkedin.com/school/isel-instituto-superior-de-engenharia-de-lisboa",
+      "https://www.metrolisboa.pt/viajar/mapas-e-diagramas"
+    ],
+    "https://www.isel.pt/o-isel-apresenta-se/os-nossos-espacos": [],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade": [
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente",
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/digital",
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/energia",
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/social",
+      "https://www.isel.pt/servicos/o-isel-apresenta-se/sustentabilidade/digital/sigaisel",
+      "https://www.isel.pt/servicos/o-isel-apresenta-se/sustentabilidade/energia/iselgreen"
+    ],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus": [
+      "https://ecoescolas.abaae.pt/escola/instituto-superior-de-engenharia-de-lisboa-do-politecnico-de-lisboa",
+      "https://ecoescolas.abae.pt",
+      "https://forms.office.com/e/gjxbn1mpxm",
+      "https://www.fee.global",
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/eventos",
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/premio-sustentabilidade",
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/temas"
+    ],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/isel-carbono-zero": [],
+    "https://www.isel.pt/plano-para-igualdade-de-genero": [],
+    "https://www.isel.pt/politica-de-privacidade": [],
+    "https://www.isel.pt/premios-e-eventos-externos": [
+      "http://www.expofishportugal.com",
+      "https://ani.pt/work-in-portugal-2025",
+      "https://forms.office.com/e/vrwrrukzu1",
+      "https://gulbenkian.pt/bolsas-lista/bolsas-de-merito",
+      "https://jornadasdohidrogenio.carrd.co",
+      "https://leoesdeportugal.pt/bolsas-de-estudo-2",
+      "https://sciforum.net/event/asec2025",
+      "https://spmateriais.pt/site",
+      "https://spmateriais.pt/site/dia-mundial-dos-materiais-2025",
+      "https://www.acustica2025.uc.pt",
+      "https://www.ambienteonline.pt/13-forum-energia/noticias-619/semana-de-ambiente-2025-abre-com-figuras-cimeiras-do-ambiente-em-portugal-e-na-europa-para-antecipar-o-futuro",
+      "https://www.eyec.ichip.pw.edu.pl",
+      "https://www.inncyberinnovationhub.com",
+      "https://www.isel.pt/docentes/carlos-cesar-correia-rodrigues",
+      "https://www.isel.pt/docentes/maria-amelia-ramos-loja",
+      "https://www.jeronimomartins.com/pt/carreiras/estudantes-e-recem-licenciados/ambassador-programme",
+      "https://www.ordemdosengenheiros.pt/pt",
+      "https://www.ordemdosengenheiros.pt/regiao-sul/pt",
+      "https://www.ordemdosengenheiros.pt/regiao-sul/pt/premios/bolsa-de-merito-oers-bankinter",
+      "https://www.ordemdosengenheiros.pt/regiao-sul/pt/premios/premios-excelencia-na-academia",
+      "https://www.spautores.pt/entre-a-arte-e-o-algoritmo-uma-conversa-sobre-inteligencia-artificial-na-spa"
+    ],
+    "https://www.isel.pt/projetos-com-alunos": [
+      "https://www.isel.pt/clube-bioinformatics",
+      "https://www.isel.pt/clube-isel-space",
+      "https://www.isel.pt/clube-smart-everywhere"
+    ],
+    "https://www.isel.pt/quem-somos/documentos-publicos": [],
+    "https://www.isel.pt/quem-somos/qualidade": [
+      "https://a3es.pt/pt/resultados-acreditacao-147",
+      "https://www.isel.pt/quem-somos/qualidade/avaliacao",
+      "https://www.isel.pt/quem-somos/qualidade/politica-da-qualidade"
+    ],
+    "https://www.isel.pt/servicos/biblioteca": [
+      "https://www.isel.pt/biblioteca/novidades",
+      "https://www.isel.pt/servicos/biblioteca/servicos",
+      "https://www.isel.pt/servicos/biblioteca/trabalhos-academicos"
+    ],
+    "https://www.isel.pt/servicos/comunidade/estudantes/empregabilidade/alunos/plataforma-de-emprego": [
+      "https://isel.jobteaser.com/en/recruiter_account/sign_in",
+      "https://isel.jobteaser.com/pt/users/sign_in",
+      "https://talentportugal.com/estagio-emprego-isel",
+      "https://www.isel.pt/eventos/feira-de-emprego-2025",
+      "https://www.isel.pt/servicos/comunidade/estudantes/empregabilidade/concursos-publicos"
+    ],
+    "https://www.isel.pt/servicos/comunidade/estudantes/espaco-de-apoio-ao-aluno": [
+      "https://www.instagram.com/eaa.isel",
+      "https://www.isel.pt/servicos/comunidade/estudantes/acompanhamento",
+      "https://www.isel.pt/servicos/comunidade/estudantes/medidas-de-suporte",
+      "https://www.isel.pt/servicos/comunidade/estudantes/recursos"
+    ],
+    "https://www.isel.pt/servicos/comunidade/estudantes/integracao": [
+      "https://forms.cloud.microsoft/pages/responsepage.aspx",
+      "https://forms.office.com/e/pbzxeb7gf8",
+      "https://www.ipl.pt/estudar/viver-o-ipl/apoio-ao-aluno/programa-mentoria-ipl"
+    ],
+    "https://www.isel.pt/servicos/investigacao-e-inovacao/empreendedorismo/innovation-labs": [
+      "https://oficinadigital.pt"
+    ],
+    "https://www.isel.pt/servicos/investigacao-e-inovacao/oportunidades/bolsas-de-investigacao": [],
+    "https://www.isel.pt/servicos/investigacao-e-inovacao/oportunidades/financiamento": [
+      "https://ani.pt/candidaturas-abertas-para-o-certified-innovation-path-da-eit-health",
+      "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en",
+      "https://www.fct.pt/concursos/concurso-2025-da-parceria-europeia-driving-urban-transitions-dut-",
+      "https://www.fct.pt/concursos/concurso-caixaresearch-de-investigacao-em-saude-2026",
+      "https://www.fct.pt/concursos/concurso-de-2025-da-parceria-europeia-water4all",
+      "https://www.fct.pt/concursos/concurso-de-projetos-de-computacao-avancada-6-ed-a0-lote-a-",
+      "https://www.fct.pt/concursos/concurso-de-projetos-de-computacao-avancada-6-ed-a1-lote-a-",
+      "https://www.fct.pt/concursos/concurso-de-projetos-de-computacao-avancada-6-ed-a2-via-rapida-",
+      "https://www.fct.pt/concursos/concurso-de-projetos-de-computacao-avancada-6-ed-a3-via-rapida-"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/estudante-internacional": [
+      "https://portal.ipl.pt/international/page",
+      "https://www.ipl.pt/internacional/estudante-internacional",
+      "https://www.ipl.pt/internacional/estudante-internacional/candidaturas/calendario",
+      "https://www.ipl.pt/internacional/estudante-internacional/cursos/licenciaturas",
+      "https://www.ipl.pt/internacional/estudante-internacional/cursos/mestrados",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/estudante-internacional/provas-acesso"
+    ],
+    "https://www.isel.pt/servicos/servico-de-comunicacao-e-imagem/identidade-institucional": [
+      "https://iselpt.sharepoint.com/:f:/s/intrausers/emnwme_3e4dgink0xcz-ytgbgjax_c9hjt6uk1vaowhgyg",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/01_isel-logotipo-rgb_horizontal-acro%e2%95%a0%c3%bcnimo-preto.eps",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/logotipos/isel%202025/01_isel-logotipo-rgb_horizontal-acronimo-900.eps",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/logotipos/isel%202025/01_isel-logotipo-rgb_horizontal-acronimo-branco.eps",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/logotipos/isel%202025/01_isel-logotipo-rgb_horizontal-acronimo-preto.eps",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/logotipos/isel%202025/01_isel-logotipo-rgb_horizontal-compacto-900.eps",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/logotipos/isel%202025/01_isel-logotipo-rgb_horizontal-compacto-branco.eps",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/logotipos/isel%202025/01_isel-logotipo-rgb_horizontal-compacto-preto.eps",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/logotipos/isel%202025/01_isel-logotipo-rgb_horizontal-principal-900.eps",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/logotipos/isel%202025/01_isel-logotipo-rgb_horizontal-principal-branco.eps",
+      "https://www.isel.pt/sites/default/files/001_imagens_isel/logotipos/isel%202025/01_isel-logotipo-rgb_horizontal-principal-preto.eps"
+    ],
+    "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/concursos-de-pessoal": [
+      "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/concursos-de-pessoal-docente",
+      "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/concursos-de-pessoal-nao-docente",
+      "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/publicitacao-de-atos"
+    ],
+    "https://www.isel.pt/servicos/servico-de-informatica-e-redes-de-comunicacao/recursos-informaticos": [
+      "https://azureforeducation.microsoft.com/devtools",
+      "https://iselpt.sharepoint.com/intranet/informatica",
+      "https://ldap1.isel.pt/private/login",
+      "https://moodle.isel.pt",
+      "https://phone.isel.pt"
+    ],
+    "https://www.isel.pt/sugestoes-reclamacoes-ou-denuncias": [
+      "https://form.ipl.pt/isel/elogios-sugestoes-e-reclamacoes",
+      "https://www.isel.pt/denuncias"
+    ],
+    "https://www.isel.pt/termos-e-condicoes": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=f40a093b-77eb-4880-aa38-73e55d0680c8&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKw5uT68rq8wWOVRfHTWLaGE7MYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIMUg0dTQNMU8xfAWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5nfNdE9PDvZKT3HMMfNI8toFbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPceMbdfkiV_1GOzRtTGZXFKDKdY9b2NXJIL_TLNgzNycsyMjHKTjCwsLNPSPMvzAhzTLPJKwz1TK7xLAxLzvDxtzawMJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjB1zbzz5Qn69rfe2wQYHgARIIMPwQFAA2": [],
+    "https://formulastudent.isel.pt/": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=6f76044e-43d6-40b9-9936-58776a7ce63b&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLwYynLv-a802GmWUR5Vs0z61mMXMWJepnFqTl6BSU7GBkvMDK-YGRcxcTnZ2ZpkGKQaGpibJSYaHKLid_fsbQkwwhE5BdlVqV-YuJMyy_KjS_ILy6ZxcwfZpAVWZnk617skugYmli0ilk6o6SkoNhKXz-9KLEgQy83M7kovzg_rUQvOT93EzMbkMzNzzvFLJJfkJqXmaJQUJSflpmTqpCam5iZc4GF8QcL4yJWoHsrOOWPqa9-7rM9KeGglJQrwylWfW8jl-RCv0zz4IycHDMjo9wkIwsLy7Q0z_K8AMc0i7zScM_UCu_SgMQ8L09bUyvDCWyMH9gYO9gZdnGqwtxkZGpklpufn5KTCvO6fiLQY_r5mSnJ-gd4GX7wNezYtujJuvb3HhsEGB4AkSDDD0EBAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=1037ffe2-6c74-49d9-972f-31c2f9c5f0a5&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJ49N9coCTnpud0fcNDP49-WDqLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDVIMEk1NExNTLYxvMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5S51S8jw8wr3MQrPM_cPCVjFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnTv_zaXINfLt91Wml_YZKxgw3CKVd_byCW50C_TPDgjJ8fMyCg3ycjCwjItzbM8L8AxzSKvNNwztcK7NCAxz8vT1sDKcAIb4wc2xg52hl2cqjA3GZkameXm56fkpMK8rp8I9Jh-fmZKsv4BXoYffL039698sq79vccGAYYHQCTI8ENQAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=9f96face-481e-40c1-8770-9d79d82ecaf3&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hI492vafDmPgw7tBXMrb-id-jyLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDVIMEk3NjVINDVNvMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5Tb0DXf0C3AMM_Y0r3INLVjFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnTvodrt3QkrVL2W2M1vcFNRZTjFqu9t5JJc6JdpHpyRk2NmZJSbZGRhYZmW5lmeF-CYZpFXGu6ZWuFdGpCY5-Vpa2ZlOIGN8QMbYwc7wy5OVZibjEyNzHLz81NyUmFe108Eekw_PzMlWf8AL8MPvvYlZzc8Wdf-3mODAMMDIBJk-CEoAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=fefd323b-5b72-4f39-bd89-8731b50ea9ed&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKwNvr7ryja0n9vZ7vhVr6Vb2cxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBoqlFkqlZctItJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjO_kV9ybkZouYGHZ4Z_Wkn6KmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge7lZKv6cXv3Va911l3xjZxyDKdY9b2NXJIL_TLNgzNycsyMjHKTjCwsLNPSPMvzAhzTLPJKwz1TK7xLAxLzvDxtTawMJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjBd7Pp3_Yn69rfe2wQYHgARIIMPwQFAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=7ec7f2dd-84a8-42f4-8b44-002f5ccb7c5b&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hK4--l43YqWL07dLgz6MadromcxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBommicaKxmfEtJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjN_ZnZaqFFiobllToFhgF_hKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge5lVTze6HZb2HVSjLqDcZoywylWfW8jl-RCv0zz4IycHDMjo9wkIwsLy7Q0z_K8AMc0i7zScM_UCu_SgMQ8L09bSyvDCWyMH9gYO9gZdnGqwtxkZGpklpufn5KTCvO6fiLQY_r5mSnJ-gd4GX7wbf44Y_-Tde3vPTYIMDwAIkGGH4ICAA2": [],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-biomedica": [
+      "https://dre.pt/web/guest/home/-/dre/107707278/details/maximized",
+      "https://moodle.isel.pt/course/index.php",
+      "https://www.a3es.pt/pt/resultados-acreditacao/engenharia-biomedica-35",
+      "https://www.isel.pt/curso/10538/plano-de-estudos",
+      "https://www.isel.pt/docente/joao-pedro-barrigana-ramos-da-costa-estesl",
+      "https://www.isel.pt/docentes/antonio-jorge-duarte-de-castro-silvestre",
+      "https://www.isel.pt/docentes/cecilia-ribeiro-da-cruz-calado",
+      "https://www.isel.pt/docentes/luis-miguel-minhalma",
+      "https://www.isel.pt/docentes/manuel-jose-de-matos"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-civil": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/2268",
+      "https://www.isel.pt/curso/36831/plano-de-estudos",
+      "https://www.isel.pt/docentes/jorge-alexandre-dias-dos-reis-de-barros",
+      "https://www.isel.pt/docentes/maria-do-carmo-cachao-conde",
+      "https://www.isel.pt/docentes/maria-idalia-da-silva-gomes",
+      "https://www.isel.pt/docentes/paulo-jorge-henriques-mendes"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-eletronica-e-telecomunicacoes-e-de-computadores": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/15600",
+      "https://www.isel.pt/curso/10519/plano-de-estudos",
+      "https://www.isel.pt/docentes/carlos-eduardo-de-meneses-ribeiro",
+      "https://www.isel.pt/docentes/jorge-manuel-rodrigues-martins-piao",
+      "https://www.isel.pt/docentes/pedro-miguel-fernandes-sampaio",
+      "https://www.isel.pt/docentes/vitor-manuel-da-silva-costa"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-eletrotecnica": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/2537",
+      "https://www.isel.pt/curso/10515/plano-de-estudos",
+      "https://www.isel.pt/docentes/ana-alexandra-antunes-figueiredo-martins",
+      "https://www.isel.pt/docentes/jose-gabriel-da-silva-lopes",
+      "https://www.isel.pt/docentes/luis-jose-lamy-rocha-da-encarnacao",
+      "https://www.isel.pt/docentes/miguel-cabral-ferreira-chaves"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-fisica-aplicada": [
+      "https://diariodarepublica.pt/dr/detalhe/despacho/3795-2024-859646812",
+      "https://www.a3es.pt/pt/resultados-acreditacao/engenharia-fisica-aplicada",
+      "https://www.isel.pt/curso/38165/plano-de-estudos",
+      "https://www.isel.pt/docentes/lucia-fernandez-suarez",
+      "https://www.isel.pt/docentes/pedro-miguel-martins-ferreira",
+      "https://www.isel.pt/docentes/vitor-manuel-barbas-de-oliveira"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-informatica-e-de-computadores": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/15761",
+      "https://www.isel.pt/curso/10514/plano-de-estudos",
+      "https://www.isel.pt/docentes/artur-jorge-ferreira",
+      "https://www.isel.pt/docentes/pedro-miguel-florindo-miguens-matutino",
+      "https://www.isel.pt/leic/testemunhos"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-informatica-e-multimedia": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/15624",
+      "https://www.isel.pt/curso/10517/plano-de-estudos",
+      "https://www.isel.pt/docentes/antonio-gelasio-frazao-isidro-teofilo",
+      "https://www.isel.pt/docentes/filipa-soares-de-almeida",
+      "https://www.isel.pt/docentes/goncalo-ramiro-valadao-matias",
+      "https://www.isel.pt/docentes/rui-manuel-feliciano-de-jesus",
+      "https://www.youtube.com/watch"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-informatica-redes-e-telecomunicacoes": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/15610",
+      "https://www.isel.pt/curso/10564/plano-de-estudos",
+      "https://www.isel.pt/docente/luis-miguel-maia-bravo-da-mata",
+      "https://www.isel.pt/docentes/filipe-bastos-de-freitas",
+      "https://www.isel.pt/docentes/isabel-maria-teixeira-de-matos",
+      "https://www.isel.pt/docentes/joao-humberto-holbeche-trindade",
+      "https://www.isel.pt/docentes/pedro-manuel-de-almeida-carvalho-vieira"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-mecanica": [
+      "https://dre.pt/web/guest/home/-/dre/67671715/details/maximized",
+      "https://www.a3es.pt/pt/resultados-acreditacao/engenharia-mecanica-63",
+      "https://www.isel.pt/curso/10520/plano-de-estudos",
+      "https://www.isel.pt/docentes/claudia-sofia-seneca-da-luz-casaca",
+      "https://www.isel.pt/docentes/fernando-paulo-neves-da-fonseca-carreira",
+      "https://www.isel.pt/docentes/jose-augusto-da-silva-sobral",
+      "https://www.isel.pt/docentes/maria-teresa-oliveira-moura-e-silva",
+      "https://www.isel.pt/docentes/ricardo-jose-fontes-portal"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-quimica-e-biologica": [
+      "https://diariodarepublica.pt/dr/detalhe/despacho/7182-2024-870296818",
+      "https://www.a3es.pt/pt/resultados-acreditacao/engenharia-quimica-e-biologica-3",
+      "https://www.isel.pt/curso/10521/plano-de-estudos",
+      "https://www.isel.pt/docentes/ana-sofia-de-oliveira-figueiredo",
+      "https://www.isel.pt/docentes/magda-sofia-soares-de-carvalho-cardoso-nobre-semedo",
+      "https://www.isel.pt/docentes/nelson-guerreiro-cortez-nunes",
+      "https://www.isel.pt/docentes/sergio-jorge-pereira-da-costa"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-matematica-aplicada-tecnologia-e-empresa": [
+      "https://dre.pt/dre/detalhe/despacho/12630-2022-202786613",
+      "https://lmate-reports.isel.pt",
+      "https://www.a3es.pt/pt/resultados-acreditacao/matematica-aplicada-tecnologia-e-empresa",
+      "https://www.isel.pt/curso/10545/plano-de-estudos",
+      "https://www.isel.pt/docentes/carlos-jose-bras-geraldes",
+      "https://www.isel.pt/docentes/sandra-maria-da-silva-figueiredo-aleixo"
+    ],
+    "https://www.isel.pt/curso/licenciatura/licenciatura-em-tecnologias-e-gestao-municipal": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/14754",
+      "https://www.isel.pt/curso/10537/plano-de-estudos",
+      "https://www.isel.pt/docentes/luisa-maria-conceicao-ferreira-cardoso-teles-fortes",
+      "https://www.isel.pt/docentes/paula-raquel-pires-da-cunha-lamego",
+      "https://www.isel.pt/docentes/paulo-jose-de-matos-martins"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-biomedica": [
+      "https://2324moodle.isel.pt/course/index.php",
+      "https://dre.pt/application/file/a/157784046",
+      "https://form.ipl.pt/form/formulario-de-contacto-mestrados",
+      "https://www.a3es.pt/pt/resultados-acreditacao/engenharia-biomedica-37",
+      "https://www.isel.pt/curso/10539/plano-de-estudos",
+      "https://www.isel.pt/docente/jose-fulgencio-de-matos-estesl",
+      "https://www.isel.pt/docente/paulo-guerreiro-estesl",
+      "https://www.isel.pt/docente/sergio-figueiredo-estesl",
+      "https://www.isel.pt/docentes/joao-pedro-barrigana-ramos-da-costa",
+      "https://www.isel.pt/mestrado-em-engenharia-biomedica/testemunhos",
+      "https://www.isel.pt/node/12601"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-civil": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/13335",
+      "https://www.isel.pt/docentes/maria-dulce-e-silva-franco-henriques",
+      "https://www.isel.pt/docentes/pedro-miguel-soares-raposeiro-da-silva",
+      "https://www.isel.pt/node/40866",
+      "https://www.isel.pt/node/40867"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-da-qualidade-e-ambiente": [
+      "https://dre.pt/home/-/dre/147782636/details/maximized",
+      "https://www.a3es.pt/pt/resultados-acreditacao/engenharia-da-qualidade-e-ambiente-0",
+      "https://www.isel.pt/curso/10541/plano-de-estudos",
+      "https://www.isel.pt/docentes/antonio-victor-carreira-oliveira",
+      "https://www.isel.pt/docentes/joao-fernando-pereira-gomes",
+      "https://www.isel.pt/docentes/joao-miguel-alves-da-silva"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-de-eletronica-e-telecomunicacoes": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/15843",
+      "https://www.isel.pt/curso/10522/plano-de-estudos",
+      "https://www.isel.pt/docente/rui-antonio-policarpo-duarte",
+      "https://www.isel.pt/docentes/paula-maria-garcia-louro",
+      "https://www.isel.pt/docentes/vitor-manuel-de-oliveira-fialho"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-e-gestao-industrial": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/13671",
+      "https://www.isel.pt/curso/10570/plano-de-estudos",
+      "https://www.isel.pt/docente/joao-nuno-pinto-miranda-garcia",
+      "https://www.isel.pt/docente/rui-miguel-vieira-dantas",
+      "https://www.isel.pt/docentes/ana-sofia-martins-da-eira-dias",
+      "https://www.isel.pt/docentes/pedro-domingos-belo-carmona-marques"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-eletrotecnica": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/15708",
+      "https://www.isel.pt/curso/38336/plano-de-estudos",
+      "https://www.isel.pt/curso/38337/plano-de-estudos",
+      "https://www.isel.pt/docentes/filipe-andre-de-sousa-figueira-barata",
+      "https://www.isel.pt/docentes/joao-herminio-ninitas-lagarto",
+      "https://www.isel.pt/docentes/rita-marcos-fontes-murta-pereira"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-informatica-e-de-computadores": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/2701",
+      "https://www.isel.pt/curso/10523/plano-de-estudos",
+      "https://www.isel.pt/docentes/jose-manuel-de-campos-lages-garcia-simao",
+      "https://www.isel.pt/docentes/nuno-miguel-machado-cruz",
+      "https://www.isel.pt/docentes/tiago-miguel-braga-da-silva-dias"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-informatica-e-multimedia": [
+      "https://www.dges.gov.pt/simges/public/www/cursos/14772",
+      "https://www.isel.pt/curso/10524/plano-de-estudos",
+      "https://www.isel.pt/docente/diogo-nuno-crespo-ribeiro-cabral",
+      "https://www.isel.pt/docentes/pedro-miguel-torres-mendes-jorge",
+      "https://www.isel.pt/docentes/pedro-vicoso-fazenda"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-mecanica": [
+      "https://2425moodle.isel.pt/course/view.php",
+      "https://dre.pt/home/-/dre/62109891/details/maximized",
+      "https://www.a3es.pt/pt/resultados-acreditacao/engenharia-mecanica-64",
+      "https://www.isel.pt/curso/38000/plano-de-estudos",
+      "https://www.isel.pt/curso/38001/plano-de-estudos",
+      "https://www.isel.pt/docentes/goncalo-nuno-de-oliveira-duarte",
+      "https://www.isel.pt/docentes/pedro-miguel-de-abreu-e-silva"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-quimica-e-biologica": [
+      "https://diariodarepublica.pt/dr/detalhe/despacho/4458-2023-211668548",
+      "https://www.a3es.pt/pt/resultados-acreditacao/engenharia-quimica-e-biologica-11",
+      "https://www.isel.pt/curso/37950/plano-de-estudos",
+      "https://www.isel.pt/curso/37951/plano-de-estudos",
+      "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-quimica-e-biologica-testemunhos",
+      "https://www.isel.pt/docentes/ana-maria-garcia-henriques-barreiros-joanaz-de-melo",
+      "https://www.isel.pt/docentes/jose-augusto-paixao-coelho",
+      "https://www.isel.pt/docentes/nelson-alberto-frade-da-silva",
+      "https://www.isel.pt/docentes/ruben-anacoreta-seabra-elvas-leitao",
+      "https://www.isel.pt/docentes/rui-manuel-gouveia-filipe"
+    ],
+    "https://www.isel.pt/curso/mestrado/mestrado-em-matematica-aplicada-para-industria": [
+      "https://dre.pt/dre/detalhe/despacho/9237-2021-171516171",
+      "https://www.a3es.pt/pt/resultados-acreditacao/matematica-aplicada-para-industria",
+      "https://www.isel.pt/curso/38246/plano-de-estudos",
+      "https://www.isel.pt/curso/38247/plano-de-estudos",
+      "https://www.isel.pt/curso/38248/plano-de-estudos",
+      "https://www.isel.pt/docentes/filipe-santiago-cal",
+      "https://www.isel.pt/docentes/luis-manuel-ferreira-da-silva"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-conservacao-e-reabilitacao-de-construcoes": [
+      "https://form.ipl.pt/form/formulario-de-contacto-pos-gradu",
+      "https://www.isel.pt/comunidade/estudantes/bolsas-next-level-impulso-adultos",
+      "https://www.isel.pt/curso/38154/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-conservacao-e-reabilitacao-de-construcoes/candidaturas",
+      "https://www.isel.pt/docentes/ana-cristina-gaminha-ribeiro-borges-de-azevedo",
+      "https://www.isel.pt/docentes/ana-rita-faria-conceicao-de-sousa-giao"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-eficiencia-energetica-e-sustentabilidade-em-edificios": [
+      "https://diariodarepublica.pt/dr/detalhe/despacho/8085-2023-216769635",
+      "https://www.isel.pt/curso/39616/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-eficiencia-energetica-e-sustentabilidade-em-edificios/candidaturas"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-engenharia-e-gestao-de-energias-renovaveis": [
+      "https://isel.pt/comunidade/estudantes/bolsas-next-level-impulso-adultos",
+      "https://www.isel.pt/curso/10532/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao-em-engenharia-e-gestao-de-energias-renovaveis/testemunhos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-engenharia-e-gestao-de-energias-renovaveis/candidaturas",
+      "https://www.isel.pt/docentes/cristina-ines-camus"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-engenharia-optoeletronica-e-fotonica": [
+      "https://www.isel.pt/curso/39476/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-engenharia-optoeletronica-e-fotonica/candidaturas",
+      "https://www.isel.pt/docentes/luis-miguel-tavares-fernandes"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-matematica-para-ciencia-de-dados": [
+      "https://www.isel.pt/curso/39610/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-matematica-para-ciencia-de-dados/candidaturas",
+      "https://www.isel.pt/docentes/sonia-raquel-ferreira-carvalho"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-novas-abordagens-em-acustica-aplicada-e-audio": [
+      "https://acusticaudiolab.isel.pt",
+      "https://www.isel.pt/curso/39595/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-novas-abordagens-em-acustica-aplicada-e-audio/candidaturas",
+      "https://www.isel.pt/docentes/joel-vera-cruz-preto-paulo",
+      "https://www.isel.pt/docentes/paulo-manuel-trigo-candido-da-silva"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-processos-avancados-de-fabrico": [
+      "https://www.isel.pt/curso/39639/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-processos-avancados-de-fabrico/candidaturas",
+      "https://www.isel.pt/docentes/ivan-rodolfo-pereira-garcia-de-galvao",
+      "https://www.isel.pt/docentes/ivo-manuel-ferreira-de-braganca"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-projeto-e-manutencao-de-instalacoes-eletricas": [
+      "https://www.isel.pt/curso/39612/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-em-projeto-e-manutencao-de-instalacoes-eletricas/candidaturas",
+      "https://www.isel.pt/docentes/antonio-moises-ribeiro-antunes",
+      "https://www.isel.pt/docentes/luis-miguel-silveiro-elvas"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-engenharia_e_gestao_do_risco_de_desastres": [
+      "https://www.isel.pt/curso/40413/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-engenharia_e_gestao_do_risco_de_desastres/candidaturas",
+      "https://www.isel.pt/docente/duarte-caldeira",
+      "https://www.isel.pt/docentes/carla-maria-duarte-da-silva-e-costa",
+      "https://www.isel.pt/docentes/maria-ana-carvalho-viana-baptista",
+      "https://www.isel.pt/docentes/pedro-manuel-fernandes-carvalho-da-silva"
+    ],
+    "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-especializacao-em-engenharia-ferroviaria": [
+      "https://www.isel.pt/curso/39431/plano-de-estudos",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-especializacao-em-engenharia-ferroviaria/candidaturas",
+      "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-especializacao-em-engenharia-ferroviaria/testemunhos",
+      "https://www.isel.pt/docentes/henrique-manuel-borges-miranda"
+    ],
+    "https://my.isel.pt/adfs/ls/?client-request-id=5f1a0129-7954-4eaf-9238-ec3f26999470&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLQZJSKD6lc7zfJ4o292swpBbMYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIMUg0TzVIM0kyfIWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5nfy83RO80noCQ_Kt04y9xrFbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPfmrd3XUrNEx3WnY_CKf5tsGU6x6nsbuSQX-mWaB2fk5JgZGeUmGVlYWKaleZbnBTimWeSVhnumVniXBiTmeXnaGlsZTmBj_MDG2MHOsItTFeYmI1Mjs9z8_JScVJjX9ROBHtPPz0xJ1j_Ay_CDb87GpldP17W_99ggwPAAiAQZfggKAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=96da6a52-078b-4402-bdb6-c319c48596bf&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hIIyro1rZudyWXvtsOSR1qn7Z_FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGieZpFkC9FreY-P0dS0syjEBEflFmVeonJs60_KLc-IL84pJZzPweFU7ZjlWR3hWBxRGWPuGrmKUzSkoKiq309dOLEgsy9HIzk4vyi_PTSvSS83M3MbMBydz8vFPMIvkFqXmZKQoFRflpmTmpCqm5iZk5F1gYf7AwLmIFuveIuf2SLPmjHps1ojauSlBiOMWq723kklzol2kenJGTY2ZklJtkZGFhmZbmWZ4X4JhmkVca7pla4V0akJjn5WlrYWU4gY3xAxtjBzvDLk5VmJuMTI3McvPzU3JSYV7XTwR6TD8_MyVZ_wAvww--fzvnfHy6rv29xwYBhgdAJMjwQ1AAAA2": [],
+    "https://aeris.isel.pt/": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=37d20f8e-dee3-4698-bfdc-276adbfa2f8b&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLo479k_vjeDLf9d9Szbv_S757FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGiRZGBqbmhsm3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8-WVFqQGRyc5ORqbBqc65q5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbp3l1kTx4bdca6rMpMWxAjJM5xi1fc2ckku9Ms0D87IyTEzMspNMrKwsExL8yzPC3BMs8grDfdMrfAuDUjM8_K0NbAynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH3_Fzb_48Xdf-3mODAMMDIBJk-CEoAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=f9a3d5ed-b711-477a-a015-7bdb18114451&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJ4e3XxT8HtVe4LRKtvSwi6BM5i5CpO1MssTs3RKyjZwch4gZHxBSPjKiY-PzNLgxSDRAtj81QLy7RbTPz-jqUlGUYgIr8osyr1ExNnWn5RbnxBfnHJLGZ-HwuPkggjb5fEYr_SQCeLVczSGSUlBcVW-vrpRYkFGXq5mclF-cX5aSV6yfm5m5jZgGRuft4pZpH8gtS8zBSFgqL8tMycVIXU3MTMnAssjD9YGBexAt3Lqni80e22sOukGHWH4ExlhlOs-t5GLsmFfpnmwRk5OWZGRrlJRhZAF6Z5lucFOKZZ5JWGe6ZWeJcGJOZ5edpaWBlOYGP8wMbYwc6wi1MV5iYjUyOz3Pz8lJxUmNf1E4Ee08_PTEnWP8DL8INv6tnGlmfr2t97bBBgeABEggw_BAUA0": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=01a7e70b-e04c-4991-a40e-81fae672e54d&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLgfr6c0efBRM8lfI2_nhU99Z3FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGiRamBsaJpia3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8xZVO7uXhjkEFVSFuVckhq5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbr3f5tLkOvl224rzS9seqZkw3CKVd_byCW50C_TPDgjJ8fMyCg3ycjCwjItzbM8L8AxzSKvNNwztcK7NCAxz8vT1tTKcAIb4wc2xg52hl2cqjA3GZkameXm56fkpMK8rp8I9Jh-fmZKsv4BXoYffK_n9nc_W9f-3mODAMMDIBJk-CEoAAA1": [],
+    "https://www.isel.pt/comunidade/alem-aulas/world-action-isel-eventos": [
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720307488741",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720307998823",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720313242224",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720322161001",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720322180704",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720325886902",
+      "https://www.isel.pt/eventos/apresentacao-do-livro-unicornios-portugueses",
+      "https://www.isel.pt/eventos/banda-desenhada-no-isel",
+      "https://www.isel.pt/eventos/caminhada-noturna-wai",
+      "https://www.isel.pt/eventos/exposicao-anuario-lusa-2023",
+      "https://www.isel.pt/eventos/exposicao-anuario-lusa-2024",
+      "https://www.isel.pt/eventos/exposicao-erasmusdays",
+      "https://www.isel.pt/eventos/exposicao-erasmusdays2023",
+      "https://www.isel.pt/eventos/exposicao-um-oceano",
+      "https://www.isel.pt/eventos/palestra-ai-assisted-programming-revolution-way-we-code",
+      "https://www.isel.pt/eventos/tour-cultural-em-lisboa",
+      "https://www.isel.pt/eventos/tour-cultural-monsanto-palacio-nacional-da-ajuda-maat-joana-vasconcelos",
+      "https://www.isel.pt/eventos/tour-ribeirinho-lisboa-norte"
+    ],
+    "https://my.isel.pt/adfs/ls/?client-request-id=0ab87e84-98c1-4264-825b-a9076f6bdcf6&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJoqdvBdXBGilNT9Er2_Ow732YxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBooWFZZKlsdEtJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjO_c7mrh2dOSm5WmHOiear7KmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge7dZdbEsWF3nOuqzKQFR4XkGU6x6nsbuSQX-mWaB2fk5JgZGeUmGQEdmZbmWZ4X4JhmkVca7pla4V0akJjn5WlraWU4gY3xAxtjBzvDLk5VmJuMTI3McvPzU3JSYV7XTwR6TD8_MyVZ_wAvww--e-9uz3m2rv29xwYBhgdAJMjwQ1AAAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=31b3544e-f1e1-4974-bbc7-f9097dc558af&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLwC9ls-PBjiefu4z85a49GrJ_FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGiRaJFqmJlka3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8ZpaFfuEBOZWZbtl-7kl5q5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbr3UO327oQVql5L7OY3FGqoMpxi1fc2ckku9Ms0D87IyTEzMspNMrKwsExL8yzPC3BMs8grDfdMrfAuDUjM8_K0NbEynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH37zGP0ufrWt_77FBgOEBEAky_BAUAAA1": [],
+    "https://www.isel.pt/docente/claudia-sofia-seneca-da-luz-casaca": [
+      "https://orcid.org/0000-0003-4556-4101",
+      "https://publons.com/researcher/2511615/claudia-s-s-l-casaca",
+      "https://scholar.google.com/citations",
+      "https://www.cienciavitae.pt/portal/c81b-07d4-b460",
+      "https://www.scopus.com/authid/detail.uri"
+    ],
+    "https://my.isel.pt/adfs/ls/?client-request-id=28185e0e-08bb-493f-b865-fda4502382b2&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLgi5PQ2M1h77kj9e-SAOWmTbMYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIMUg0dI4xcjSMvUWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5nfMT8luyDcrCAtK6LA1ytiFbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPceqt3enbBC1WuJ3fwGZU1VhlOs-t5GLsmFfpnmwRk5OWZGRrlJRhYWlmlpnuV5AY5pFnml4Z6pFd6lAYl5Xp625laGE9gYP7AxdrAz7OJUhbnJyNTILDc_PyUnFeZ1_USgx_TzM1OS9Q_wMvzguzLjx8Vn69rfe2wQYHgARIIMPwQFAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=03a2de7d-7838-4ca4-9ed8-1bbe9a08e4b8&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKovbeI2aJiic-8G9L7ZnE82TGLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDVIMEi1NzQwtTZNuMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5EwsjvLMNitNdQsvMTdNKVjFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnTvQXv_qPzVmf4b-_Y_eLFdmeEUq763kUtyoV-meXBGTo6ZkVFukpGFhWVammd5XoBjmkVeabhnaoV3aUBinpenrYmV4QQ2xg9sjB3sDLs4VWFuMjI1MsvNz0_JSYV5XT8R6DH9_MyUZP0DvAw_-M7PWnzz2br29x4bBBgeAJEgww9BAQA1": [],
+    "https://www.isel.pt/comunidade/estudantes/bolsas-next-level-higher-education-all-politecnico-de-lisboa": [
+      "https://www.ipl.pt/comunidade/projeto-next-level-prr"
+    ],
+    "https://my.isel.pt/adfs/ls/?client-request-id=b3ccf963-7d29-4ebf-991e-26259f67d0f0&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJI_nlms2btfr-Zcmqq89MvfJjFyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGiZbmiWbmyQa3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8pTmlWb6WEfkZXlUBgWaOq5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbq3glP-mPrq5z7bkxIOpiu4Mpxi1fc2ckku9Ms0D87IyTEzMspNMrKwsExL8yzPC3BMs8grDfdMrfAuDUjM8_K0NbIynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH388jU588W9f-3mODAMMDIBJk-CEoAAA1": [],
+    "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/editais-tfm": [],
+    "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/horarios": [],
+    "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/legislacao-normas-regulamentos": [
+      "https://diariodarepublica.pt/dr/detalhe/despacho/8077-2023-216769627",
+      "https://dre.pt/dre/detalhe/decreto-lei/62-2018-115924012"
+    ],
+    "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/propinas": [],
+    "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/salas_testes_e_exames": [],
+    "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/testes_e_exames": [],
+    "https://www.isel.pt/informacoes-academicas/calendario-atos-academicos": [],
+    "https://www.isel.pt/informacoes-academicas/faqs": [
+      "http://www.imt-ip.pt/sites/imtt/portugues/tarifas/passe-sub23-superior-tp/paginas/passe-sub23_superior_tp.aspx",
+      "https://isel.pt/servicos/modalidades-de-ingresso/reingresso-licenciatura",
+      "https://www.dges.gov.pt/guias/detcursopi.asp",
+      "https://www.dges.gov.pt/pt/pagina/reconhecimento"
+    ],
+    "https://www.isel.pt/informacoes-academicas/normas-trabalhos-finais": [],
+    "https://www.isel.pt/informacoes-academicas/requerimentos-e-pedidos": [],
+    "https://www.isel.pt/informacoes-academicas/seguro-escolar": [],
+    "https://www.isel.pt/servicos/servico-de-gestao-academica-e-apoio-ao-estudante": [],
+    "https://www.isel.pt/servicos/servico-de-gestao-de-infraestruturas-e-equipamentos/estacionamento": [
+      "https://iselpt.sharepoint.com/:b:/r/sites/intrausers/documentos%20partilhados/servi%c3%a7o%20de%20gest%c3%a3o%20de%20infraestruturas%20e%20equipamentos/regulamentocampus.pdf",
+      "https://iselpt.sharepoint.com/:b:/r/sites/intrausers/documentos%20partilhados/servi%c3%a7o%20de%20gest%c3%a3o%20de%20infraestruturas%20e%20equipamentos/st_md_01_04_pedido_utilizacao_pq_estacionamento.pdf"
+    ],
+    "https://www.isel.pt/servicos/servico-de-gestao-financeira": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=10c0f161-2a1d-4b02-be8a-c30dc15339ae&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJI_HhAQFaLyXtf12Heg8GW62YxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBYqIJ0Biz1FtM_P6OpSUZRiAivyizKvUTE2daflFufEF-ccksZn6TCNdsH__SKLNUL2PLJPdVzNIZJSUFxVb6-ulFiQUZermZyUX5xflpJXrJ-bmbmNmAZG5-3ilmkfyC1LzMFIWCovy0zJxUhdTcxMycCyyMP1gYF7EC3XtK9dyfJZPEPZuU_lnsN1FiOMWq723kklzol2kenJGTY2ZklJtkZGFhmZbmWZ4X4JhmkVca7pla4V0akJjn5WlrYGU4gY3xAxtjBzvDLk5VmJuMTI3McvPzU3JSYV7XTwR6TD8_MyVZ_wAvww--zYffLny-rv29xwYBhgdAJMjwQ1AAAA2": [],
+    "https://www.isel.pt/servicos/biblioteca/recursos-de-pesquisa": [
+      "http://b-on.pt",
+      "http://www.scielo.org",
+      "https://about.jstor.org/librarians/journals/arts-sciences-iii",
+      "https://about.jstor.org/librarians/journals/arts-sciences-vii",
+      "https://about.jstor.org/librarians/journals/arts-sciences-viii",
+      "https://about.jstor.org/librarians/journals/arts-sciences-x",
+      "https://about.jstor.org/librarians/journals/arts-sciences-xii",
+      "https://bibliotecacomum.pt/catalogo",
+      "https://catalogo.isel.pt",
+      "https://doaj.org",
+      "https://ieeexplore.ieee.org/xplore/home.jsp",
+      "https://pubmed.ncbi.nlm.nih.gov",
+      "https://repositorio.ipl.pt/handle/10400.21/8",
+      "https://scielo.org",
+      "https://search.ebscohost.com/login.aspx",
+      "https://web.p.ebscohost.com/ehost/search/basic",
+      "https://www.b-on.pt",
+      "https://www.indexar.pt",
+      "https://www.jstor.org",
+      "https://www.ncbi.nlm.nih.gov/books",
+      "https://www.net.ipl.pt/vpn/intra",
+      "https://www.rcaap.pt",
+      "https://www.scimagojr.com/index.php",
+      "https://www.scopus.com/search/form.uri",
+      "https://www.spiedigitallibrary.org",
+      "https://www.webofscience.com/wos/woscc/basic-search"
+    ],
+    "https://my.isel.pt/adfs/ls/?client-request-id=de531b26-0212-452a-b4cf-34dd0b2f6e75&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJQkw6-J8Sk5brlvMldbv280lmMXMWJepnFqTl6BSU7GBkvMDK-YGRcxcTnZ2ZpkGKQmGhulGicnHyLid_fsbQkwwhE5BdlVqV-YuJMyy_KjS_ILy6ZxczvZJCcGpXkmOSebxGc4uq4ilk6o6SkoNhKXz-9KLEgQy83M7kovzg_rUQvOT93EzMbkMzNzzvFLJJfkJqXmaJQUJSflpmTqpCam5iZc4GF8QcL4yJWoHs52ap-3N591WuddVe8C68cwylWfW8jl-RCv0zz4IycHDMjo9wkIwsLy7Q0z_K8AMc0i7zScM_UCu_SgMQ8L09bMyvDCWyMH9gYO9gZdnGqwtxkZGpklpufn5KTCvO6fiLQY_r5mSnJ-gd4GX7w_ZzTsu75uvb3HhsEGB4AkSDDD0EBAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=d6fdca95-de47-44b5-b829-3d30c731925d&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKYeurvNfd7W112aNoaHDecFDuLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDVIMEhMtEpPMzNNuMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5fSuSzU3CDUrcnS1z_DMSVzFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnRvBaf8MfXVz322JyUcZFFyZTjFqu9t5JJc6JdpHpyRk2NmZJSbZGRhYZmW5lmeF-CYZpFXGu6ZWuFdGpCY5-Vpa2plOIGN8QMbYwc7wy5OVZibjEyNzHLz81NyUmFe108Eekw_PzMlWf8AL8MPvmMbV2x9vq79vccGAYYHQCTI8ENQAAA1": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0aaa41643&response_mode=form_post&state=oz6rRTBgtYaRAYg&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/mestrado": [
+      "https://diariodarepublica.pt/dr/detalhe/despacho/11215-2024-888687069",
+      "https://portal.ipl.pt/isel-cssnet/page",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/mestrado/calendario"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0aaca0baa&response_mode=form_post&state=TmgFaq4E1qRirHL&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/curso/outros-cursos/curso-preparatorio-de-fisica": [
+      "https://www.isel.pt/curso/outros-curso/curso-preparatorio-de-fisica-programa-detalhado",
+      "https://www.isel.pt/docentes/antonio-manuel-carreiras-casaca"
+    ],
+    "https://www.isel.pt/curso/outros-cursos/curso-preparatorio-de-matematica": [
+      "https://www.isel.pt/curso/outros-cursos/curso-preparatorio-de-matematica-programa-detalhado",
+      "https://www.isel.pt/docentes/jose-alberto-de-sousa-rodrigues"
+    ],
+    "https://www.isel.pt/curso/outros-cursos/formacao-de-analistas-quimicos": [
+      "https://www.isel.pt/curso/outros-cursos/formacao-de-analistas-quimicos/programa-e-avaliacao"
+    ],
+    "https://www.isel.pt/ensino/cursos/outros-cursos/academia-mikrotik": [
+      "https://2223moodle.isel.pt/course/index.php",
+      "https://mikrotik.com/training/academy"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0ab3e363e&response_mode=form_post&state=aCFhUAlrBiFOrc7&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://cimosm.isel.pt/": [
+      "http://wxmaxima-developers.github.io/wxmaxima",
+      "https://cimosm.isel.pt",
+      "https://cimosm.isel.pt/",
+      "https://maxima.sourceforge.io",
+      "https://pt.wordpress.org",
+      "https://videoconf-colibri.zoom.us/j/83535140999",
+      "https://videoconf-colibri.zoom.us/j/93831936682",
+      "https://videoconf-colibri.zoom.us/j/94438568623"
+    ],
+    "https://giaapp.isel.pt/": [
+      "https://giaapp.isel.pt"
+    ],
+    "https://ceeq.isel.pt/divulga/": [
+      "https://ceeq.isel.pt",
+      "https://ceeq.isel.pt/calcular",
+      "https://ceeq.isel.pt/centro",
+      "https://ceeq.isel.pt/contactos",
+      "https://ceeq.isel.pt/cursos",
+      "https://ceeq.isel.pt/empreende",
+      "https://ceeq.isel.pt/excel",
+      "https://ceeq.isel.pt/inscreve",
+      "https://ceeq.isel.pt/membro-estudante",
+      "https://noitedosinvestigadores.org",
+      "https://www.cienciaviva.pt/ciencia-viva-no-laboratorio/2024"
+    ],
+    "https://fit.isel.pt/": [
+      "https://fit.isel.pt/2nd-lxdatalab",
+      "https://fit.isel.pt/ate-moves-forward-with-isel-on-board-towards-sustainability-in-transportation",
+      "https://fit.isel.pt/contact-form",
+      "https://fit.isel.pt/isel-showcases-innovation-in-urban-mobility-at-fea-2025",
+      "https://fit.isel.pt/junior-researchers",
+      "https://fit.isel.pt/newsroom",
+      "https://fit.isel.pt/open-positions",
+      "https://fit.isel.pt/projects",
+      "https://fit.isel.pt/publications",
+      "https://fit.isel.pt/senior-researchers",
+      "https://themeisle.com"
+    ],
+    "https://giamos.isel.pt/": [
+      "https://cts.uninova.pt",
+      "https://www.isel.pt/docentes/vitor-manuel-guerra-vaz-da-silva"
+    ],
+    "https://lcec.isel.pt/": [
+      "http://wdvillage.com/product/sagablog-light",
+      "https://lcec.isel.pt/",
+      "https://lcec.isel.pt/about",
+      "https://lcec.isel.pt/research",
+      "https://lcec.isel.pt/wp-login.php",
+      "https://wordpress.org"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0ac044fff&response_mode=form_post&state=whCqmOXfMcVPhCp&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://unire.isel.pt/": [],
+    "https://www.isel.pt/ecossistema-de-inovacao/unidades-de-ied/unidades-de-id": [
+      "https://ceaul.org",
+      "https://cefema.tecnico.ulisboa.pt",
+      "https://cerena.pt",
+      "https://cftc.ciencias.ulisboa.pt/intro.htm",
+      "https://idl.ciencias.ulisboa.pt",
+      "https://nova-lincs.di.fct.unl.pt",
+      "https://www.cima.uevora.pt"
+    ],
+    "https://www.isel.pt/grupo-investigacao/gise": [
+      "https://www.isel.pt/docente/ana-alexandra-antunes-figueiredo-martins",
+      "https://www.isel.pt/docente/cristina-ines-camus",
+      "https://www.isel.pt/docente/eduardo-adelino-mateus-nunes-eusebio",
+      "https://www.isel.pt/docente/ezequiel-francisco-vale-carvalho",
+      "https://www.isel.pt/docente/francisco-alexandre-ganho-da-silva-reis",
+      "https://www.isel.pt/docente/joao-herminio-ninitas-lagarto",
+      "https://www.isel.pt/docente/jorge-alberto-mendes-de-sousa",
+      "https://www.isel.pt/docente/rui-jose-oliveira-nobrega-pestana",
+      "https://www.isel.pt/docente/victor-manuel-fernandes-mendes"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0ac6861ee&response_mode=form_post&state=Srm7mGL5cd1E2eR&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://oficinadigital.isel.pt/": [
+      "https://gingada.pt",
+      "https://oficinadigital.isel.pt/3dbiomedsur.html",
+      "https://oficinadigital.isel.pt/hand.html",
+      "https://oficinadigital.isel.pt/isel.pt",
+      "https://oficinadigital.isel.pt/projectos.html",
+      "https://www.google.com/maps/place/instituto+superior+de+engenharia+de+lisboa/@38.7558523,-9.1180233,869m/data=!3m1!1e3!4m5!3m4!1s0xd1933ccce5181eb:0x8f7074f1efec1428!8m2!3d38.7561087!4d-9.1169233!5m1!1e4",
+      "https://www.youmagine.com/designs/tags/di3d"
+    ],
+    "https://www.isel.pt/en/connect/beyond-classes/music": [],
+    "https://www.isel.pt/en/connect/beyond-classes/sports": [],
+    "https://www.isel.pt/en/connect/beyond-isel/around-lisbon": [
+      "http://www.m-almada.pt/xportal/xmain"
+    ],
+    "https://www.isel.pt/en/connect/students/academic-info": [
+      "https://www.ipl.pt/en/international/international-student/application/calendar",
+      "https://www.isel.pt/en/informacoes-academicas/calendario-academico"
+    ],
+    "https://www.isel.pt/en/connect/students/erasmus-student-network": [],
+    "https://www.isel.pt/en/discover/what-we-are/isel-eco-campus": [
+      "https://docs.google.com/forms/d/e/1faipqlsdg_q_v0rp4rizy-u49iidybqj4bqcvhh_ny4di17stmtaknq/viewform",
+      "https://www.isel.pt/en/discover/what-we-are/isel-eco-campus/topics",
+      "https://www.isel.pt/en/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/eventos"
+    ],
+    "https://www.isel.pt/en/discover/what-we-are/isel-eco-campus/isel-carbono-zero": [],
+    "https://www.isel.pt/en/discover/what-we-are/top-reasons-to-study-at-ISEL": [],
+    "https://www.isel.pt/en/discover/where-we-are/get-in-touch": [
+      "https://www.instagram.com/isel_lisbon_engineering_school"
+    ],
+    "https://www.isel.pt/en/discover/where-we-are/how-to-get-gere": [],
+    "https://www.isel.pt/en/discover/where-we-are/lisbon-portugal": [
+      "https://weather-and-climate.com/average-monthly-hours-sunshine,lisbon,portugal",
+      "https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world"
+    ],
+    "https://www.isel.pt/en/discover/who-we-are/a-little-bit-of-our-history": [],
+    "https://www.isel.pt/en/discover/who-we-are/about-isel": [],
+    "https://www.isel.pt/en/discover/who-we-are/departments": [
+      "https://www.isel.pt/en//departamento/engenharia-informatica",
+      "https://www.isel.pt/en/departamento/engenharia-civil",
+      "https://www.isel.pt/en/departamento/engenharia-electronica-e-telecomunicacoes-e-de-computadores",
+      "https://www.isel.pt/en/departamento/engenharia-electrotecnica-de-energia-e-automacao",
+      "https://www.isel.pt/en/departamento/engenharia-informatica",
+      "https://www.isel.pt/en/departamento/engenharia-mecanica",
+      "https://www.isel.pt/en/departamento/engenharia-quimica",
+      "https://www.isel.pt/en/departamento/fisica",
+      "https://www.isel.pt/en/departamento/matematica"
+    ],
+    "https://www.isel.pt/en/ecossistema-de-inovacao/unidades-de-ied/centros-de-investigacao": [
+      "http://www.giaapp.isel.pt",
+      "https://www.isel.pt/en/ecossistema-de-inovacao/unidades-de-ied/unidades-de-id"
+    ],
+    "https://www.isel.pt/en/ensino/programas-de-mobilidade/erasmus-alunos-incoming/informacoes-gerais": [
+      "https://www.isel.pt/en/en/ensino/programas-de-mobilidade/erasmus-alunos-incoming/our-degrees",
+      "https://www.isel.pt/servico-de-relacoes-externas-e-internacionalizacao/formulario-para-contacto"
+    ],
+    "https://www.isel.pt/en/ensino/programas-de-mobilidade/erasmus-staff/informacoes-gerais": [
+      "https://www.ipl.pt/internacionalizacao/erasmus/mobilidade/docentes",
+      "https://www.ipl.pt/internacionalizacao/erasmus/mobilidade/nao-docentes",
+      "https://www.isel.pt/en/ensino/programas-de-mobilidade/erasmus-staff/instituicoes-parceiras"
+    ],
+    "https://www.isel.pt/en/gender-equality-plan": [],
+    "https://www.isel.pt/en/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/modelos-de-incubacao": [
+      "https://www.isel.pt/en/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/candidatura",
+      "https://www.isel.pt/en/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/empresas-incubadas",
+      "https://www.isel.pt/en/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/servicos"
+    ],
+    "https://www.isel.pt/en/investigacao-e-inovacao/ecossistema-e-inovacao/publicacoes": [],
+    "https://www.isel.pt/en/news": [
+      "https://www.isel.pt/en/noticias/2021",
+      "https://www.isel.pt/en/noticias/2022",
+      "https://www.isel.pt/en/noticias/2023",
+      "https://www.isel.pt/en/noticias/2024",
+      "https://www.isel.pt/en/noticias/202501",
+      "https://www.isel.pt/en/noticias/202502",
+      "https://www.isel.pt/en/noticias/202503",
+      "https://www.isel.pt/en/noticias/202504",
+      "https://www.isel.pt/en/noticias/202505",
+      "https://www.isel.pt/en/noticias/202506",
+      "https://www.isel.pt/en/noticias/202507",
+      "https://www.isel.pt/en/noticias/202508",
+      "https://www.isel.pt/en/noticias/202509",
+      "https://www.isel.pt/en/noticias/202510"
+    ],
+    "https://www.isel.pt/en/news/isel-forefront-quantum-technologies": [
+      "http://www.ptqci.pt"
+    ],
+    "https://www.isel.pt/en/news/isel-marks-installation-emergency-meeting-point-signage": [
+      "https://flickr.com/photos/isel-lisboa/sets/72177720329993407"
+    ],
+    "https://www.isel.pt/en/news/isel-professors-featured-ranking-worlds-most-cited-scientists": [
+      "https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/8",
+      "https://www.isel.pt/docentes/mario-pereira-vestias"
+    ],
+    "https://www.isel.pt/en/news/isel-student-wins-first-prize-h2o-sustainability-innovation-hub": [
+      "https://www.isel.pt/en/curso/bsc-degree/electronic-telecommunications-and-computer-engineering"
+    ],
+    "https://www.isel.pt/en/news/nuno-cruz-presents-results-iselnokia-partnership": [
+      "https://sway.cloud.microsoft/tj07rflgswxhpwfi"
+    ],
+    "https://www.isel.pt/en/news/prl-highlights-article-professor-hugo-tercas": [
+      "https://journals.aps.org/prl/pdf/10.1103/5hbb-yy48",
+      "https://www.isel.pt/docente/hugo-fernando-santos-tercas"
+    ],
+    "https://www.isel.pt/en/news/professor-nuno-henriques-joins-eur-ace-accreditation-team-university-navarra": [],
+    "https://www.isel.pt/en/node/38201": [],
+    "https://www.isel.pt/en/node/38908": [],
+    "https://www.isel.pt/en/noticias/isel-e-policia-judiciaria-desenvolvem-jogo-educativo": [
+      "https://www.isel.pt/en/curso/bsc-degree/informatics-and-multimedia-engineering"
+    ],
+    "https://www.isel.pt/en/privacy-policy": [],
+    "https://www.isel.pt/en/research/projects": [],
+    "https://www.isel.pt/en/servicos/comunidade/estudantes/espaco-de-apoio-ao-aluno": [],
+    "https://www.isel.pt/en/study/comming-from-abroad/accommodation": [],
+    "https://www.isel.pt/en/study/comming-from-abroad/health-services": [
+      "https://ec.europa.eu/social/main.jsp"
+    ],
+    "https://www.isel.pt/en/study/comming-from-abroad/security": [],
+    "https://www.isel.pt/en/study/comming-from-abroad/travelling": [
+      "https://rede-expressos.pt/en"
+    ],
+    "https://www.isel.pt/en/study/mobility/bip": [
+      "https://www.isel.pt/en/study/mobility/bip/bip-2425"
+    ],
+    "https://www.isel.pt/en/study/mobility/international-studente": [
+      "https://dre.pt/application/file/159176",
+      "https://www.ipl.pt/en/international/international-student",
+      "https://www.ipl.pt/en/international/international-student/courses/masters",
+      "https://www.ipl.pt/en/international/international-student/courses/undergraduate"
+    ],
+    "https://www.isel.pt/en/study/programs/masters": [
+      "https://www.isel.pt/en/curso/masters-degree/master-applied-mathematics-industry",
+      "https://www.isel.pt/en/curso/masters-degree/master-biomedical-engineering",
+      "https://www.isel.pt/en/curso/masters-degree/master-chemical-and-biological-engineering",
+      "https://www.isel.pt/en/curso/masters-degree/master-civil-engineering",
+      "https://www.isel.pt/en/curso/masters-degree/master-computer-science-and-engineering",
+      "https://www.isel.pt/en/curso/masters-degree/master-electrical-engineering",
+      "https://www.isel.pt/en/curso/masters-degree/master-electronics-and-telecommunications-engineering",
+      "https://www.isel.pt/en/curso/masters-degree/master-industrial-engineering-and-management",
+      "https://www.isel.pt/en/curso/masters-degree/master-informatics-and-multimedia-engineering",
+      "https://www.isel.pt/en/curso/masters-degree/master-mechanical-engineering",
+      "https://www.isel.pt/en/curso/masters-degree/master-quality-and-environmental-engineering"
+    ],
+    "https://www.isel.pt/en/study/programs/postgraduate": [
+      "https://www.isel.pt/en/curso/pos-graduacao/new-approaches-in-applied-acoustics-and-audio",
+      "https://www.isel.pt/en/curso/postgraduate/advanced-manufacturing-processes",
+      "https://www.isel.pt/en/curso/postgraduate/building-conservation-and-rehabilitation",
+      "https://www.isel.pt/en/curso/postgraduate/design-and-maintenance-of-electrical-installations",
+      "https://www.isel.pt/en/curso/postgraduate/energy-efficiency-and-sustainability-in-buildings",
+      "https://www.isel.pt/en/curso/postgraduate/mathematics-for-data-science",
+      "https://www.isel.pt/en/curso/postgraduate/optoelectronics-and-photonics-engineering",
+      "https://www.isel.pt/en/curso/postgraduate/postgraduate_in_engineering_and_disaster_risk_management",
+      "https://www.isel.pt/en/curso/postgraduate/renewable-energy-engineering-and-management",
+      "https://www.isel.pt/en/curso/postgraduate/specialization_in_railway_engineering"
+    ],
+    "https://www.isel.pt/en/study/programs/undergratuate": [
+      "https://www.isel.pt/en/curso/bsc-degree/applied-physical-engineering",
+      "https://www.isel.pt/en/curso/bsc-degree/biomedical-engineering",
+      "https://www.isel.pt/en/curso/bsc-degree/chemical-and-biological-engineering",
+      "https://www.isel.pt/en/curso/bsc-degree/civil-engineering",
+      "https://www.isel.pt/en/curso/bsc-degree/computer-science-and-computer-engineering",
+      "https://www.isel.pt/en/curso/bsc-degree/electrical-engineering",
+      "https://www.isel.pt/en/curso/bsc-degree/informatics-networks-and-telecommunications-engineering",
+      "https://www.isel.pt/en/curso/bsc-degree/mathematics-applied-technology-and-enterprise",
+      "https://www.isel.pt/en/curso/bsc-degree/mechanical-engineering",
+      "https://www.isel.pt/en/curso/bsc-degree/municipal-technologies-and-management"
+    ],
+    "https://www.isel.pt/en/terms-and-conditions": [],
+    "https://www.isel.pt/informacoes-docentes": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0af14aac0&response_mode=form_post&state=6NpRDHidydshOSo&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/concurso-m23": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/concurso-m23/calendarios",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/concurso-m23/informacoes-sobre-as-provas"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/concurso-nacional-de-acesso": [
+      "https://www.dges.gov.pt/pt/pagina/informacao-geral-publico"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/mudanca-de-par-instituicao-curso": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/mudanca-de-par-instituicao-curso/calendario"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/pos-graduacao": [],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/reingresso-licenciatura": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/reingresso-licenciatura/calendario"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/reingresso-mestrado": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/reingresso-mestrado/calendario"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-diploma-de-especializacao-tecnologica": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-diploma-de-especializacao-tecnologica/calendarios",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-diploma-de-especializacao-tecnologica/informacoes-sobre-as-provas"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-diploma-de-tecnico-superior-profissional": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-diploma-de-tecnico-superior-profissional/calendarios",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-diploma-de-tecnico-superior-profissional/informacoes-sobre-as-provas"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-outros-cursos-superiores": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/titulares-de-outros-cursos-superiores/calendario"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/unidades-curriculares-de-ciclos-de-estudo-subsequentes": [
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/unidades-curriculares-de-ciclos-de-estudo-subsequentes/calendario",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/unidades-curriculares-de-ciclos-de-estudo-subsequentes/ciclos"
+    ],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/unidades-curriculares-isoladas": [
+      "https://portal académico (netp@)",
+      "https://www.isel.pt/servicos/modalidades-de-ingresso/unidades-curriculares-isoladas/calendario"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0afd87bb4&response_mode=form_post&state=PoErEb4flqrwdjj&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/bip/bip-2425": [
+      "https://forms.office.com/e/jblcwl06wz",
+      "https://oceanario.pt",
+      "https://restaurantebacalhau.com",
+      "https://www.hychem.pt",
+      "https://www.isel.pt/ensino/programas-de-mobilidade/bip/bip-2425-speakers"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0affc70b3&response_mode=form_post&state=AvGtT4Jpeujtd3Y&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-incoming/os-nossos-cursos": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b021fc5d&response_mode=form_post&state=uwKl0IPh3GU12Ml&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docentes/alessandro-fantoni": [
+      "https://orcid.org/0000-0002-9938-0351",
+      "https://publons.com/researcher/1494572/alessandro-fantoni",
+      "https://www.cienciavitae.pt/portal/241e-e87c-552f",
+      "https://www.scopus.com/results/results.uri"
+    ],
+    "https://www.isel.pt/docentes/andre-rui-dantas-carvalho": [
+      "https://orcid.org/0000-0002-2089-7156",
+      "https://publons.com/researcher/i-7571-2015",
+      "https://www.cienciavitae.pt/portal/4719-c315-3211"
+    ],
+    "https://www.isel.pt/docentes/antonio-joao-nunes-serrador": [
+      "https://orcid.org/0000-0002-7554-3312"
+    ],
+    "https://www.isel.pt/docentes/catia-sofia-peniche-lente-dinis-dias": [
+      "https://orcid.org/0000-0001-5803-9168"
+    ],
+    "https://www.isel.pt/docentes/elisabete-clara-bastos-do-amaral-alegria": [
+      "http://alegriaelisabete.weebly.com",
+      "http://scholar.google.pt/citations",
+      "https://loop.frontiersin.org/people/863202/overview",
+      "https://orcid.org/0000-0003-4060-1057",
+      "https://publons.com/researcher/e-9945-2012",
+      "https://www.cienciavitae.pt/portal/8c1f-851a-9f1c"
+    ],
+    "https://www.isel.pt/docentes/isabel-maria-da-silva-joao": [
+      "https://orcid.org/0000-0002-8690-1584",
+      "https://publons.com/researcher/1424644/isabel-maria-da-silva-joao",
+      "https://www.cienciavitae.pt//c416-f221-d47c"
+    ],
+    "https://www.isel.pt/docentes/joao-manuel-ferreira-martins": [],
+    "https://www.isel.pt/docentes/manfred-niehus": [
+      "https://orcid.org/0000-0002-0344-5115",
+      "https://publons.com/researcher/2762211/manfred-niehus",
+      "https://www.cienciavitae.pt//7710-9cec-5cf3"
+    ],
+    "https://www.isel.pt/docentes/maria-teresa-loureiro-dos-santos": [
+      "https://orcid.org/0000-0001-8976-6691"
+    ],
+    "https://www.isel.pt/docentes/nuno-miguel-da-costa-de-sousa-leite": [
+      "https://nleite-isel.github.io",
+      "https://orcid.org/0000-0001-6328-3579"
+    ],
+    "https://www.isel.pt/docentes/nuno-miguel-soares-datia": [
+      "https://datia.github.io",
+      "https://orcid.org/0000-0003-1600-0227",
+      "https://publons.com/researcher/1381765/ndatia"
+    ],
+    "https://www.isel.pt/docentes/nuno-ricardo-piedade-antunes-serra": [
+      "https://orcid.org/0000-0002-6656-6926",
+      "https://publons.com/researcher/1389822/nuno-serra"
+    ],
+    "https://www.isel.pt/docentes/paulo-gil-figueiredo-tavares-pedro": [
+      "https://orcid.org/0000-0001-7122-3074"
+    ],
+    "https://www.isel.pt/docentes/pedro-manuel-alves-patricio-da-silva": [
+      "http://cfisica.isel.pt/pedropatricio.html",
+      "https://orcid.org/0000-0002-9050-9956",
+      "https://publons.com/researcher/2876999/pedro-patricio",
+      "https://www.cienciavitae.pt/portal/c616-ba77-e9c9"
+    ],
+    "https://www.isel.pt/docentes/ricardo-jorge-ferreira-luis": [
+      "https://orcid.org/0000-0002-7975-5726",
+      "https://ricardo-luis.github.io"
+    ],
+    "https://www.isel.pt/docentes/teresa-maria-de-araujo-melo-quinteiro": [
+      "http://www.scopus.com/inward/authordetails.url",
+      "https://orcid.org/0000-0001-5172-7697"
+    ],
+    "https://www.isel.pt/docentes/vitor-manuel-rodrigues-anes": [
+      "https://orcid.org/0000-0002-8526-398x",
+      "https://publons.com/researcher/1475336/vitor-anes",
+      "https://www.cienciavitae.pt//841e-dd98-58c2"
+    ],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-outgoing/faq": [
+      "https://eportugal.gov.pt/servicos/requerer-o-cartao-europeu-de-seguro-de-doenca-da-seguranca-social",
+      "https://www.ipl.pt/servicos/gabinete-relacoes-internacionais-e-mobilidade-academica"
+    ],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-outgoing/testemunhos": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b13bb5aa&response_mode=form_post&state=xmDOl98tWRHZwLh&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-staff/instituicoes-parceiras": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b169aba4&response_mode=form_post&state=ZWQzfFxE0LwmLWX&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/ensino/programas-de-mobilidade/outros-programas/informacoes-gerais/programa-vulcanus": [
+      "https://www.eu-japan.eu/events/vulcanus-japan"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b1958717&response_mode=form_post&state=mFqfmXhdlorQfxL&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/eventos/arquivados": [
+      "https://www.isel.pt/eventos/arquivados/2021",
+      "https://www.isel.pt/eventos/arquivados/2022",
+      "https://www.isel.pt/eventos/arquivados/2023",
+      "https://www.isel.pt/eventos/arquivados/2024",
+      "https://www.isel.pt/eventos/arquivados/2025/01",
+      "https://www.isel.pt/eventos/arquivados/2025/02",
+      "https://www.isel.pt/eventos/arquivados/2025/03",
+      "https://www.isel.pt/eventos/arquivados/2025/04",
+      "https://www.isel.pt/eventos/arquivados/2025/05",
+      "https://www.isel.pt/eventos/arquivados/2025/06",
+      "https://www.isel.pt/eventos/arquivados/2025/07",
+      "https://www.isel.pt/eventos/arquivados/2025/08",
+      "https://www.isel.pt/eventos/arquivados/2025/09",
+      "https://www.isel.pt/eventos/arquivados/2025/10",
+      "https://www.isel.pt/eventos/arquivados/2025/11",
+      "https://www.isel.pt/eventos/congresso-do-30o-aniversario-da-proforum",
+      "https://www.isel.pt/eventos/forum-bilateral-italia-portugal-ciencia-e-inovacao",
+      "https://www.isel.pt/eventos/inauguracao-da-instalacao-i-cant-believe-its-not-tree",
+      "https://www.isel.pt/eventos/palestra-obra-subterranea-no-espaco-urbano",
+      "https://www.isel.pt/eventos/seminario-de-fisica-aplicacoes-opticas-de-cristais-liquidos-1",
+      "https://www.isel.pt/eventos/sessao-solene-de-abertura-do-ano-letivo-202526"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b205a6ed&response_mode=form_post&state=ySUQJm8CH9XUuom&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docentes/francisco-mateus-marnoto-de-oliveira-campos": [
+      "https://fcampos.isel.pt/inicio",
+      "https://orcid.org/0000-0002-1481-0042"
+    ],
+    "https://www.isel.pt/docentes/mario-jose-goncalves-cavaco-mendes": [
+      "https://orcid.org/0000-0002-2448-8667",
+      "https://publons.com/researcher/1130197/mario-j-g-c-mendes",
+      "https://www.cienciavitae.pt/bd18-de28-4610"
+    ],
+    "https://www.isel.pt/eventos/apresentacao-microsoft-copilot-365": [
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_nzhjmwu5mtmtodgwmc00yty3ltljotktztewzdy0mtu3yjdm%40thread.v2/0"
+    ],
+    "https://www.isel.pt/eventos/palestra-protecao-da-investigacao-e-inovacao-por-propriedade-intelectualindustrial": [
+      "https://www.rcf.pt"
+    ],
+    "https://www.isel.pt/eventos/seminario-de-fisica-ai-physicist-learning-equations-data": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b28d4da6&response_mode=form_post&state=80bA350spY22mjg&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b2ac5367&response_mode=form_post&state=O0gwGgiEWSw1Cnz&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b2c63340&response_mode=form_post&state=L8AxDzhrAY6MFRz&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/noticias/mais-de-3500-estudantes-no-welcome-ipl": [
+      "https://www.flickr.com/photos/politecnicodelisboa/albums/72177720329532306"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b2edcf84&response_mode=form_post&state=utDrHvWBxb3PA0Z&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/departamento/fisica": [
+      "http://cfisica.isel.pt",
+      "https://www.facebook.com/adfisel",
+      "https://www.isel.pt/departamento/fisica/docentes",
+      "https://www.isel.pt/departamento/fisica/investigadores",
+      "https://www.isel.pt/departamento/fisica/laboratorios",
+      "https://www.isel.pt/docentes/catarina-marques-mendes-almeida-da-rosa-leal",
+      "https://www.isel.pt/docentes/paulo-ivo-cortez-teixeira"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b3175b64&response_mode=form_post&state=F2cyMWOycQSHWhM&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b3308a1e&response_mode=form_post&state=RgxNt5ZnJyyXMax&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/informacoes/202509": [],
+    "https://www.isel.pt/informacoes/202510": [],
+    "https://www.isel.pt/node/39410": [
+      "https://www.isel.pt/media/21139"
+    ],
+    "https://www.isel.pt/node/39448": [
+      "https://www.isel.pt/media/21136"
+    ],
+    "https://www.isel.pt/node/39548": [
+      "https://www.isel.pt/media/21140"
+    ],
+    "https://www.isel.pt/node/39599": [],
+    "https://www.isel.pt/node/39601": [
+      "https://www.isel.pt/media/21137"
+    ],
+    "https://www.isel.pt/node/40233": [
+      "https://www.isel.pt/media/21138"
+    ],
+    "https://www.isel.pt/node/41140": [
+      "https://www.isel.pt/media/21403"
+    ],
+    "https://www.isel.pt/node/41202": [
+      "https://www.isel.pt/media/21809"
+    ],
+    "https://my.isel.pt/adfs/ls/?client-request-id=ee2e8c7b-143a-4ee9-a29e-8bd82c79f844&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKo7tF7ZyXy0m_RvO4bOpU_XGYxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBknGqsYWZicktJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjO_v0tJZGhymWuBd3Kxh5vPKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge4NyZO_9-SWhVdrxbJrJaY2DKdY9b2NXJIL_TLNgzNycsyMjHKTjCwsLNPSPMvzAhzTLPJKwz1TK7xLAxLzvDxtDawMJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjBd7B31b8369rfe2wQYHgARIIMPwQFAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=4bd38028-9867-4977-afef-25f9fd6ee347&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLQaLjsnT6j3HP9e9Wff_Meu89i5CpO1MssTs3RKyjZwch4gZHxBSPjKiY-PzNLgxSDJBMDU3MLQ5NbTPz-jqUlGUYgIr8osyr1ExNnWn5RbnxBfnHJLGb-0Nz0oMr01PRsl8xgC-eyVczSGSUlBcVW-vrpRYkFGXq5mclF-cX5aSV6yfm5m5jZgGRuft4pZpH8gtS8zBSFgqL8tMycVIXU3MTMnAssjD9YGBexAt1rc-QR79rgTvfGpP2zCy9oMJxi1fc2ckku9Ms0D87IyTEzMspNMrKwsExL8yzPC3BMs8grDfdMrfAuDUjM8_K0NbEynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH39rDuzrermt_77FBgOEBEAky_BAUAAA1": [],
+    "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/candidatura": [],
+    "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/empresas-incubadas": [
+      "https://www.cardio-id.com",
+      "https://www.solvit.pt"
+    ],
+    "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/espacos": [],
+    "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/servicos": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=23c89c2f-3f1d-4004-a340-f7b26e7800aa&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLQn3NCWdaexWGxw_dNeRUMq2YxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBkolJoplJUuItJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjN_nqNrfqJPgal7oGmkc07mKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge4tS2294Kb927k77tbibQ66DKdY9b2NXJIL_TLNgzNycsyMjHKTjCwsLNPSPMvzAhzTLPJKwz1TK7xLAxLzvDxtLa0MJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjB9_pdz9y369rfe2wQYHgARIIMPwQFAA2": [],
+    "https://isel.pt/tomatoval": [
+      "https://isel.pt",
+      "https://isel.pt/a-descoberta-do-isel/isel-alive",
+      "https://isel.pt/a-descoberta-do-isel/isel-formula-student",
+      "https://isel.pt/a-descoberta-do-isel/energy-week",
+      "https://isel.pt/a-descoberta-do-isel/open-days",
+      "https://isel.pt/candidatos/porque_o_isel",
+      "https://isel.pt/comunidade/alem-aulas/associacao-de-estudantes",
+      "https://isel.pt/comunidade/alem-aulas/estudantina-academica",
+      "https://isel.pt/comunidade/alem-aulas/rede-de-nucleos-estudantis",
+      "https://isel.pt/comunidade/alem-aulas/tuna-feminina",
+      "https://isel.pt/comunidade/alem-aulas/world-action-isel",
+      "https://isel.pt/comunidade/alumni/rede-alumnisel",
+      "https://isel.pt/comunidade/alumni/rede-alumnisel/fundadores",
+      "https://isel.pt/comunidade/alumni/rede-alumnisel/iniciativas",
+      "https://isel.pt/comunidade/estudantes/bolsa-para-estudantes",
+      "https://isel.pt/comunidade/estudantes/informacoes-academicas",
+      "https://isel.pt/comunidade/estudantes/informacoes-para-novos-alunos",
+      "https://isel.pt/comunidade/estudantes/premios-para-estudantes",
+      "https://isel.pt/cursos/licenciaturas",
+      "https://isel.pt/cursos/mestrados",
+      "https://isel.pt/cursos/outros-cursos",
+      "https://isel.pt/cursos/pos-graduacoes",
+      "https://isel.pt/docente/cecilia-ribeiro-da-cruz-calado",
+      "https://isel.pt/ecossistema-de-inovacao/unidades-de-ied/estruturas-e-unidades",
+      "https://isel.pt/en",
+      "https://isel.pt/ensino/candidatos/modalidades-de-ingresso",
+      "https://isel.pt/ensino/programas-de-mobilidade/bip",
+      "https://isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-incoming/informacoes-gerais",
+      "https://isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-outgoing/informacoes-gerais",
+      "https://isel.pt/ensino/programas-de-mobilidade/erasmus-staff/informacoes-gerais",
+      "https://isel.pt/ensino/programas-de-mobilidade/outros-programas/informacoes-gerais/programas-de-intercambio",
+      "https://isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/modelos-de-incubacao",
+      "https://isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/procedimento-de-aquisicao-id",
+      "https://isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos",
+      "https://isel.pt/investigacao-e-inovacao/ecossistema-e-inovacao/propriedade-intelectual",
+      "https://isel.pt/investigacao-e-inovacao/ecossistema-e-inovacao/publicacoes",
+      "https://isel.pt/investigacao-e-inovacao/oportunidades/isel-guest-editors-special-issues",
+      "https://isel.pt/isel-nos-media",
+      "https://isel.pt/isel/quem-somos/departamentos",
+      "https://isel.pt/isel/quem-somos/instituicao",
+      "https://isel.pt/isel/quem-somos/orgaos",
+      "https://isel.pt/isel/quem-somos/servicos",
+      "https://isel.pt/o-isel-apresenta-se/estudar-no-isel",
+      "https://isel.pt/o-isel-apresenta-se/onde-estamos",
+      "https://isel.pt/o-isel-apresenta-se/os-nossos-espacos",
+      "https://isel.pt/o-isel-apresenta-se/sustentabilidade",
+      "https://isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus",
+      "https://isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/isel-carbono-zero",
+      "https://isel.pt/plano-para-igualdade-de-genero",
+      "https://isel.pt/politica-de-privacidade",
+      "https://isel.pt/projetos-com-alunos",
+      "https://isel.pt/quem-somos/documentos-publicos",
+      "https://isel.pt/quem-somos/qualidade",
+      "https://isel.pt/servicos/biblioteca",
+      "https://isel.pt/servicos/comunidade/estudantes/empregabilidade/alunos/plataforma-de-emprego",
+      "https://isel.pt/servicos/comunidade/estudantes/espaco-de-apoio-ao-aluno",
+      "https://isel.pt/servicos/comunidade/estudantes/integracao",
+      "https://isel.pt/servicos/investigacao-e-inovacao/empreendedorismo/innovation-labs",
+      "https://isel.pt/servicos/investigacao-e-inovacao/oportunidades/bolsas-de-investigacao",
+      "https://isel.pt/servicos/investigacao-e-inovacao/oportunidades/financiamento",
+      "https://isel.pt/servicos/modalidades-de-ingresso/estudante-internacional",
+      "https://isel.pt/servicos/servico-de-comunicacao-e-imagem/identidade-institucional",
+      "https://isel.pt/sugestoes-reclamacoes-ou-denuncias",
+      "https://isel.pt/termos-e-condicoes",
+      "https://isel.pt/user/register"
+    ],
+    "https://my.isel.pt/adfs/ls/?client-request-id=93359ad1-19e7-4b10-8d46-dc31745dfc36&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hK4OMt08nNJAe9etzuGJbF_zGYxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBkom5hallmuktJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjN_QKRPuk-hu7lrmYFLUVDZKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge5d8pw7fT-Hld9k1kyf4lwlhlOs-t5GLsmFfpnmwRk5OWZGRrlJRhYWlmlpnuV5AY5pFnml4Z6pFd6lAYl5Xp62xlaGE9gYP7AxdrAz7OJUhbnJyNTILDc_PyUnFeZ1_USgx_TzM1OS9Q_wMvzga79wf9Xbde3vPTYIMDwAIkGGH4ICAA2": [],
+    "https://www.isel.pt/innovbivalves": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2017/ipropbio": [
+      "http://ipropbio.sdu.dk",
+      "https://cordis.europa.eu/article/id/450457-an-integrated-approach-to-biomass-valorisation"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2017/isel-greenlab": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2017/iselgreen": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2017/reabilita": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/5g-mobix": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/atlas": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/automotive": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/bsafe4sea": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/foam4ener": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/indeed": [
+      "http://www.indeed.ipt.pt/pt/projeto"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/lab4mat": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/labit": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/multifun": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/pefpplateletvalue": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/photoaki": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/renefuel": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/sigaisel": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/sight": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/to-sealert": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2018/uhpgrade": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2019/BlueSafePort": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2019/c-streets": [
+      "http://www.imt-ip.pt/sites/imtt/portugues/noticias/paginas/portugal-assina-acordo-subvencao-06062019.aspx",
+      "https://www.c-roads.eu/pilots/core-members/portugal/partner/project/show/test-project-7.html",
+      "https://www.isel.pt/docente/antonio-joao-nunes-serrador"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2019/cisrobcle": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2019/clean-forest": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/ai4green": [
+      "https://www.celticnext.eu/running-projects",
+      "https://www.isel.pt/docente/pedro-manuel-de-almeida-carvalho-vieira"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/c4g": [
+      "https://www.c4g-pt.eu",
+      "https://www.isel.pt/docente/maria-da-graca-medeiros-silveira",
+      "https://www.isel.pt/docente/mario-augusto-de-andrade-moreira"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/covis": [
+      "http://www.cienciavitae.pt//4c17-7ec8-c889",
+      "https://covis.wavecom.pt",
+      "https://orcid.org/0000-0002-7479-0119",
+      "https://www.ipvc.pt/projeto-covis-um-projeto-inovador-e-disruptivo-com-tecnologia-de-ponta-para-o-setor-da-saude"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/ferrovia-4-0": [
+      "https://orcid.org/0000-0001-7023-7044",
+      "https://orcid.org/0000-0001-8570-8670",
+      "https://www.isel.pt/docente/jose-manuel-de-campos-lages-garcia-simao",
+      "https://www.isel.pt/docente/matilde-pos-de-mina-pato",
+      "https://www.isel.pt/docente/nuno-miguel-soares-datia"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/healcap": [
+      "https://www.fct.pt/apoios/projectos/consulta/vglobal_projecto",
+      "https://www.isel.pt/docente/maria-teresa-oliveira-moura-e-silva"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/plano-a-saude-c19": [
+      "https://orcid.org/0000-0003-1406-4761",
+      "https://www.isel.pt/docente/carlos-alberto-barreiro-mendes"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/premo": [
+      "https://www.fct.pt/noticias/index.phtml.pt",
+      "https://www.isel.pt/docente/cecilia-ribeiro-da-cruz-calado"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/restless": [
+      "https://www.isel.pt/docentes/maria-da-graca-medeiros-silveira"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/revaconstruction": [
+      "https://www.isel.pt/docente/artur-jorge-ferreira",
+      "https://www.isel.pt/docente/carlos-jorge-de-sousa-goncalves",
+      "https://www.isel.pt/docente/paulo-jorge-henriques-mendes",
+      "https://www.isel.pt/docente/tiago-miguel-braga-da-silva-dias"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2020/sshm4dams": [
+      "https://www.fct.pt/apoios/projectos/consulta/vglobal_projecto.phtml.pt"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/Invisible-5g": [
+      "https://www.isel.pt/docentes/carlos-alberto-barreiro-mendes"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/mysafewater": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/pafse": [
+      "https://www.isel.pt/docentes/joao-manuel-ferreira-calado",
+      "https://www.isel.pt/docentes/nelson-pereira-caetano-marques",
+      "https://www.isel.pt/docentes/nuno-alexandre-soares-domingues"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2022/custodian": [
+      "https://www.isel.pt/docentes/joao-carlos-ferreira-de-almeida-casaleiro",
+      "https://www.isel.pt/docentes/matilde-pos-de-mina-pato"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2022/gemma": [
+      "https://www.isel.pt/docentes/mario-augusto-de-andrade-moreira"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2022/nkboost": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2022/unprecedented": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/ICSEfactory": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/aser-meta": [
+      "https://www.isel.pt/docente/antonio-filipe-ruas-trindade-macarico"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/ate": [
+      "https://www.isel.pt/docentes/nuno-antonio-fraga-juliano-cota"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/caseus": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/ptqci": [
+      "https://digital-strategy.ec.europa.eu/en/policies/european-quantum-communication-infrastructure-euroqci",
+      "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/999999999/project/101091730/program/43152860/details",
+      "https://petrus-euroqci.eu"
+    ],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2023/sft-edih": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2024/prodigi": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2025/c4g": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2025/resonance": [
+      "https://www.cgmlst.org/ncs"
+    ],
+    "https://my.isel.pt/adfs/ls/?client-request-id=8a22d773-fb89-4508-8e06-e7b58145e470&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hIovq7U1fmbw7WP7fnWRtcnBbMYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIMUgySw11dLC2OIWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5nfM8i3JCon1zLIw7UooMp1FbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPf-7b-qPGdPuN-Ek-xNC6VdGU6x6nsbuSQX-mWaB2fk5JgZGeUmGVlYWKaleZbnBTimWeSVhnumVniXBiTmeXnaWloZTmBj_MDG2MHOsItTFeYmI1Mjs9z8_JScVJjX9ROBHtPPz0xJ1j_Ay_CDb9XDG8_erWt_77FBgOEBEAky_BAUAAA1": [],
+    "https://www.isel.pt/docentes/alexandra-isabel-martins-paulo-costa": [
+      "https://orcid.org/0000-0002-5518-6506",
+      "https://publons.com/researcher/b-6080-2012",
+      "https://scholar.google.pt/citations",
+      "https://www.cienciavitae.pt/portal/4212-f7bf-d971"
+    ],
+    "https://www.isel.pt/docentes/hiren-canacsinh": [
+      "https://loop.frontiersin.org/people/1017796/overview",
+      "https://orcid.org/0000-0002-7531-5459",
+      "https://www.cienciavitae.pt//1e13-a798-9ea2"
+    ],
+    "https://www.isel.pt/docentes/luis-manuel-dos-santos-redondo": [
+      "https://orcid.org/0000-0002-2381-4627",
+      "https://publons.com/researcher/a-3078-2009",
+      "https://www.cienciavitae.pt/portal/5e13-9730-4651"
+    ],
+    "https://www.isel.pt/docentes/luis-manuel-faria-da-rocha-evangelista": [
+      "https://orcid.org/0000-0001-8406-6864",
+      "https://publons.com/researcher/1308101/luis-evangelista"
+    ],
+    "https://www.isel.pt/docentes/patricia-alexandra-miranda-david-barata": [
+      "http://www.researcherid.com/rid/b-6053-2012",
+      "https://orcid.org/0000-0001-8274-633x",
+      "https://www.cienciavitae.pt/c019-9f30-0f99"
+    ],
+    "https://www.isel.pt/docentes/pedro-lucio-maia-marques-almeida": [
+      "http://cefema.tecnico.ulisboa.pt",
+      "https://orcid.org/0000-0001-7356-8455",
+      "https://publons.com/researcher/b-4356-2009",
+      "https://sites.fct.unl.pt/labnmr-cenimat/home",
+      "https://spcristaisliquidos.org",
+      "https://www.cenimat.fct.unl.pt",
+      "https://www.cienciavitae.pt/portal/0218-71b2-2de0"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b7e39ef6&response_mode=form_post&state=7X6jklxE1a1DOmI&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b7fc0ccc&response_mode=form_post&state=wKaviUzCsorjA0D&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b814d77e&response_mode=form_post&state=xMPVOFboG50teS3&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/isel-nos-media/2021": [
+      "http://pt.cision.com/cp2013/clippingdetails.aspx",
+      "https://greensavers.sapo.pt/chef-vitor-claro-prepara-hoje-novas-receitas-circulares",
+      "https://jornaldeca.pt/primeira-piaggio-ape-eletrica-desenvolvida-no-cartaxo",
+      "https://jornaleconomico.pt/noticias/portugal-lidera-projeto-cientifico-europeu-para-inovar-na-area-da-saude-publica-796770",
+      "https://radioboanova.sapo.pt/emanuel-santos-e-o-convidado-do-espaco-blc3-ciencia-no-interior",
+      "https://www.jn.pt/nacional/ha-472-vagas-para-estagios-de-jovens-nos-centros-ciencia-viva-13911767.html",
+      "https://www.oinstalador.com/artigos/371529-lisboa-debateu-a-tecnologia-knx-e-o-futuro-dos-edificios-em-portugal.html"
+    ],
+    "https://www.isel.pt/isel-nos-media/2022": [
+      "https://almadense.sapo.pt/cultura/festival-de-tunas-anima-campus-universitario-egas-moniz-em-almada",
+      "https://leitor.jornaleconomico.pt/noticia/os-nossos-alunos-nao-tem-apenas-emprego-tem-escolhas",
+      "https://maismagazine.pt/index.php/2022/12/23/isel-na-vanguarda-da-investigacao-e-formacao-na-area-ferroviaria-em-portugal",
+      "https://oapreciador.com/anacom-e-comite-portugues-da-ursi-atribuem-premios-de-investigacao-cientifica",
+      "https://portugal.brainsre.news/governo-reforca-alojamento-estudantil-com-oito-contratos",
+      "https://www.smartplanet.pt/news/inovacao/isel-cria-grupo-de-investigacao-de-novas-tecnologias",
+      "https://www.terranova.pt/noticia/sociedade/ua-assinala-dia-nacional-da-cultura-cientifica-com-debate-sobre-industria"
+    ],
+    "https://www.isel.pt/isel-nos-media/2023": [
+      "https://jornaleconomico.sapo.pt/noticias/isel-investe-75-milhoes-para-construir-residencia-carbono-zero",
+      "https://mediotejo.net/festival-de-filosofia-de-abrantes-regressa-com-desafio-para-pensar-as-problematicas-do-mundo-atual-c-audio",
+      "https://observador.pt/2023/11/08/o-instituto-superior-de-engenharia-de-lisboa-vai-construir-residencia-para-230-alunos-docentes-e-investigadores",
+      "https://observador.pt/especiais/por-mais-energia-feminina-nas-redes-da-engenharia",
+      "https://www.centralcomics.com/o-futuro-na-lgw",
+      "https://www.construir.pt/2023/10/26/manutencao-e-gestao-de-activos-discutidos-no-17o-congresso-nacional",
+      "https://www.jornaldenegocios.pt/comunicados-de-imprensa/detalhe/instituto-superior-de-engenharia-de-lisboa-realiza-feira-de-emprego",
+      "https://www.jornaldenegocios.pt/comunicados-de-imprensa/detalhe/isel-apresenta-projeto-de-residencia-carbono-zero"
+    ],
+    "https://www.isel.pt/isel-nos-media/2024": [
+      "https://eco.sapo.pt/2024/12/23/faltam-politicas-publicas-e-incentivos-a-descarbonizacao-do-setor-dos-transportes",
+      "https://expresso.pt/economia/empresas/2024-11-06-presidente-da-siemens-portugal-vai-acumular-a-lideranca-da-empresa-em-espanha-169d234b",
+      "https://observador.pt/especiais/super-reforco-da-rede-eletrica-aprovado-para-sines-pode-ter-custos-para-os-consumidores-se-projetos-industriais-nao-avancarem",
+      "https://smart-cities.pt/smn/natureza-e-comunidades-sao-arma-contra-clima-extremo-11-12",
+      "https://www.ambienteonline.pt/noticias/epal-e-isel-firmam-protocolo-de-cooperacao",
+      "https://www.ensino.eu/ensino-magazine/politecnico/2024/iplisboa-reforca-mentorias",
+      "https://www.record.pt/modalidades/desportos-radicais/detalhe/red-bull-basement-robot-binbot-e-a-aposta-de-portugal-para-a-final-mundial",
+      "https://www.renovaveismagazine.pt/bet-solar-e-isel-parceria-promover-energias-renovaveis",
+      "https://www.rostos.pt/inicio2.asp"
+    ],
+    "https://www.isel.pt/isel-nos-media/2025": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b8867a29&response_mode=form_post&state=8ZD5QffUHvwGZEc&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/departamento/engenharia-civil": [
+      "https://www.isel.pt/departamento/engenharia-civil/docentes"
+    ],
+    "https://www.isel.pt/departamento/engenharia-electronica-e-telecomunicacoes-e-de-computadores": [
+      "https://www.isel.pt/departamento/engenharia-electronica-e-telecomunicacoes-e-de-computadores/docentes"
+    ],
+    "https://www.isel.pt/departamento/engenharia-electrotecnica-de-energia-e-automacao": [
+      "https://www.isel.pt/departamento/engenharia-electrotecnica-de-energia-e-automacao/docentes",
+      "https://www.isel.pt/docentes/armando-jose-leitao-cordeiro",
+      "https://www.isel.pt/docentes/pedro-miguel-neves-da-fonte"
+    ],
+    "https://www.isel.pt/departamento/engenharia-informatica": [
+      "https://www.isel.pt/departamento/engenharia-informatica/docentes"
+    ],
+    "https://www.isel.pt/departamento/engenharia-mecanica": [
+      "https://www.facebook.com/ceem.isel",
+      "https://www.instagram.com/adem_isel",
+      "https://www.isel.pt/departamento/engenharia-mecanica/docentes",
+      "https://www.isel.pt/departamento/engenharia-mecanica/laboratorios",
+      "https://www.linkedin.com/in/ceem-isel-8b350254"
+    ],
+    "https://www.isel.pt/departamento/engenharia-quimica": [
+      "https://www.isel.pt/departamento/engenharia-quimica/docentes",
+      "https://www.isel.pt/departamento/engenharia-quimica/laboratorios",
+      "https://www.isel.pt/docentes/angela-maria-pereira-martins-nunes",
+      "https://www.isel.pt/docentes/maria-paula-alves-robalo"
+    ],
+    "https://www.isel.pt/departamento/matematica": [
+      "http://dmseminars.isel.pt",
+      "https://dmtalks.isel.pt",
+      "https://www.isel.pt/clube-da-matematica",
+      "https://www.isel.pt/departamento/matematica/docentes",
+      "https://www.isel.pt/departamento/matematica/laboratorios",
+      "https://www.isel.pt/docentes/jose-leonel-linhares-da-rocha"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b91f3b20&response_mode=form_post&state=ARUWCl9rALEc67U&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/isel/quem-somos/instituicao/historia": [],
+    "https://www.isel.pt/isel/quem-somos/instituicao/missao": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b94e294c&response_mode=form_post&state=fxtVFjyzLIx24WL&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/quem-somos/comissao-de-etica": [],
+    "https://www.isel.pt/quem-somos/conselho-administrativo": [],
+    "https://www.isel.pt/quem-somos/conselho-consultivo-estrategico": [],
+    "https://www.isel.pt/quem-somos/conselho-de-gestao-da-qualidade": [],
+    "https://www.isel.pt/quem-somos/conselho-pedagogico": [
+      "https://www.isel.pt/docentes/antonio-joao-pina-da-costa-feliciano-abreu"
+    ],
+    "https://www.isel.pt/quem-somos/conselho-permanente": [],
+    "https://www.isel.pt/quem-somos/conselho-representantes": [
+      "https://www.isel.pt/docentes/bruno-miguel-almeida-martins-pereira",
+      "https://www.isel.pt/docentes/joao-filipe-de-almeida-milho",
+      "https://www.isel.pt/docentes/maria-graca-vieira-brito-almeida"
+    ],
+    "https://www.isel.pt/quem-somos/conselho-tecnico-cientifico": [
+      "https://www.isel.pt/docentes/celia-maria-da-silva-fernandes",
+      "https://www.isel.pt/docentes/fernando-manuel-gomes-de-sousa",
+      "https://www.isel.pt/docentes/joao-alfredo-ferreira-dos-santos",
+      "https://www.isel.pt/docentes/luciano-alberto-do-carmo-jacinto",
+      "https://www.isel.pt/docentes/sonia-alexandra-de-almeida-martins",
+      "https://www.isel.pt/docentes/vasco-emanuel-anjos-soares",
+      "https://www.isel.pt/en/docente/jose-firmino-aguilar-madeira"
+    ],
+    "https://www.isel.pt/quem-somos/organograma": [],
+    "https://www.isel.pt/quem-somos/presidente": [
+      "https://www.isel.pt/docentes/carla-solange-pires-correia-viveiros",
+      "https://www.isel.pt/docentes/ricardo-jorge-gonzalez-felipe"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b9e7e228&response_mode=form_post&state=CPn0uHMDJrQhvXr&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/servicos/servico-de-avaliacao-qualidade-e-planeamento": [
+      "https://iselpt.sharepoint.com/sites/areacoordenadorescurso"
+    ],
+    "https://www.isel.pt/servicos/servico-de-biblioteca-e-documentacao": [
+      "https://form.ipl.pt/form/formulario-de-marcacao-previa-sb"
+    ],
+    "https://www.isel.pt/servicos/servico-de-comunicacao-e-imagem": [],
+    "https://www.isel.pt/servicos/servico-de-gestao-de-infraestruturas-e-equipamentos": [],
+    "https://www.isel.pt/servicos/servico-de-gestao-de-projetos": [],
+    "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos": [],
+    "https://www.isel.pt/servicos/servico-de-informatica-e-redes-de-comunicacao": [],
+    "https://www.isel.pt/servicos/servico-de-relacoes-externas-e-internacionalizacao": [],
+    "https://www.isel.pt/servicos/servico-de-secretariado-dos-orgaos-de-governo-do-isel": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0ba7eef60&response_mode=form_post&state=7KPaa15fzlG9f7Q&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/noticias/2021": [
+      "https://www.isel.pt/noticias/equipa-de-futsal-da-aeisel-recebe-premio-fair-play",
+      "https://www.isel.pt/noticias/inauguracao-do-piso-0-do-edificio-f-apos-conclusao-das-obras-de-reabilitacao",
+      "https://www.isel.pt/noticias/isel-assina-alianca-para-igualdade-nas-tecnologias-de-informacao-e-comunicacao",
+      "https://www.isel.pt/noticias/isel-e-secretaria-geral-da-economia-e-transicao-digital-celebram-protocolo",
+      "https://www.isel.pt/noticias/isel-presente-em-evento-da-ccilc-com-carlos-moedas",
+      "https://www.isel.pt/noticias/isel-recebe-galardao-eco-escolas"
+    ],
+    "https://www.isel.pt/noticias/2022": [
+      "https://www.isel.pt/noticias/aeisel-promove-atividades-desportivas",
+      "https://www.isel.pt/noticias/equipa-do-isel-conquista-1o-lugar-do-ace-challenge-2022",
+      "https://www.isel.pt/noticias/estudantina-academica-do-isel-premiada-no-xv-noites-de-baco",
+      "https://www.isel.pt/noticias/isel-assina-termo-de-aceitacao-de-financiamento",
+      "https://www.isel.pt/noticias/isel-e-ipl-iniciam-formacao-avancada-em-ciberseguranca",
+      "https://www.isel.pt/noticias/isel-marcou-presenca-na-apresentacao-publica-do-projeto-custodian"
+    ],
+    "https://www.isel.pt/noticias/2023": [
+      "https://www.isel.pt/noticias/isel-aposta-em-formacao-pedagogica-para-docentes",
+      "https://www.isel.pt/noticias/isel-associa-se-lisboa-e-nova",
+      "https://www.isel.pt/noticias/isel-conquista-3o-lugar-no-digital-health-summit-2023",
+      "https://www.isel.pt/noticias/isel-e-ordem-dos-engenheiros-assinam-protocolo-de-cooperacao",
+      "https://www.isel.pt/noticias/isel-eco-campus-dinamiza-acao-de-plantacao-de-arvores",
+      "https://www.isel.pt/noticias/professor-jose-coelho-toma-posse-como-pro-presidente-do-ipl"
+    ],
+    "https://www.isel.pt/noticias/2024": [
+      "https://www.isel.pt/noticias/isel-destaca-projetos-inovadores-na-centeris-2024",
+      "https://www.isel.pt/noticias/isel-participa-no-encontro-regional-do-colegio-de-engenharia-eletrotecnica",
+      "https://www.isel.pt/noticias/isel-volta-receber-bandeira-ecocampus",
+      "https://www.isel.pt/noticias/musa-e-renova-recebem-estudantes-da-licenciatura-em-engenharia-quimica",
+      "https://www.isel.pt/noticias/projeto-de-estudantes-do-isel-representou-portugal-na-final-mundial-do-red-bull-basement",
+      "https://www.isel.pt/noticias/projeto-ser-pro-reune-parceiros-e-alunos-no-ambito-do-ensino-profissional"
+    ],
+    "https://www.isel.pt/noticias/202501": [
+      "https://www.isel.pt/noticias/abertas-candidaturas-para-nova-formacao-online-em-competencias-digitais",
+      "https://www.isel.pt/noticias/estudantes-do-isel-apresentam-projetos-inovadores-aos-ctt",
+      "https://www.isel.pt/noticias/isel-e-idmec-assinam-protocolo-para-reforco-da-investigacao-em-engenharia-mecanica",
+      "https://www.isel.pt/noticias/isel-recebe-comitiva-da-uta-para-cooperacao-academica",
+      "https://www.isel.pt/noticias/isel-recebe-representantes-da-frankfurt-university-applied-sciences-para-reforcar",
+      "https://www.isel.pt/noticias/techid-celebra-protocolo-com-tecnovia"
+    ],
+    "https://www.isel.pt/noticias/202502": [
+      "https://www.isel.pt/noticias/antonio-belo-e-o-novo-presidente-do-politecnico-de-lisboa",
+      "https://www.isel.pt/noticias/certificacao-solidworks-cswp-no-isel-um-marco-de-sucesso",
+      "https://www.isel.pt/noticias/estudantes-gregos-visitam-o-isel-no-ambito-do-programa-erasmus",
+      "https://www.isel.pt/noticias/inquerito-pegada-ecologica-comunidade-campus-do-isel",
+      "https://www.isel.pt/noticias/isel-celebrou-sucesso-dos-open-days-2024-e-anuncia-datas-para-2025",
+      "https://www.isel.pt/noticias/o-professor-joao-gomes-foi-eleito-coordenador-do-grupo-de-energia-do-cerena"
+    ],
+    "https://www.isel.pt/noticias/202503": [
+      "https://www.isel.pt/noticias/de-que-materia-e-feita-engenharia",
+      "https://www.isel.pt/noticias/isel-celebra-50-anos-com-nova-identidade-visual-e-olhos-postos-no-futuro",
+      "https://www.isel.pt/noticias/isel-integra-consorcio-selecionado-pela-europes-rail-joint-undertaking",
+      "https://www.isel.pt/noticias/isel-integra-projeto-ressonance-para-monitorizacao-genomica-de-agentes-bacterianos",
+      "https://www.isel.pt/noticias/isel-marca-presenca-na-semana-internacional-da-hogent-com-foco-em-parcerias-e-cooperacao",
+      "https://www.isel.pt/noticias/isel-promove-acao-ecologica-nas-mini-florestas-urbanas-do-campus"
+    ],
+    "https://www.isel.pt/noticias/202504": [
+      "https://www.isel.pt/noticias/estudantes-belgas-de-imobiliario-e-construcao-sustentavel-visitam-o-isel-no-ambito-do",
+      "https://www.isel.pt/noticias/isel-marca-presenca-na-tektonica-2025",
+      "https://www.isel.pt/noticias/isel-na-futuralia-2025",
+      "https://www.isel.pt/noticias/isel-participou-no-forum-empresarial-de-alenquer-2025",
+      "https://www.isel.pt/noticias/laboratorio-de-maquinas-eletricas-recebe-alunos-do-cenfic",
+      "https://www.isel.pt/noticias/primeiro-open-day-de-2025-reune-mais-de-uma-centena-de-participantes"
+    ],
+    "https://www.isel.pt/noticias/202505": [
+      "https://www.isel.pt/noticias/acoes-de-voluntariado-bike-ride-e-beach-clean",
+      "https://www.isel.pt/noticias/campanha-todxs-em-destaque-no-isel-uma-viagem-8-itinerarios-de-cidadania-global",
+      "https://www.isel.pt/noticias/exploracao-de-infraestruturas-de-comunicacao-avancadas-visita-tecnica-alticemeo",
+      "https://www.isel.pt/noticias/isel-participa-no-projeto-traci",
+      "https://www.isel.pt/noticias/pedro-teixeira-estudante-do-isel-recebe-o-3o-premio-no-pije-2024",
+      "https://www.isel.pt/noticias/susana-fernandes-alumna-do-isel-distinguida-com-o-2o-premio-no-pije-2024"
+    ],
+    "https://www.isel.pt/noticias/202506": [
+      "https://www.isel.pt/noticias/alexandra-rodrigues-recebe-premio-internacional-teacher-award-2024-2025-da-fee",
+      "https://www.isel.pt/noticias/alunos-dos-isel-participaram-na-conferencia-internacional-transportation-systems",
+      "https://www.isel.pt/noticias/cantina-do-isel-colabora-com-refood-na-recolha-de-excedentes-alimentares",
+      "https://www.isel.pt/noticias/isel-e-cap-celebram-protocolo-para-impulsionar-modernizacao-tecnologica-da-agricultura",
+      "https://www.isel.pt/noticias/isel-instala-estacao-sismica-de-tres-componentes-e-integra-rede-global-raspberry-shake",
+      "https://www.isel.pt/noticias/isel-integra-base-tecnologica-e-industrial-de-defesa"
+    ],
+    "https://www.isel.pt/noticias/202507": [
+      "https://www.isel.pt/noticias/aluna-da-licenciatura-em-engenharia-biomedica-participa-em-investigacao-premiada-pela",
+      "https://www.isel.pt/noticias/aluno-do-mestrado-em-engenharia-eletrotecnica-publica-artigo-na-ieee-xplore",
+      "https://www.isel.pt/noticias/estudantes-de-engenharia-biomedica-do-isel-distinguidos-com-premios-de-melhor-poster",
+      "https://www.isel.pt/noticias/isel-cria-rede-de-nucleos-estudantis",
+      "https://www.isel.pt/noticias/isel-em-destaque-no-yef-ece-2025",
+      "https://www.isel.pt/noticias/isel-formula-student-revela-ifs-05"
+    ],
+    "https://www.isel.pt/noticias/202508": [
+      "https://www.isel.pt/noticias/estudantes-do-isel-entre-os-vencedores-do-ace-challenge",
+      "https://www.isel.pt/noticias/novos-estudantes-contam-com-apoio-psicologico-mentoria-e-orientacao-de-carreira-no-isel",
+      "https://www.isel.pt/noticias/tu-es-solucao-bem-vindoa-ao-isel"
+    ],
+    "https://www.isel.pt/noticias/202509": [
+      "https://www.isel.pt/noticias/fct-reconhece-excelencia-da-investigacao-desenvolvida-pelos-docentes-e-investigadores-do",
+      "https://www.isel.pt/noticias/isel-da-boas-vindas-aos-estudantes-erasmus-do-ano-letivo-202526",
+      "https://www.isel.pt/noticias/isel-marca-presenca-no-exercicio-internacional-de-robotica-maritima-naval-rex25-repmus",
+      "https://www.isel.pt/noticias/mentoriipl-inicia-formacao-de-mentores-para-edicao-20252026",
+      "https://www.isel.pt/noticias/professor-jose-sobral-participou-no-programa-360o-da-rtp3",
+      "https://www.isel.pt/noticias/welcome-202526-um-novo-capitulo-comecou-no-isel"
+    ],
+    "https://www.isel.pt/noticias/202510": [],
+    "https://www.isel.pt/noticias/202511": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bb6d9a20&response_mode=form_post&state=LGt6drc8EYcHGf0&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bb86b373&response_mode=form_post&state=2khYGYeAuEBEUot&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bb9f235a&response_mode=form_post&state=xU7H5VhVFdTFay0&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docente/maria-manuela-almeida-carvalho-vieira": [
+      "https://orcid.org/0000-0002-1150-9895"
+    ],
+    "https://www.isel.pt/docentes/jose-maria-cantista-de-castro-tavares": [
+      "http://cfisica.isel.pt/josetavares.html",
+      "http://cftc.fc.ul.pt",
+      "https://orcid.org/0000-0002-1509-9707",
+      "https://publons.com/researcher/a-2891-2009",
+      "https://www.cienciavitae.pt/portal/371d-51c6-975c"
+    ],
+    "https://www.isel.pt/noticias/isel-comemora-abertura-do-ano-letivo-202526-com-uma-sessao-solene": [
+      "https://flic.kr/s/ahbqjcywvw",
+      "https://www.fundacaosantanderportugal.pt"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bbd918b9&response_mode=form_post&state=2UtEGx9DciGHM6A&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docentes/maria-alexandra-cardoso-da-costa": [
+      "https://orcid.org/0000-0002-3397-259x"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bbfe8e58&response_mode=form_post&state=d2Ra5RSCEEZURp6&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docentes/catia-raquel-jesus-vaz": [
+      "https://cvaz.github.io",
+      "https://orcid.org/0000-0001-6074-3074"
+    ],
+    "https://www.isel.pt/docentes/pedro-alexandre-de-seia-e-cunha-ribeiro-pereira": [
+      "https://orcid.org/0000-0001-8679-7388"
+    ],
+    "https://www.isel.pt/noticias/isel-participa-em-nova-formacao-online-em-competencias-digitais": [
+      "https://ciencias.ulisboa.pt/pt",
+      "https://tecnico.ulisboa.pt/pt",
+      "https://www.ie.ulisboa.pt",
+      "https://www.ulisboa.pt"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bc3b09d7&response_mode=form_post&state=LD8Z9ndoeZLnXhC&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docentes/jose-manuel-peixoto-nascimento": [
+      "https://orcid.org/0000-0002-5291-6147",
+      "https://publons.com/researcher/2414606/jose-m-p-nascimento",
+      "https://www.cienciavitae.pt//6912-6f61-1964"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bc617b8f&response_mode=form_post&state=3jhM9aCES3IKTAn&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docentes/nuno-paulo-ferreira-henriques": [
+      "https://orcid.org/0000-0003-4994-7636"
+    ],
+    "https://www.isel.pt/noticias/docentes-do-isel-participam-em-workshop-de-acreditacao-de-especialistas-com-o-selo-eur-ace": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bc96b3ad&response_mode=form_post&state=078d506WEgisv2r&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docentes/paulo-alexandre-carapinha-marques": [
+      "https://www.it.pt/members/index/436"
+    ],
+    "https://www.isel.pt/eventos/mesa-redonda-instituicoes-de-ensino-superior-e-saude-mental-para-onde-vamos": [
+      "https://ciencias.ulisboa.pt/pt/gapsi",
+      "https://forms.office.com/e/9icrpsusej",
+      "https://resapes.pt",
+      "https://www.psicologia.ulisboa.pt/ensino/apoio-ao-aluno/gape"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bccd7dd9&response_mode=form_post&state=N66rPA70YGfA9JF&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bce5ad51&response_mode=form_post&state=eoQMmEacLfB1ecQ&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bd7b7f47&response_mode=form_post&state=UpPujfsBxzQZYbm&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bd85cf4d&response_mode=form_post&state=7I4hB5fzinHEIUV&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente": [],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/digital": [
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/digital/sigaisel"
+    ],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/energia": [
+      "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/energia/iselgreen"
+    ],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/social": [
+      "https://transformaportugal.pt",
+      "https://www.raizes.pt"
+    ],
+    "https://www.isel.pt/servicos/o-isel-apresenta-se/sustentabilidade/digital/SigaISEL": [
+      "https://www.isel.pt/servicos/o-isel-apresenta-se/sustentabilidade/digital"
+    ],
+    "https://www.isel.pt/servicos/o-isel-apresenta-se/sustentabilidade/energia/iselgreen": [
+      "https://poseur.portugal2020.pt/pt",
+      "https://www.isel.pt/servicos/o-isel-apresenta-se/sustentabilidade/energia"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bde84f8d&response_mode=form_post&state=sH4efy51DQQDLfI&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/eventos": [
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720299262106",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720299267377",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720299271623",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720299288732",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720299303258",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720299380909",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720299381294",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720303944806",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720307040730",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720309350964",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720312904961",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720323287565",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720323307664",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720323481222",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720324835323",
+      "https://www.flickr.com/photos/isel-lisboa/albums/72177720326744873"
+    ],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/premio-sustentabilidade": [
+      "https://app.santanderopenacademy.com/pt/program/bolsas-santander-sustentabilidade-empreendedorismo-e-inovacao"
+    ],
+    "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/temas": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be1381ef&response_mode=form_post&state=34JiHsNc6OJ0OZU&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be1d85cd&response_mode=form_post&state=1Sj4N8KflmHpEL4&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be2814e4&response_mode=form_post&state=iGTGy1CZiFmc6wz&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be323356&response_mode=form_post&state=1jouFHfA1GxqOb6&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docentes/carlos-cesar-correia-rodrigues": [
+      "https://orcid.org/0000-0002-9184-5054"
+    ],
+    "https://www.isel.pt/docentes/maria-amelia-ramos-loja": [
+      "https://orcid.org/0000-0002-4452-5840",
+      "https://publons.com/researcher/1357807/amelia-loja",
+      "https://www.cienciavitae.pt//a016-59d1-2d00"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be534e70&response_mode=form_post&state=F7MRVLzZHNPvf3x&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/clube-bioinformatics": [],
+    "https://www.isel.pt/clube-isel-space": [
+      "https://linktr.ee/aegis_sat",
+      "https://ptspace.pt/pt/home"
+    ],
+    "https://www.isel.pt/clube-smart-everywhere": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be8026ba&response_mode=form_post&state=b2iPEtDcs2W0f89&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be8a766f&response_mode=form_post&state=5qHhDlsfT9QUWMD&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/quem-somos/qualidade/avaliacao": [
+      "https://www.isel.pt/quem-somos/qualidade/avaliacao-alunos",
+      "https://www.isel.pt/quem-somos/qualidade/avaliacao-externa",
+      "https://www.isel.pt/quem-somos/qualidade/avaliacao-interna"
+    ],
+    "https://www.isel.pt/quem-somos/qualidade/politica-da-qualidade": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0beabb411&response_mode=form_post&state=EiHn8QObWY8wI9q&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/biblioteca/novidades": [
+      "https://catalogo.isel.pt/cgi-bin/koha/opac-detail.pl",
+      "https://www.isel.pt/servicos/biblioteca/novidades-arquivo"
+    ],
+    "https://www.isel.pt/servicos/biblioteca/servicos": [],
+    "https://www.isel.pt/servicos/biblioteca/trabalhos-academicos": [
+      "http://endnote.com",
+      "http://endnote.com/training",
+      "http://farol.web.ua.pt/subjects/guide.php",
+      "http://www.sdum.uminho.pt/moduleleft.aspx",
+      "https://tutorials.scopus.com/en/basicsearch/index.html",
+      "https://www.b-on.pt/boas-praticas/como-fazer-referencias-bibliograficas",
+      "https://www.b-on.pt/e-learning",
+      "https://www.cienciavitae.pt/tutoriais",
+      "https://www.mendeley.com",
+      "https://www.mendeley.com/guides",
+      "https://www.rcaap.pt/help.jsp",
+      "https://www.youtube.com/channel/ucdtdz4rut9jl81orhpeiixa",
+      "https://www.youtube.com/user/wostraining",
+      "https://www.zotero.org",
+      "https://www.zotero.org/support"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bed8a813&response_mode=form_post&state=J5rkBZU3AQ7Jqpd&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/eventos/feira-de-emprego-2025": [
+      "https://forms.office.com/e/19dhldckwi"
+    ],
+    "https://www.isel.pt/servicos/comunidade/estudantes/empregabilidade/concursos-publicos": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0befde075&response_mode=form_post&state=Ez5Jl1sYI7FGWfR&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/servicos/comunidade/estudantes/acompanhamento": [
+      "https://forms.office.com/e/p9bhehvivd"
+    ],
+    "https://www.isel.pt/servicos/comunidade/estudantes/medidas-de-suporte": [
+      "https://www.dges.gov.pt/wwwnee"
+    ],
+    "https://www.isel.pt/servicos/comunidade/estudantes/recursos": [
+      "https://open.spotify.com/show/3rehfcpqwwj7ilqn9w4eak",
+      "https://www.isel.pt/servicos/comunidade/estudantes/espaco-de-apoio-ao-aluno/documentos-de-apoio"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf2da055&response_mode=form_post&state=gCFJWcWDH4slLhM&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf382c6b&response_mode=form_post&state=PAv2ic0Lu3ojHzO&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf432422&response_mode=form_post&state=sFzRrCVyFbjv5NY&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf4cbc1a&response_mode=form_post&state=JQFK0MubEEvHwOP&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf574af8&response_mode=form_post&state=D0trnTF6A7rInNr&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/servicos/modalidades-de-ingresso/estudante-internacional/provas-acesso": [
+      "https://videoconf-colibri.zoom.us/j/91428238973",
+      "https://videoconf-colibri.zoom.us/j/94070843870",
+      "https://videoconf-colibri.zoom.us/j/94087144220",
+      "https://videoconf-colibri.zoom.us/j/95695856877",
+      "https://videoconf-colibri.zoom.us/j/96172058863",
+      "https://www.dge.mec.pt/fisica-e-quimica-0"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf6ddd87&response_mode=form_post&state=jrG7Dbh7JQn4BWM&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/01_ISEL-Logotipo-RGB_Horizontal-Acro%E2%95%A0%C3%BCnimo-Preto.eps": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Acronimo-900.eps": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Acronimo-Branco.eps": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Acronimo-Preto.eps": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Compacto-900.eps": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Compacto-Branco.eps": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Compacto-Preto.eps": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Principal-900.eps": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Principal-Branco.eps": [],
+    "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Principal-Preto.eps": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0c014496d&response_mode=form_post&state=5p46NkkgDOGB2xm&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/concursos-de-pessoal-docente": [
+      "https://isel.pt/concurso/professor-coordenador/dm-pc-estatistica-processos-estocasticos-analise-estocastica",
+      "https://www.isel.pt/concurso/professor-adjunto/dm-calculo-variacoes-eq-diferenciais-sistemas-dinamicos",
+      "https://www.isel.pt/concurso/professor-adjunto/algebra-geometria-aplicacoes",
+      "https://www.isel.pt/concurso/professor-adjunto/bioengenharia-aplicada-biomedica",
+      "https://www.isel.pt/concurso/professor-adjunto/climatizacao-e-refrigeracao",
+      "https://www.isel.pt/concurso/professor-adjunto/computadores",
+      "https://www.isel.pt/concurso/professor-adjunto/dec-pa-hidraulica",
+      "https://www.isel.pt/concurso/professor-adjunto/deea_automacao",
+      "https://www.isel.pt/concurso/professor-adjunto/deetc-3pa-eng-informatica",
+      "https://www.isel.pt/concurso/professor-adjunto/deetc-eng-informatica",
+      "https://www.isel.pt/concurso/professor-adjunto/deetc-eng-informatica-2024",
+      "https://www.isel.pt/concurso/professor-adjunto/deetc-pa-eletronica",
+      "https://www.isel.pt/concurso/professor-adjunto/deetc-redes-computadores-2024",
+      "https://www.isel.pt/concurso/professor-adjunto/dem-economia-e-gestao",
+      "https://www.isel.pt/concurso/professor-adjunto/dem-projeto-mecainico-manutencao",
+      "https://www.isel.pt/concurso/professor-adjunto/dem-ttse-2024",
+      "https://www.isel.pt/concurso/professor-adjunto/deq-eng-biomedica",
+      "https://www.isel.pt/concurso/professor-adjunto/deq-eng-quim-2024",
+      "https://www.isel.pt/concurso/professor-adjunto/df-fisica-materia-condensada-materiais-2024",
+      "https://www.isel.pt/concurso/professor-adjunto/df-geofisica",
+      "https://www.isel.pt/concurso/professor-adjunto/df-geofisica-sismologia",
+      "https://www.isel.pt/concurso/professor-adjunto/dm-estatistica-analise-estocastica",
+      "https://www.isel.pt/concurso/professor-adjunto/eletronica",
+      "https://www.isel.pt/concurso/professor-adjunto/engenharia-informatica",
+      "https://www.isel.pt/concurso/professor-adjunto/engenharia-informatica-2022",
+      "https://www.isel.pt/concurso/professor-adjunto/estatistica-investigacao-operacional",
+      "https://www.isel.pt/concurso/professor-adjunto/gestao-operacoes",
+      "https://www.isel.pt/concurso/professor-adjunto/informatica",
+      "https://www.isel.pt/concurso/professor-adjunto/maquinas-termicas",
+      "https://www.isel.pt/concurso/professor-adjunto/mecanica-c",
+      "https://www.isel.pt/concurso/professor-adjunto/multimedia",
+      "https://www.isel.pt/concurso/professor-adjunto/multimedia-informatica",
+      "https://www.isel.pt/concurso/professor-adjunto/organica",
+      "https://www.isel.pt/concurso/professor-adjunto/projeto-mecanico-2019",
+      "https://www.isel.pt/concurso/professor-adjunto/projeto-mecanico-2020",
+      "https://www.isel.pt/concurso/professor-adjunto/projeto-mecanico-manutencao",
+      "https://www.isel.pt/concurso/professor-adjunto/projeto-mecanico-tecnologia-mecanica",
+      "https://www.isel.pt/concurso/professor-adjunto/redes-computadores",
+      "https://www.isel.pt/concurso/professor-adjunto/redes-computadores-2023",
+      "https://www.isel.pt/concurso/professor-adjunto/refrigeracao-e-climatizacao",
+      "https://www.isel.pt/concurso/professor-adjunto/tecnologia-mecanica-a",
+      "https://www.isel.pt/concurso/professor-adjunto/tecnologia-mecanica-b",
+      "https://www.isel.pt/concurso/professor-adjunto/tecnologia-mecanica-materiais",
+      "https://www.isel.pt/concurso/professor-coordenador-principal/eng-mecanica",
+      "https://www.isel.pt/concurso/professor-coordenador-principal/fisica",
+      "https://www.isel.pt/concurso/professor-coordenador/analise-matemática-e-analise-numerica",
+      "https://www.isel.pt/concurso/professor-coordenador/controlo-de-sistemas-e-sistemas-eletromecanicos",
+      "https://www.isel.pt/concurso/professor-coordenador/dec-estruturas",
+      "https://www.isel.pt/concurso/professor-coordenador/dec-estruturas-2023",
+      "https://www.isel.pt/concurso/professor-coordenador/dec-tecnologia-construcao",
+      "https://www.isel.pt/concurso/professor-coordenador/dec-transportes",
+      "https://www.isel.pt/concurso/professor-coordenador/deea-instalacoes-eletricas",
+      "https://www.isel.pt/concurso/professor-coordenador/deetc-computadores",
+      "https://www.isel.pt/concurso/professor-coordenador/deetc-computadores-2023",
+      "https://www.isel.pt/concurso/professor-coordenador/deetc-eletronica",
+      "https://www.isel.pt/concurso/professor-coordenador/deetc-eletronica-2025",
+      "https://www.isel.pt/concurso/professor-coordenador/deetc-eng-informatica",
+      "https://www.isel.pt/concurso/professor-coordenador/deetc-engenharia-informatica-2023",
+      "https://www.isel.pt/concurso/professor-coordenador/deetc-engenharia-multimedia-2023",
+      "https://www.isel.pt/concurso/professor-coordenador/deetc-redes-computadores-2025",
+      "https://www.isel.pt/concurso/professor-coordenador/deetc-telecomunicacoes",
+      "https://www.isel.pt/concurso/professor-coordenador/dem-pc-mecanotronica-biomecanica",
+      "https://www.isel.pt/concurso/professor-coordenador/dem-pc-tec-mecanica-materiais",
+      "https://www.isel.pt/concurso/professor-coordenador/dem-tecnologia-mecanica-materiais",
+      "https://www.isel.pt/concurso/professor-coordenador/dem-termodinamica-termofluidos-sistemas-energeticos",
+      "https://www.isel.pt/concurso/professor-coordenador/deq-eng-biologica",
+      "https://www.isel.pt/concurso/professor-coordenador/deq-eng-quimica-2023",
+      "https://www.isel.pt/concurso/professor-coordenador/deq-eng-quimica-2024",
+      "https://www.isel.pt/concurso/professor-coordenador/df-fisica-nuclear-particulas",
+      "https://www.isel.pt/concurso/professor-coordenador/dm-algebra-combinatoria",
+      "https://www.isel.pt/concurso/professor-coordenador/dm-algebra-combinatoria-2023",
+      "https://www.isel.pt/concurso/professor-coordenador/dm-analise-matematica",
+      "https://www.isel.pt/concurso/professor-coordenador/dm-estatistica-processos-estocasticos-analise-estocastica",
+      "https://www.isel.pt/concurso/professor-coordenador/dm-estatistica-processos-estocasticos-analise-estocastica-2023",
+      "https://www.isel.pt/concurso/professor-coordenador/eletronica",
+      "https://www.isel.pt/concurso/professor-coordenador/engenharia-civil-hidraulica-e-estruturas",
+      "https://www.isel.pt/concurso/professor-coordenador/engenharia-eletrotecnica-automacao",
+      "https://www.isel.pt/concurso/professor-coordenador/engenharia-eletrotecnica-energia",
+      "https://www.isel.pt/concurso/professor-coordenador/engenharia-termica-e-manutencao",
+      "https://www.isel.pt/concurso/professor-coordenador/equacoes-diferenciais-e-aplicacoes",
+      "https://www.isel.pt/concurso/professor-coordenador/fisica-aplicada",
+      "https://www.isel.pt/concurso/professor-coordenador/fisica-da-materia-condensada-e-ciencia-dos-materiais",
+      "https://www.isel.pt/concurso/professor-coordenador/geofisica",
+      "https://www.isel.pt/concurso/professor-coordenador/gestao-de-operacoes",
+      "https://www.isel.pt/concurso/professor-coordenador/informatica",
+      "https://www.isel.pt/concurso/professor-coordenador/projeto-mecanico-e-materiais",
+      "https://www.isel.pt/concurso/professor-coordenador/tecnologia-quimica"
+    ],
+    "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/concursos-de-pessoal-nao-docente": [
+      "https://www.isel.pt/concurso/nao-docentes/2-assistente-tecnico-sgaae",
+      "https://www.isel.pt/concurso/nao-docentes/2at-sgaae-2024",
+      "https://www.isel.pt/concurso/nao-docentes/assistente-operacional-servicos-tecnicos",
+      "https://www.isel.pt/concurso/nao-docentes/assistente-tecnico-servicos-academicos",
+      "https://www.isel.pt/concurso/nao-docentes/assistente-tecnico-servicos-tecnicos",
+      "https://www.isel.pt/concurso/nao-docentes/assistente-tecnico-sgaae",
+      "https://www.isel.pt/concurso/nao-docentes/assistente-tecnico-sgf-noc",
+      "https://www.isel.pt/concurso/nao-docentes/assistente-tecnico-tesouraria",
+      "https://www.isel.pt/concurso/nao-docentes/at-deq",
+      "https://www.isel.pt/concurso/nao-docentes/at-deq-2023",
+      "https://www.isel.pt/concurso/nao-docentes/at-sbd",
+      "https://www.isel.pt/concurso/nao-docentes/at-sbd-2024",
+      "https://www.isel.pt/concurso/nao-docentes/at-sec-departamento-2024",
+      "https://www.isel.pt/concurso/nao-docentes/at-sgaae-2023",
+      "https://www.isel.pt/concurso/nao-docentes/at-sgf-2025",
+      "https://www.isel.pt/concurso/nao-docentes/at-sgrh",
+      "https://www.isel.pt/concurso/nao-docentes/dir-3-hss-sgie-2024",
+      "https://www.isel.pt/concurso/nao-docentes/dir-int-2-sgie-2023",
+      "https://www.isel.pt/concurso/nao-docentes/dir-int-2-sgie-2025",
+      "https://www.isel.pt/concurso/nao-docentes/dir-int-3-sgp-2025",
+      "https://www.isel.pt/concurso/nao-docentes/dir3-saqp",
+      "https://www.isel.pt/concurso/nao-docentes/dir3-sci",
+      "https://www.isel.pt/concurso/nao-docentes/dirigente-sgf-nap",
+      "https://www.isel.pt/concurso/nao-docentes/dirigente2-sgaae",
+      "https://www.isel.pt/concurso/nao-docentes/dirigente2-sgrh",
+      "https://www.isel.pt/concurso/nao-docentes/dirigente2-sirc",
+      "https://www.isel.pt/concurso/nao-docentes/dirigente3-sbd",
+      "https://www.isel.pt/concurso/nao-docentes/dirigente3-sgf-nt",
+      "https://www.isel.pt/concurso/nao-docentes/dirigente3-sgrh-nvrs",
+      "https://www.isel.pt/concurso/nao-docentes/dirigente3-srei",
+      "https://www.isel.pt/concurso/nao-docentes/esp-inf-mob",
+      "https://www.isel.pt/concurso/nao-docentes/especialista-inf",
+      "https://www.isel.pt/concurso/nao-docentes/especialista-informatica",
+      "https://www.isel.pt/concurso/nao-docentes/especialista-informatica-g1n2",
+      "https://www.isel.pt/concurso/nao-docentes/mob-2ts-sgg-noc-2025",
+      "https://www.isel.pt/concurso/nao-docentes/pc-ts-sbd-2025",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-inf",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-saqp",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-saqp-1",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-saqp-2",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-deq",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-deq-2",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-rh",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-sgaae",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-srh",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-srh-noc",
+      "https://www.isel.pt/concurso/nao-docentes/tecnico-superior-srh-nvrs",
+      "https://www.isel.pt/concurso/nao-docentes/ts-nap-mob24",
+      "https://www.isel.pt/concurso/nao-docentes/ts-sbd-2024",
+      "https://www.isel.pt/concurso/nao-docentes/ts-sgaae-mob-2023",
+      "https://www.isel.pt/concurso/nao-docentes/ts-sgie-2023",
+      "https://www.isel.pt/concurso/nao-docentes/ts-sgie-ext-2024",
+      "https://www.isel.pt/concurso/nao-docentes/ts-sgp-2023",
+      "https://www.isel.pt/concurso/nao-docentes/ts-sgp-mob",
+      "https://www.isel.pt/concurso/nao-docentes/ts-sgp-mob-2023",
+      "https://www.isel.pt/concurso/nao-docentes/ts-srei",
+      "https://www.isel.pt/concurso/nao-docentes/ts-srei-2023",
+      "https://www.isel.pt/concurso/nao-docentes/ts-ssogi-2025"
+    ],
+    "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/publicitacao-de-atos": [],
+    "https://gerireid.isel.pt/private/Login?session_verification_key=yTBq7QgiiixfpF4yO7RO1YeeyrQ5l1fM19a5afb686c": [
+      "https://gerireid.isel.pt",
+      "https://gerireid.isel.pt/public/logout"
+    ],
+    "https://2526moodle.isel.pt/": [
+      "https://1415moodle.isel.pt",
+      "https://1617moodle.isel.pt",
+      "https://1718.moodle.isel.pt",
+      "https://1819.moodle.isel.pt",
+      "https://1920moodle.isel.pt",
+      "https://2021moodle.isel.pt",
+      "https://2122moodle.isel.pt",
+      "https://2223moodle.isel.pt",
+      "https://2324moodle.isel.pt",
+      "https://2425moodle.isel.pt",
+      "https://2526moodle.isel.pt",
+      "https://2526moodle.isel.pt/",
+      "https://2526moodle.isel.pt/admin/tool/policy/view.php",
+      "https://2526moodle.isel.pt/admin/tool/policy/viewall.php",
+      "https://2526moodle.isel.pt/course/index.php",
+      "https://2526moodle.isel.pt/login/index.php",
+      "https://2526moodle.isel.pt/login/logout.php",
+      "https://2526moodle.isel.pt/mod/page/view.php",
+      "https://docs.moodle.org/401/en/main_page",
+      "https://download.moodle.org/mobile",
+      "https://isel.pt/servicos/servico-de-informatica-e-redes-de-comunicacao",
+      "https://moodle-historico.isel.pt"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0c07d1a4a&response_mode=form_post&state=PadjKi4OCMIgZJH&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0c1177366&response_mode=form_post&state=gAQSXA2hE0atlj5&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/denuncias": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0c12d7917&response_mode=form_post&state=f5Jy7RhJpPy5Zvl&resource=https%3A%2F%2Fgraph.microsoft.com": []
+  },
+  "errors": {
+    "https://www.isel.pt/user/register": "403 Client Error: Forbidden for url: https://www.isel.pt/user/register",
+    "https://www.isel.pt/docente/ana-catarina-cardoso-de-sousa": "404 Client Error: Not Found for url: https://www.isel.pt/docente/ana-catarina-cardoso-de-sousa",
+    "https://www.isel.pt/docente/jaime-filipe-borges-puna": "404 Client Error: Not Found for url: https://www.isel.pt/docente/jaime-filipe-borges-puna",
+    "https://www.isel.pt/docente/jose-augusto-da-silva-sobral": "404 Client Error: Not Found for url: https://www.isel.pt/docente/jose-augusto-da-silva-sobral",
+    "https://www.isel.pt/docente/jose-luis-rosa-de-almeida": "404 Client Error: Not Found for url: https://www.isel.pt/docente/jose-luis-rosa-de-almeida",
+    "https://www.isel.pt/docente/maria-alexandra-cardoso-da-costa": "404 Client Error: Not Found for url: https://www.isel.pt/docente/maria-alexandra-cardoso-da-costa",
+    "https://www.isel.pt/docente/nuno-antonio-fraga-juliano-cota": "404 Client Error: Not Found for url: https://www.isel.pt/docente/nuno-antonio-fraga-juliano-cota",
+    "https://www.isel.pt/docente/nuno-miguel-machado-cruz": "404 Client Error: Not Found for url: https://www.isel.pt/docente/nuno-miguel-machado-cruz",
+    "https://www.isel.pt/docente/rita-marcos-fontes-murta-pereira": "404 Client Error: Not Found for url: https://www.isel.pt/docente/rita-marcos-fontes-murta-pereira",
+    "http://cfisica.isel.pt/index.html": "404 Client Error: Not Found for url: https://cfisica.isel.pt/index.html",
+    "https://www.isel.pt/en/academic-calendar": "403 Client Error: Forbidden for url: https://www.isel.pt/en/academic-calendar",
+    "https://www.isel.pt/en/user/register": "403 Client Error: Forbidden for url: https://www.isel.pt/en/user/register",
+    "https://www.isel.pt/docente/pedro-emanuel-albuquerque-e-baptista-dos-santos": "404 Client Error: Not Found for url: https://www.isel.pt/docente/pedro-emanuel-albuquerque-e-baptista-dos-santos",
+    "https://site.isel.pt/docentes/maria-teresa-oliveira-moura-e-silva": "HTTPSConnectionPool(host='site.isel.pt', port=443): Max retries exceeded with url: /docentes/maria-teresa-oliveira-moura-e-silva (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022976DB7750>, 'Connection to site.isel.pt timed out. (connect timeout=7.0)'))",
+    "https://www.isel.pt/docentes/jose-virgilio-sousa-coelho-prata": "403 Client Error: Forbidden for url: https://www.isel.pt/docentes/jose-virgilio-sousa-coelho-prata",
+    "http://webmail.isel.pt/": "HTTPSConnectionPool(host='outlook.office365.com', port=443): Read timed out. (read timeout=7.0)",
+    "https://phone.isel.pt/": "HTTPSConnectionPool(host='phone.isel.pt', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022976DB5F90>, 'Connection to phone.isel.pt timed out. (connect timeout=7.0)'))"
+  }
+}
