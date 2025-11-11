@@ -1,4 +1,4 @@
-# crawler.py
+# crawler.py (versão otimizada AI-ISEL)
 from __future__ import annotations
 
 import time
@@ -8,6 +8,7 @@ from collections import deque
 from dataclasses import dataclass, field
 from typing import Dict, Set, List, Optional
 from urllib.parse import urlparse, urljoin
+from datetime import datetime
 
 import requests
 from requests import Session
@@ -40,7 +41,7 @@ class CrawlerConfig:
     confine_prefix: Optional[str] = None
     exclude_prefixes: List[str] = field(default_factory=list)
     max_pages: Optional[int] = None
-    extract_content: bool = False  # ⬅️ novo (extração de conteúdo)
+    extract_content: bool = False  # ⬅️ ativa extração de texto
 
 
 # ---------- classe principal ----------
@@ -54,7 +55,7 @@ class Crawler:
         self.visited: Set[str] = set()
         self.discovered: Dict[str, List[str]] = {}
         self.errors: Dict[str, str] = {}
-        self.page_content: Dict[str, Dict] = {}  # ⬅️ novo: guarda texto e meta info
+        self.page_content: Dict[str, Dict] = {}
 
         self.root_domain = tldextract.extract(self.root).registered_domain
         self.root_netloc = urlparse(self.root).netloc
@@ -81,15 +82,12 @@ class Crawler:
     def _normalize_links(self, base_url: str, soup: BeautifulSoup) -> List[str]:
         """Extrai e limpa links de uma página HTML, filtrando duplicados e lixo."""
         out: Set[str] = set()
-
         for a in soup.find_all("a", href=True):
             href = a.get("href", "").strip()
             if not href:
                 continue
-            # Ignorar âncoras e esquemas
             if href.startswith("#") or href.startswith(("mailto:", "tel:", "javascript:", "data:")):
                 continue
-            # Ignorar ficheiros não HTML
             bad_exts = (
                 ".pdf", ".jpg", ".jpeg", ".png", ".gif", ".svg", ".ico",
                 ".webp", ".zip", ".rar", ".7z", ".mp4", ".mp3", ".css",
@@ -97,21 +95,36 @@ class Crawler:
             )
             if any(href.lower().endswith(ext) for ext in bad_exts):
                 continue
-            # Ignorar paginações
-            lower_href = href.lower()
-            if "?page=" in lower_href or "?p=" in lower_href:
+            if "?page=" in href.lower() or "?p=" in href.lower():
                 continue
-            # Normalizar
             abs_url = urljoin(base_url, href)
             parsed = urlparse(abs_url)
             if parsed.scheme not in ("http", "https"):
                 continue
             clean_url = abs_url.split("#")[0]
             out.add(clean_url)
-
         return sorted(out)
 
-    # ---------- extração de conteúdo ----------
+    # ---------- classificação ----------
+    def _classify_page_type(self, url: str) -> str:
+        """Classifica página com base no URL (tipo semântico)."""
+        u = url.lower()
+        if "/curso/" in u and "/plano-de-estudos" in u:
+            return "plano_estudos"
+        elif "/curso/" in u:
+            return "curso"
+        elif "/noticias/" in u or "/news/" in u:
+            return "noticia"
+        elif "/candidatos/" in u or "propinas" in u or "calendario" in u:
+            return "admissao"
+        elif "/servicos/" in u or "/comunidade/" in u:
+            return "servico"
+        elif "/o-isel" in u or "/about" in u:
+            return "institucional"
+        else:
+            return "outro"
+
+    # ---------- limpeza e extração ----------
     def _clean_dom(self, soup: BeautifulSoup) -> BeautifulSoup:
         for tag in soup(["script", "style", "noscript"]):
             tag.decompose()
@@ -125,6 +138,7 @@ class Crawler:
         md = soup.find("meta", attrs={"name": "description"})
         if md and md.get("content"):
             meta_desc = md["content"].strip()
+
         html_tag = soup.find("html")
         lang = (html_tag.get("lang") or "").strip().lower() if html_tag else ""
 
@@ -143,14 +157,17 @@ class Crawler:
 
         self._clean_dom(container)
         text = container.get_text("\n", strip=True)
-
         lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
-        cleaned_lines = [ln for ln in lines if len(ln) > 2]
+        cleaned_lines = [ln for ln in lines if len(ln) > 2 and not ln.lower().startswith("isel - instituto")]
         text_clean = "\n".join(cleaned_lines)
         if len(text_clean) > 10000:
             text_clean = text_clean[:10000] + " …"
 
         return {
+            "url": base_url,
+            "domain": urlparse(base_url).netloc,
+            "type": self._classify_page_type(base_url),
+            "crawled_at": datetime.utcnow().isoformat(),
             "title": title,
             "meta_description": meta_desc,
             "h1": h1,
@@ -166,7 +183,6 @@ class Crawler:
 
         while q:
             url, depth = q.popleft()
-
             if depth > self.cfg.depth_limit:
                 continue
             if not self._should_follow(url):
@@ -194,13 +210,12 @@ class Crawler:
             self.visited.add(final_url)
             self.discovered[final_url] = links
 
-            # Extração de conteúdo (opcional)
             if self.cfg.extract_content:
                 try:
                     content = self._extract_content_from_soup(soup, final_url)
-                    self.page_content[final_url] = {"url": final_url, "status": "ok", **content}
+                    self.page_content[final_url] = {"status": "ok", **content}
                 except Exception as e:
-                    self.page_content[final_url] = {"url": final_url, "status": "error", "error_msg": str(e)}
+                    self.page_content[final_url] = {"status": "error", "url": final_url, "error_msg": str(e)}
 
             next_depth = depth + 1
             for link in links:
@@ -210,15 +225,13 @@ class Crawler:
             if self.cfg.max_pages and len(self.visited) >= self.cfg.max_pages:
                 break
 
-        # 🔹 Limpeza final: remover duplicados globais e normalizar URLs
+        # ---------- limpeza final ----------
         print("\n🔹 A limpar duplicados globais e normalizar URLs...")
         unique_links = set()
         for page, links in list(self.discovered.items()):
             normalized_links = []
             for link in links:
-                clean = link.rstrip("/")
-                clean = clean.split("?")[0]
-                clean = clean.lower()
+                clean = link.rstrip("/").split("?")[0].lower()
                 if clean not in unique_links:
                     unique_links.add(clean)
                     normalized_links.append(clean)
@@ -261,5 +274,5 @@ class Crawler:
     def to_jsonl_content(self, path: str) -> None:
         """Guarda um objeto por linha com o conteúdo de cada página (NDJSON)."""
         with open(path, "w", encoding="utf-8") as f:
-            for url, obj in self.page_content.items():
+            for _, obj in self.page_content.items():
                 f.write(json.dumps(obj, ensure_ascii=False) + "\n")

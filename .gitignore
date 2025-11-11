@@ -1,0 +1,73 @@
+# =============================
+# 🧠 AI-ISEL PROJECT GITIGNORE
+# =============================
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.temp
+*.cache
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+build/
+dist/
+
+# --- VSCode / IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Dados grandes / automáticos ---
+# Chroma vector database
+db/
+*.sqlite3
+
+# Ficheiros JSON e resultados intermediários
+*.jsonl
+*_intermediate.json
+*_temp.json
+temp_*.json
+temp_*.pdf
+temp_*.txt
+temp_fuc.pdf
+
+# Ficheiros gerados automaticamente por scraping
+planos_estudo_fuc_completo.json
+rag_documents.json
+dataset_isel_completo.json
+
+# --- Web embeddings / modelo ---
+*.bin
+*.pt
+*.onnx
+*.h5
+*.model
+*.pkl
+
+# --- Logs de execução ---
+logs/
+*.log
+nohup.out
+
+# --- Ferramentas locais ---
+.ipynb_checkpoints/
+__MACOSX/
+
+# --- Backups / Sistema ---
+*.bak
+*.old
+*.swp
+*.swo

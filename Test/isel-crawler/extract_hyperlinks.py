@@ -1,13 +1,14 @@
-# extract_hyperlinks.py
+# extract_hyperlinks.py (versão otimizada AI-ISEL)
 """
-Extrai todos os hyperlinks (<a href="...">) de uma lista de páginas.
+Extrai todos os hyperlinks (<a href="...">) de uma lista de páginas HTML.
 Pode ler a lista do ficheiro pages_content.jsonl ou links.json.
+Adiciona metadados úteis (type, domain, count) para o dataset.
 """
 
 import json
 import time
 import argparse
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 from requests.exceptions import RequestException
@@ -25,23 +26,43 @@ def extract_links_from_html(html: str, base_url: str):
     return links
 
 
+def classify_page_type(url: str) -> str:
+    """Classifica página com base no URL."""
+    u = url.lower()
+    if "/curso/" in u and "/plano-de-estudos" in u:
+        return "plano_estudos"
+    elif "/curso/" in u:
+        return "curso"
+    elif "/noticias/" in u or "/news/" in u:
+        return "noticia"
+    elif "/candidatos/" in u or "propinas" in u or "calendario" in u:
+        return "admissao"
+    elif "/servicos/" in u or "/comunidade/" in u:
+        return "servico"
+    elif "/o-isel" in u or "/about" in u:
+        return "institucional"
+    else:
+        return "outro"
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Extrair todos os hyperlinks de páginas HTML")
+    parser = argparse.ArgumentParser(description="Extrair todos os hyperlinks de páginas HTML (AI-ISEL)")
     parser.add_argument("--input", default="pages_content.jsonl", help="Ficheiro NDJSON com URLs")
-    parser.add_argument("--out", default="hyperlinks.json", help="Ficheiro de saída")
-    parser.add_argument("--delay", type=float, default=0.3, help="Atraso entre pedidos")
+    parser.add_argument("--out", default="hyperlinks.json", help="Ficheiro de saída JSON")
+    parser.add_argument("--delay", type=float, default=0.3, help="Atraso entre pedidos (segundos)")
     parser.add_argument("--max", type=int, default=None, help="Limitar número de páginas")
-    parser.add_argument("--ua", default="isel-link-extractor/1.0", help="User-Agent HTTP")
+    parser.add_argument("--ua", default="isel-link-extractor/2.0", help="User-Agent HTTP")
     args = parser.parse_args()
 
     print(f"🔍 A ler URLs de {args.input} ...")
 
-    # Lê o ficheiro NDJSON (pages_content.jsonl)
     urls = []
     with open(args.input, "r", encoding="utf-8") as f:
         for line in f:
+            if not line.strip():
+                continue
             obj = json.loads(line)
-            urls.append(obj["url"])
+            urls.append(obj.get("url"))
 
     if args.max:
         urls = urls[:args.max]
@@ -61,11 +82,20 @@ def main():
             resp.raise_for_status()
             if "text/html" not in resp.headers.get("Content-Type", ""):
                 continue
+
             links = extract_links_from_html(resp.text, url)
-            results.append({"page": url, "links": links})
-            print(f"   ✅ {len(links)} links encontrados")
+            page_type = classify_page_type(url)
+            results.append({
+                "page": url,
+                "type": page_type,
+                "domain": urlparse(url).netloc,
+                "total_links": len(links),
+                "links": links
+            })
+            print(f"   ✅ {len(links)} links encontrados ({page_type})")
+
         except RequestException as e:
-            print(f"   ❌ Erro: {e}")
+            print(f"   ❌ Erro HTTP: {e}")
         except Exception as e:
             print(f"   ⚠️ Erro inesperado: {e}")
 

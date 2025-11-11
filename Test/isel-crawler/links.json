@@ -3,12 +3,13 @@
   "config": {
     "user_agent": "isel-link-extractor/1.0",
     "timeout": 7.0,
-    "delay": 0.5,
+    "delay": 0.0,
     "depth_limit": 2,
     "same_domain": true,
     "confine_prefix": null,
     "exclude_prefixes": [],
-    "max_pages": null
+    "max_pages": null,
+    "extract_content": true
   },
   "pages": {
     "https://www.isel.pt/": [
@@ -17,6 +18,7 @@
       "https://agendacultural.ipl.pt",
       "https://agendadeatendimento-saas.ano.pt/agendadeatendimento/public/isel",
       "https://iselpt.sharepoint.com/:f:/s/intrausers/emttqgb2hqvjgbjotnobbimbnsi-ufwodozhflv7av9veq",
+      "https://iselpt.sharepoint.com/:f:/s/intrausers/eqkfnar-8wtfqtogj8umcocbmdtum_c8q24aag-lfyhamw",
       "https://iselpt.sharepoint.com/sites/intrausers",
       "https://moodle.isel.pt/auth/oidc",
       "https://portal.ipl.pt/isel/netpa/page",
@@ -69,7 +71,7 @@
       "https://www.isel.pt/eventos/conferencia-anual-do-comite-nacional-do-cigre",
       "https://www.isel.pt/eventos/formacao-de-capacitacao-educacao-para-diversidade",
       "https://www.isel.pt/eventos/roadshow-souipl-2025",
-      "https://www.isel.pt/eventos/seminario-de-fisica-fluidos-activos-quirais-e-reologia-complexa-de-biosuspensoes",
+      "https://www.isel.pt/eventos/seminario-de-fisica-fluidos-ativos-quirais-e-reologia-complexa-de-biosuspensoes",
       "https://www.isel.pt/horarios-de-salas-de-estudo",
       "https://www.isel.pt/informacoes",
       "https://www.isel.pt/informacoes-academicas/calendario-academico",
@@ -85,12 +87,12 @@
       "https://www.isel.pt/isel/quem-somos/orgaos",
       "https://www.isel.pt/isel/quem-somos/servicos",
       "https://www.isel.pt/news",
+      "https://www.isel.pt/noticias/equipa-do-isel-cria-arvore-tecnologica-para-melhorar-o-ar-das-cidades",
       "https://www.isel.pt/noticias/estudante-do-isel-distinguida-com-mencao-honrosa-no-erasmusdays-2025",
       "https://www.isel.pt/noticias/estudante-do-isel-vence-primeiro-premio-no-h2o-sustainability-innovation-hub",
       "https://www.isel.pt/noticias/fundacao-santander-e-isel-atribuem-incentivo-investigacao-exploratoria",
       "https://www.isel.pt/noticias/isel-assinala-instalacao-da-sinaletica-do-ponto-de-encontro-de-emergencia",
       "https://www.isel.pt/noticias/isel-disponibiliza-dois-novos-moocs-no-ambito-do-projeto-prodigi",
-      "https://www.isel.pt/noticias/isel-e-policia-judiciaria-desenvolvem-jogo-educativo",
       "https://www.isel.pt/noticias/professor-nuno-henriques-integra-equipa-de-acreditacao-eur-ace-universidade-de-navarra",
       "https://www.isel.pt/noticias/saude-mental-no-ensino-superior-em-debate-no-isel",
       "https://www.isel.pt/o-isel-apresenta-se/estudar-no-isel",
@@ -123,7 +125,7 @@
       "https://www.net.ipl.pt"
     ],
     "https://outlook.office365.com/mail/?realm=isel.pt&vd=webmail": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=d39db2fa-cad3-4f9f-ada5-38cbd0759f2b&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hL4tWnu5cun5vuvXWpx-kLpfO1ZjFzFiXqZxak5egUlOxgZLzAyvmBkXMXE52dmaZBikGhglmppZGJyi4nf37G0JMMIROQXZValfmLiTMsvyo0vyC8umcXM72helJFsUOSZVpZcWepjsYpZOqOkpKDYSl8_vSixIEMvNzO5KL84P61ELzk_dxMzG5DMzc87xSySX5Cal5miUFCUn5aZk6qQmpuYmXOBhfEHC-MiVqB7OdmqftzefdVrnXVXfAeLHMMpVn1vI5fkQr9M8-CMnBwzI6PcJCMLC8u0NM_yvADHNIu80nDP1Arv0oDEPC9PWwMrwwlsjB_YGDvYGXZxqsLcZGRqZJabn5-Skwrzun4i0GP6-ZkpyfoHeBl-8D15c23Lw3Xt7z02CDA8ACJBhh-CAgA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=2289a6a2-a582-455b-b296-e9da3cd630e2&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJYtKxTqWlptOumaS9v2VwzeDSLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDdIsDUwNzY1TDY1vMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j53fOK3Uydkgo9qsJzovwNVzFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnSv0Berq6fmTfFcEHX95X6pCIZTrPpGlYnuiV7FGZbuqY5lKVElxgH52jnO3oUm6d6lKRkWhWapHjn-VYYZ7lnJtiZWhhPYGD-wMXawM-ziVIW5ycjUyCw3Pz8lJxXmdf1EoMf08zNTkvUP8DL84Nt1Z8a3L_fa33tsEGB4AESCDD8EBQA1": [],
     "https://www.isel.pt/a-descoberta-do-isel/ISEL-Alive": [],
     "https://www.isel.pt/a-descoberta-do-isel/ISEL-Formula-Student": [
       "https://formulastudent.isel.pt",
@@ -430,13 +432,14 @@
       "https://www.ipl.pt/welcome-ipl-2025-vai-escolas",
       "https://www.isel.pt/noticias/mais-de-3500-estudantes-no-welcome-ipl"
     ],
-    "https://www.isel.pt/eventos/seminario-de-fisica-fluidos-activos-quirais-e-reologia-complexa-de-biosuspensoes": [
+    "https://www.isel.pt/eventos/seminario-de-fisica-fluidos-ativos-quirais-e-reologia-complexa-de-biosuspensoes": [
       "https://www.isel.pt/departamento/fisica"
     ],
     "https://www.isel.pt/horarios-de-salas-de-estudo": [],
     "https://www.isel.pt/informacoes": [
       "https://www.isel.pt/informacoes/202509",
       "https://www.isel.pt/informacoes/202510",
+      "https://www.isel.pt/informacoes/202511",
       "https://www.isel.pt/node/39410",
       "https://www.isel.pt/node/39448",
       "https://www.isel.pt/node/39548",
@@ -444,7 +447,8 @@
       "https://www.isel.pt/node/39601",
       "https://www.isel.pt/node/40233",
       "https://www.isel.pt/node/41140",
-      "https://www.isel.pt/node/41202"
+      "https://www.isel.pt/node/41202",
+      "https://www.isel.pt/node/41254"
     ],
     "https://www.isel.pt/informacoes-academicas/calendario-academico": [],
     "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/modelos-de-incubacao": [
@@ -601,6 +605,14 @@
       "https://www.isel.pt/noticias/202510",
       "https://www.isel.pt/noticias/202511"
     ],
+    "https://www.isel.pt/noticias/equipa-do-isel-cria-arvore-tecnologica-para-melhorar-o-ar-das-cidades": [
+      "https://flic.kr/ps/3xjegj",
+      "https://notatree.site",
+      "https://www.isel.pt/docentes/carla-solange-pires-correia-viveiros",
+      "https://www.isel.pt/docentes/maria-alexandra-cardoso-da-costa",
+      "https://www.isel.pt/eventos/inauguracao-da-instalacao-i-cant-believe-its-not-tree",
+      "https://www.linkedin.com/in/rosaamado"
+    ],
     "https://www.isel.pt/noticias/estudante-do-isel-distinguida-com-mencao-honrosa-no-erasmusdays-2025": [
       "https://www.ipl.pt/noticias/resultados-do-premio-de-fotografia-erasmusdays-2025"
     ],
@@ -618,8 +630,7 @@
     ],
     "https://www.isel.pt/noticias/isel-assinala-instalacao-da-sinaletica-do-ponto-de-encontro-de-emergencia": [
       "https://flic.kr/s/ahbqjcz4az",
-      "https://informacao.lisboa.pt/noticias/detalhe/pontos-de-encontro-de-emergencia-sinalizados-em-lisboa",
-      "https://www.isel.pt/docentes/maria-alexandra-cardoso-da-costa"
+      "https://informacao.lisboa.pt/noticias/detalhe/pontos-de-encontro-de-emergencia-sinalizados-em-lisboa"
     ],
     "https://www.isel.pt/noticias/isel-disponibiliza-dois-novos-moocs-no-ambito-do-projeto-prodigi": [
       "https://www.ipl.pt/politecnico/orgaos-de-governo/presidencia",
@@ -630,11 +641,6 @@
       "https://www.nau.edu.pt/pt/curso/estruturas-de-dados",
       "https://www.nau.edu.pt/pt/curso/fundamentos-de-bases-de-dados",
       "https://www.nau.edu.pt/pt/curso/tecnicas-de-desenvolvimento-de-software"
-    ],
-    "https://www.isel.pt/noticias/isel-e-policia-judiciaria-desenvolvem-jogo-educativo": [
-      "https://ragequit.pj.pt/",
-      "https://www.isel.pt/docentes/jose-manuel-peixoto-nascimento",
-      "https://www.policiajudiciaria.pt"
     ],
     "https://www.isel.pt/noticias/professor-nuno-henriques-integra-equipa-de-acreditacao-eur-ace-universidade-de-navarra": [
       "https://www.isel.pt/docentes/nuno-paulo-ferreira-henriques",
@@ -681,26 +687,23 @@
     "https://www.isel.pt/politica-de-privacidade": [],
     "https://www.isel.pt/premios-e-eventos-externos": [
       "http://www.expofishportugal.com",
-      "https://ani.pt/work-in-portugal-2025",
+      "https://forms.office.com/e/1wesjwnpth",
       "https://forms.office.com/e/vrwrrukzu1",
       "https://gulbenkian.pt/bolsas-lista/bolsas-de-merito",
       "https://jornadasdohidrogenio.carrd.co",
       "https://leoesdeportugal.pt/bolsas-de-estudo-2",
       "https://sciforum.net/event/asec2025",
-      "https://spmateriais.pt/site",
-      "https://spmateriais.pt/site/dia-mundial-dos-materiais-2025",
       "https://www.acustica2025.uc.pt",
       "https://www.ambienteonline.pt/13-forum-energia/noticias-619/semana-de-ambiente-2025-abre-com-figuras-cimeiras-do-ambiente-em-portugal-e-na-europa-para-antecipar-o-futuro",
+      "https://www.anacom.pt/render.jsp",
       "https://www.eyec.ichip.pw.edu.pl",
       "https://www.inncyberinnovationhub.com",
       "https://www.isel.pt/docentes/carlos-cesar-correia-rodrigues",
       "https://www.isel.pt/docentes/maria-amelia-ramos-loja",
       "https://www.jeronimomartins.com/pt/carreiras/estudantes-e-recem-licenciados/ambassador-programme",
-      "https://www.ordemdosengenheiros.pt/pt",
       "https://www.ordemdosengenheiros.pt/regiao-sul/pt",
       "https://www.ordemdosengenheiros.pt/regiao-sul/pt/premios/bolsa-de-merito-oers-bankinter",
-      "https://www.ordemdosengenheiros.pt/regiao-sul/pt/premios/premios-excelencia-na-academia",
-      "https://www.spautores.pt/entre-a-arte-e-o-algoritmo-uma-conversa-sobre-inteligencia-artificial-na-spa"
+      "https://www.ordemdosengenheiros.pt/regiao-sul/pt/premios/premios-excelencia-na-academia"
     ],
     "https://www.isel.pt/projetos-com-alunos": [
       "https://www.isel.pt/clube-bioinformatics",
@@ -789,13 +792,13 @@
       "https://www.isel.pt/denuncias"
     ],
     "https://www.isel.pt/termos-e-condicoes": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=f40a093b-77eb-4880-aa38-73e55d0680c8&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKw5uT68rq8wWOVRfHTWLaGE7MYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIMUg0dTQNMU8xfAWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5nfNdE9PDvZKT3HMMfNI8toFbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPceMbdfkiV_1GOzRtTGZXFKDKdY9b2NXJIL_TLNgzNycsyMjHKTjCwsLNPSPMvzAhzTLPJKwz1TK7xLAxLzvDxtzawMJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjB1zbzz5Qn69rfe2wQYHgARIIMPwQFAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=6b39f1bf-ac16-437c-a933-9ed61451f436&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLY_9EyW2xNjfNK43nXRAK_mM1i5CpO1MssTs3RKyjZwch4gZHxBSPjKiY-PzNLgzRLA7NEU3NTo8RbTPz-jqUlGUYgIr8osyr1ExNnWn5RbnxBfnHJLGb-EjM386RSjwDDKIM0o9TcVczSGSUlBcVW-vrpRYkFGXq5mclF-cX5aSV6yfm5m5jZgGRuft4pZpH8gtS8zBSFgqL8tMycVIXU3MTMnAssjD9YGBexAt37alLDkmjGHz5zj-vGCWs5Mpxi1TeqTHRP9CrOsHRPdSxLiSoxDsjXznH2LjRJ9y5NybAoNEv1yPGvMsxwz0q2NbcynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH3471K199vdf-3mODAMMDIBJk-CEoAAA1": [],
     "https://formulastudent.isel.pt/": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=6f76044e-43d6-40b9-9936-58776a7ce63b&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLwYynLv-a802GmWUR5Vs0z61mMXMWJepnFqTl6BSU7GBkvMDK-YGRcxcTnZ2ZpkGKQaGpibJSYaHKLid_fsbQkwwhE5BdlVqV-YuJMyy_KjS_ILy6ZxcwfZpAVWZnk617skugYmli0ilk6o6SkoNhKXz-9KLEgQy83M7kovzg_rUQvOT93EzMbkMzNzzvFLJJfkJqXmaJQUJSflpmTqpCam5iZc4GF8QcL4yJWoHsrOOWPqa9-7rM9KeGglJQrwylWfW8jl-RCv0zz4IycHDMjo9wkIwsLy7Q0z_K8AMc0i7zScM_UCu_SgMQ8L09bUyvDCWyMH9gYO9gZdnGqwtxkZGpklpufn5KTCvO6fiLQY_r5mSnJ-gd4GX7wNezYtujJuvb3HhsEGB4AkSDDD0EBAA2": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=1037ffe2-6c74-49d9-972f-31c2f9c5f0a5&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJ49N9coCTnpud0fcNDP49-WDqLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDVIMEk1NExNTLYxvMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5S51S8jw8wr3MQrPM_cPCVjFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnTv_zaXINfLt91Wml_YZKxgw3CKVd_byCW50C_TPDgjJ8fMyCg3ycjCwjItzbM8L8AxzSKvNNwztcK7NCAxz8vT1sDKcAIb4wc2xg52hl2cqjA3GZkameXm56fkpMK8rp8I9Jh-fmZKsv4BXoYffL039698sq79vccGAYYHQCTI8ENQAAA1": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=9f96face-481e-40c1-8770-9d79d82ecaf3&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hI492vafDmPgw7tBXMrb-id-jyLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDVIMEk3NjVINDVNvMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5Tb0DXf0C3AMM_Y0r3INLVjFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnTvodrt3QkrVL2W2M1vcFNRZTjFqu9t5JJc6JdpHpyRk2NmZJSbZGRhYZmW5lmeF-CYZpFXGu6ZWuFdGpCY5-Vpa2ZlOIGN8QMbYwc7wy5OVZibjEyNzHLz81NyUmFe108Eekw_PzMlWf8AL8MPvvYlZzc8Wdf-3mODAMMDIBJk-CEoAAA1": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=fefd323b-5b72-4f39-bd89-8731b50ea9ed&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKwNvr7ryja0n9vZ7vhVr6Vb2cxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBoqlFkqlZctItJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjO_kV9ybkZouYGHZ4Z_Wkn6KmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge7lZKv6cXv3Va911l3xjZxyDKdY9b2NXJIL_TLNgzNycsyMjHKTjCwsLNPSPMvzAhzTLPJKwz1TK7xLAxLzvDxtTawMJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjBd7Pp3_Yn69rfe2wQYHgARIIMPwQFAA2": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=7ec7f2dd-84a8-42f4-8b44-002f5ccb7c5b&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hK4--l43YqWL07dLgz6MadromcxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBommicaKxmfEtJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjN_ZnZaqFFiobllToFhgF_hKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge5lVTze6HZb2HVSjLqDcZoywylWfW8jl-RCv0zz4IycHDMjo9wkIwsLy7Q0z_K8AMc0i7zScM_UCu_SgMQ8L09bSyvDCWyMH9gYO9gZdnGqwtxkZGpklpufn5KTCvO6fiLQY_r5mSnJ-gd4GX7wbf44Y_-Tde3vPTYIMDwAIkGGH4ICAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=9a6540fc-bfa8-4ad2-9b1c-d51d411cee09&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hL445A6a8X-S16zZa7KOsq845zFyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBmmWBmZJlpbmiRa3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8pWaVAYk5fo7llj6mOQZlq5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbqXK2ADT8FeF8deSb03y-IjGE6x6htVJronehVnWLqnOpalRJUYB-Rr5zh7F5qke5emZFgUmqV65PhXGWa4ZyXbmlgZTmBj_MDG2MHOsItTFeYmI1Mjs9z8_JScVJjX9ROBHtPPz0xJ1j_Ay_CDb8GpTR--3mt_77FBgOEBEAky_BAUAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=95a7c59c-16ab-4a86-a033-0ae12805e07d&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKYc3T51NVibV4LjLkearA-qJ3FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBmmWBmbJxqamhsa3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8kV4RnhHpFSHp-RkGLsbZq5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbpX8WjZbnk3Hb8mzpyTnjFJDKdY9Y0qE90TvYozLN1THctSokqMA_K1c5y9C03SvUtTMiwKzVI9cvyrDDPcs5JtTa0MJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjB93f2tM9f77W_99ggwPAAiAQZfggKAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=b2ad3ea7-07c7-4390-8f2e-db391ad155f8&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJYbrd203H2Cc79erctpS6G_pjFyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBmmWBmbJiSkWpua3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz87umpPpkVyflp2UElgcl-q5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbrX4v-xK_uSl7vPD47WOaDsxnCKVd-oMtE90as4w9I91bEsJarEOCBfO8fZu9Ak3bs0JcOi0CzVI8e_yjDDPSvZ1szKcAIb4wc2xg52hl2cqjA3GZkameXm56fkpMK8rp8I9Jh-fmZKsv4BXoYffKsvHv_69V77e48NAgwPgEiQ4YegAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=575b5a49-62ee-4273-8713-a83ce8f40ae4&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLwjIoOf5dU7NQuvMLmxReuJ7MYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIM3SwCzFxNA4yfIWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5nfMcop2DfYpdjfKdfdo8BpFbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPfGzEirj9Nx8FmZUaj_PzSA4RSrvlFlonuiV3GGpXuqY1lKVIlxQL52jrN3oUm6d2lKhkWhWapHjn-VYYZ7VrKtoZXhBDbGD2yMHewMuzhVYW4yMjUyy83PT8lJhXldPxHoMf38zJRk_QO8DD_4tm_-_OPrvfb3HhsEGB4AkSDDD0EBAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=1bb00129-d59d-4b25-a0d3-983286efe54c&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLQZNwgPfeqqveCyzOM2t4_9ZnFyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBmmWBmYpKUmpicm3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz84a5ezrnZRT4hbnn5Yenhq5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbp38oGu_su1a9xXTMxTPprty3CKVd-oMtE90as4w9I91bEsJarEOCBfO8fZu9Ak3bs0JcOi0CzVI8e_yjDDPSvZ1sDKcAIb4wc2xg52hl2cqjA3GZkameXm56fkpMK8rp8I9Jh-fmZKsv4BXoYffDv65_3-eq_9vccGAYYHQCTI8ENQAAA1": [],
     "https://www.isel.pt/curso/licenciatura/licenciatura-em-engenharia-biomedica": [
       "https://dre.pt/web/guest/home/-/dre/107707278/details/maximized",
       "https://moodle.isel.pt/course/index.php",
@@ -978,11 +981,7 @@
       "https://www.isel.pt/curso/37950/plano-de-estudos",
       "https://www.isel.pt/curso/37951/plano-de-estudos",
       "https://www.isel.pt/curso/mestrado/mestrado-em-engenharia-quimica-e-biologica-testemunhos",
-      "https://www.isel.pt/docentes/ana-maria-garcia-henriques-barreiros-joanaz-de-melo",
-      "https://www.isel.pt/docentes/jose-augusto-paixao-coelho",
-      "https://www.isel.pt/docentes/nelson-alberto-frade-da-silva",
-      "https://www.isel.pt/docentes/ruben-anacoreta-seabra-elvas-leitao",
-      "https://www.isel.pt/docentes/rui-manuel-gouveia-filipe"
+      "https://www.isel.pt/docentes/ruben-anacoreta-seabra-elvas-leitao"
     ],
     "https://www.isel.pt/curso/mestrado/mestrado-em-matematica-aplicada-para-industria": [
       "https://dre.pt/dre/detalhe/despacho/9237-2021-171516171",
@@ -1047,6 +1046,7 @@
       "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-engenharia_e_gestao_do_risco_de_desastres/candidaturas",
       "https://www.isel.pt/docente/duarte-caldeira",
       "https://www.isel.pt/docentes/carla-maria-duarte-da-silva-e-costa",
+      "https://www.isel.pt/docentes/jose-manuel-peixoto-nascimento",
       "https://www.isel.pt/docentes/maria-ana-carvalho-viana-baptista",
       "https://www.isel.pt/docentes/pedro-manuel-fernandes-carvalho-da-silva"
     ],
@@ -1056,12 +1056,12 @@
       "https://www.isel.pt/curso/pos-graduacao/pos-graduacao-especializacao-em-engenharia-ferroviaria/testemunhos",
       "https://www.isel.pt/docentes/henrique-manuel-borges-miranda"
     ],
-    "https://my.isel.pt/adfs/ls/?client-request-id=5f1a0129-7954-4eaf-9238-ec3f26999470&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLQZJSKD6lc7zfJ4o292swpBbMYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIMUg0TzVIM0kyfIWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5nfy83RO80noCQ_Kt04y9xrFbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPfmrd3XUrNEx3WnY_CKf5tsGU6x6nsbuSQX-mWaB2fk5JgZGeUmGVlYWKaleZbnBTimWeSVhnumVniXBiTmeXnaGlsZTmBj_MDG2MHOsItTFeYmI1Mjs9z8_JScVJjX9ROBHtPPz0xJ1j_Ay_CDb87GpldP17W_99ggwPAAiAQZfggKAAA1": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=96da6a52-078b-4402-bdb6-c319c48596bf&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hIIyro1rZudyWXvtsOSR1qn7Z_FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGieZpFkC9FreY-P0dS0syjEBEflFmVeonJs60_KLc-IL84pJZzPweFU7ZjlWR3hWBxRGWPuGrmKUzSkoKiq309dOLEgsy9HIzk4vyi_PTSvSS83M3MbMBydz8vFPMIvkFqXmZKQoFRflpmTmpCqm5iZk5F1gYf7AwLmIFuveIuf2SLPmjHps1ojauSlBiOMWq723kklzol2kenJGTY2ZklJtkZGFhmZbmWZ4X4JhmkVca7pla4V0akJjn5WlrYWU4gY3xAxtjBzvDLk5VmJuMTI3McvPzU3JSYV7XTwR6TD8_MyVZ_wAvww--fzvnfHy6rv29xwYBhgdAJMjwQ1AAAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=f2fd6665-f565-428f-b459-8c0313608698&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJITfv7KfVrv9OWyB5m4YS2GbMYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIM3SwDzRxMAyOeUWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5k_ysIto8ot2d8pJdc5KcVoFbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPeeKNF2E_jz0GfipSfJrd75DKdY9Y0qE90TvYozLN1THctSokqMA_K1c5y9C03SvUtTMiwKzVI9cvyrDDPcs5JtTa0MJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjBN_XojG3f7rW_99ggwPAAiAQZfggKAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=9adfbe6d-a886-4fb3-957b-72f5a284cb8d&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLI3Xd_VtuKzf5Tq4u-Lmo53TuLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDdIsDcwTk03Nkw1vMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5TVL9StIrIh1Ts9yNzXPTVjFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnQvV8AGnoK9Lo69knpv-hMiGE6x6htVJronehVnWLqnOpalRJUYB-Rr5zh7F5qke5emZFgUmqV65PhXGWa4ZyXbmlgZTmBj_MDG2MHOsItTFeYmI1Mjs9z8_JScVJjX9ROBHtPPz0xJ1j_Ay_CDb8eZxzu-3Wt_77FBgOEBEAky_BAUAAA1": [],
     "https://aeris.isel.pt/": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=37d20f8e-dee3-4698-bfdc-276adbfa2f8b&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLo479k_vjeDLf9d9Szbv_S757FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGiRZGBqbmhsm3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8-WVFqQGRyc5ORqbBqc65q5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbp3l1kTx4bdca6rMpMWxAjJM5xi1fc2ckku9Ms0D87IyTEzMspNMrKwsExL8yzPC3BMs8grDfdMrfAuDUjM8_K0NbAynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH3_Fzb_48Xdf-3mODAMMDIBJk-CEoAAA1": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=f9a3d5ed-b711-477a-a015-7bdb18114451&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJ4e3XxT8HtVe4LRKtvSwi6BM5i5CpO1MssTs3RKyjZwch4gZHxBSPjKiY-PzNLgxSDRAtj81QLy7RbTPz-jqUlGUYgIr8osyr1ExNnWn5RbnxBfnHJLGZ-HwuPkggjb5fEYr_SQCeLVczSGSUlBcVW-vrpRYkFGXq5mclF-cX5aSV6yfm5m5jZgGRuft4pZpH8gtS8zBSFgqL8tMycVIXU3MTMnAssjD9YGBexAt3Lqni80e22sOukGHWH4ExlhlOs-t5GLsmFfpnmwRk5OWZGRrlJRhZAF6Z5lucFOKZZ5JWGe6ZWeJcGJOZ5edpaWBlOYGP8wMbYwc6wi1MV5iYjUyOz3Pz8lJxUmNf1E4Ee08_PTEnWP8DL8INv6tnGlmfr2t97bBBgeABEggw_BAUA0": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=01a7e70b-e04c-4991-a40e-81fae672e54d&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLgfr6c0efBRM8lfI2_nhU99Z3FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGiRamBsaJpia3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8xZVO7uXhjkEFVSFuVckhq5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbr3f5tLkOvl224rzS9seqZkw3CKVd_byCW50C_TPDgjJ8fMyCg3ycjCwjItzbM8L8AxzSKvNNwztcK7NCAxz8vT1tTKcAIb4wc2xg52hl2cqjA3GZkameXm56fkpMK8rp8I9Jh-fmZKsv4BXoYffK_n9nc_W9f-3mODAMMDIBJk-CEoAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=d2f84168-8536-4d01-ba5b-3e71561a09e5&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLIcPxxyayV0XdXtF1hmBTn01mMXMWJepnFqTl6BSU7GBkvMDK-YGRcxcTnZ2ZpkGZpYJ6UkpZomHyLid_fsbQkwwhE5BdlVqV-YuJMyy_KjS_ILy6ZxcwfUOJdYFkR4B7sYVZRHFqyilk6o6SkoNhKXz-9KLEgQy83M7kovzg_rUQvOT93EzMbkMzNzzvFLJJfkJqXmaJQUJSflpmTqpCam5iZc4GF8QcL4yJWoHst_h-7si95ufv84GgdYxU3hlOs-kaVie6JXsUZlu6pjmUpUSXGAfnaOc7ehSbp3qUpGRaFZqkeOf5VhhnuWcm2hlaGE9gYP7AxdrAz7OJUhbnJyNTILDc_PyUnFeZ1_USgx_TzM1OS9Q_wMvzg-zije9-3e-3vPTYIMDwAIkGGH4ICAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=3c0d8eff-4729-4b3b-9500-8e2ec754163e&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hL438dro-lu7T2VoU_veIiY3SxGruJEvczi1By9gpIdjIwXGBlfMDKuYuLzM7M0SLM0ME82MzE1MbnFxO_vWFqSYQQi8osyq1I_MXGm5RflxhfkF5fMYub3LHMtTHS3zE0v8bEw87VYxSydUVJSUGylr59elFiQoZebmVyUX5yfVqKXnJ-7iZkNSObm551iFskvSM3LTFEoKMpPy8xJVUjNTczMucDC-IOFcREr0L0W_49d2Ze83H1-cLSOuYobwylWfaPKRPdEr-IMS_dUx7KUqBLjgHztHGfvQpN079KUDItCs1SPHP8qwwz3rGRbQyvDCWyMH9gYO9gZdnGqwtxkZGpklpufn5KTCvO6fiLQY_r5mSnJ-gd4GX7wTT25_cC3e-3vPTYIMDwAIkGGH4ICAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=97924fed-9e10-4bf9-87c5-5588c79b47bf&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJ46z9pusC8n97tR0M7js923z-Lkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDdIsDcyTUw2NDZJuMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5TSNDjKssk9JTPSK8_CJMVjFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnRvo-qPPveLhzx3pHvYHFCOYzjFqm9Umeie6FWcYeme6liWElViHJCvnePsXWiS7l2akmFRaJbqkeNfZZjhnpVsa2plOIGN8QMbYwc7wy5OVZibjEyNzHLz81NyUmFe108Eekw_PzMlWf8AL8MPvi2X3x36dq_9vccGAYYHQCTI8ENQAAA1": [],
     "https://www.isel.pt/comunidade/alem-aulas/world-action-isel-eventos": [
       "https://www.flickr.com/photos/isel-lisboa/albums/72177720307488741",
       "https://www.flickr.com/photos/isel-lisboa/albums/72177720307998823",
@@ -1082,8 +1082,8 @@
       "https://www.isel.pt/eventos/tour-cultural-monsanto-palacio-nacional-da-ajuda-maat-joana-vasconcelos",
       "https://www.isel.pt/eventos/tour-ribeirinho-lisboa-norte"
     ],
-    "https://my.isel.pt/adfs/ls/?client-request-id=0ab87e84-98c1-4264-825b-a9076f6bdcf6&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJoqdvBdXBGilNT9Er2_Ow732YxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBooWFZZKlsdEtJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjO_c7mrh2dOSm5WmHOiear7KmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge7dZdbEsWF3nOuqzKQFR4XkGU6x6nsbuSQX-mWaB2fk5JgZGeUmGQEdmZbmWZ4X4JhmkVca7pla4V0akJjn5WlraWU4gY3xAxtjBzvDLk5VmJuMTI3McvPzU3JSYV7XTwR6TD8_MyVZ_wAvww--e-9uz3m2rv29xwYBhgdAJMjwQ1AAAA2": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=31b3544e-f1e1-4974-bbc7-f9097dc558af&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLwC9ls-PBjiefu4z85a49GrJ_FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGiRaJFqmJlka3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8ZpaFfuEBOZWZbtl-7kl5q5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbr3UO327oQVql5L7OY3FGqoMpxi1fc2ckku9Ms0D87IyTEzMspNMrKwsExL8yzPC3BMs8grDfdMrfAuDUjM8_K0NbEynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH37zGP0ufrWt_77FBgOEBEAky_BAUAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=296e9438-3c2b-4f30-abdc-8ca965f8eb81&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKwmJKnqW1j4L_6Ts_K1B-vG2cxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQZqlgXlKilFyisktJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjN_aFBOoIdLQY5vvqlzQGLmKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge5dIMFStSF2hcc0hysh5XOTGU6x6htVJronehVnWLqnOpalRJUYB-Rr5zh7F5qke5emZFgUmqV65PhXGWa4ZyXbmlsZTmBj_MDG2MHOsItTFeYmI1Mjs9z8_JScVJjX9ROBHtPPz0xJ1j_Ay_CD7_2Tjce_3Wt_77FBgOEBEAky_BAUAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=6e7bbb91-e1b4-4710-840c-8ca265c214da&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKYuLs6b8tDAfcWnp5FqYdEbs1i5CpO1MssTs3RKyjZwch4gZHxBSPjKiY-PzNLgzRLA_NUU1MjS_NbTPz-jqUlGUYgIr8osyr1ExNnWn5RbnxBfnHJLGb-zFATM6OgUM9EI4tAk5zQVczSGSUlBcVW-vrpRYkFGXq5mclF-cX5aSV6yfm5m5jZgGRuft4pZpH8gtS8zBSFgqL8tMycVIXU3MTMnAssjD9YGBexAt17okTbTeDPQ5-Jl54kb_bOZzjFqm9Umeie6FWcYeme6liWElViHJCvnePsXWiS7l2akmFRaJbqkeNfZZjhnpVsa2xlOIGN8QMbYwc7wy5OVZibjEyNzHLz81NyUmFe108Eekw_PzMlWf8AL8MPvsOfr5_8dq_9vccGAYYHQCTI8ENQAAA1": [],
     "https://www.isel.pt/docente/claudia-sofia-seneca-da-luz-casaca": [
       "https://orcid.org/0000-0003-4556-4101",
       "https://publons.com/researcher/2511615/claudia-s-s-l-casaca",
@@ -1091,12 +1091,12 @@
       "https://www.cienciavitae.pt/portal/c81b-07d4-b460",
       "https://www.scopus.com/authid/detail.uri"
     ],
-    "https://my.isel.pt/adfs/ls/?client-request-id=28185e0e-08bb-493f-b865-fda4502382b2&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLgi5PQ2M1h77kj9e-SAOWmTbMYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIMUg0dI4xcjSMvUWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5nfMT8luyDcrCAtK6LA1ytiFbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPceqt3enbBC1WuJ3fwGZU1VhlOs-t5GLsmFfpnmwRk5OWZGRrlJRhYWlmlpnuV5AY5pFnml4Z6pFd6lAYl5Xp625laGE9gYP7AxdrAz7OJUhbnJyNTILDc_PyUnFeZ1_USgx_TzM1OS9Q_wMvzguzLjx8Vn69rfe2wQYHgARIIMPwQFAA2": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=03a2de7d-7838-4ca4-9ed8-1bbe9a08e4b8&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKovbeI2aJiic-8G9L7ZnE82TGLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDVIMEi1NzQwtTZNuMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5EwsjvLMNitNdQsvMTdNKVjFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnTvQXv_qPzVmf4b-_Y_eLFdmeEUq763kUtyoV-meXBGTo6ZkVFukpGFhWVammd5XoBjmkVeabhnaoV3aUBinpenrYmV4QQ2xg9sjB3sDLs4VWFuMjI1MsvNz0_JSYV5XT8R6DH9_MyUZP0DvAw_-M7PWnzz2br29x4bBBgeAJEgww9BAQA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=e3d6af0d-ac31-4c10-959d-09457b4ce1a5&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLgXX_tseEaAZ-pczldq30eLp3FyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBmmWBhYGZoYGZha3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8EY5-GRlBHibF3gU5RSlVq5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbo3ZkZafZyOg8_KjEJ997AAhlOs-kaVie6JXsUZlu6pjmUpUSXGAfnaOc7ehSbp3qUpGRaFZqkeOf5VhhnuWcm2hlaGE9gYP7AxdrAz7OJUhbnJyNTILDc_PyUnFeZ1_USgx_TzM1OS9Q_wMvzg-7Rz--Vv99rfe2wQYHgARIIMPwQFAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=9d40e15c-318e-4f00-8106-a55487a1f325&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKIeegwt8-Qwb-RbWlI-8LPqrMYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIM3SwMIgxTIlxewWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5k_K9Al1zs4OdkgJ9fL3CR_FbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPcKfbG6emreFM8FUddf_pSJYDjFqm9Umeie6FWcYeme6liWElViHJCvnePsXWiS7l2akmFRaJbqkeNfZZjhnpVsa2ZlOIGN8QMbYwc7wy5OVZibjEyNzHLz81NyUmFe108Eekw_PzMlWf8AL8MPvnfH3l79dq_9vccGAYYHQCTI8ENQAAA1": [],
     "https://www.isel.pt/comunidade/estudantes/bolsas-next-level-higher-education-all-politecnico-de-lisboa": [
       "https://www.ipl.pt/comunidade/projeto-next-level-prr"
     ],
-    "https://my.isel.pt/adfs/ls/?client-request-id=b3ccf963-7d29-4ebf-991e-26259f67d0f0&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJI_nlms2btfr-Zcmqq89MvfJjFyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBikGiZbmiWbmyQa3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8pTmlWb6WEfkZXlUBgWaOq5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbq3glP-mPrq5z7bkxIOpiu4Mpxi1fc2ckku9Ms0D87IyTEzMspNMrKwsExL8yzPC3BMs8grDfdMrfAuDUjM8_K0NbIynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH388jU588W9f-3mODAMMDIBJk-CEoAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=9909df95-3642-4438-a65f-e66da8d04a28&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKYep9zppOZhcuy-Ge5Ky54acxi5CpO1MssTs3RKyjZwch4gZHxBSPjKiY-PzNLgzRLAwvDJFOTZItbTPz-jqUlGUYgIr8osyr1ExNnWn5RbnxBfnHJLGb-4oBAU6-AYCM_N7_SUPP8VczSGSUlBcVW-vrpRYkFGXq5mclF-cX5aSV6yfm5m5jZgGRuft4pZpH8gtS8zBSFgqL8tMycVIXU3MTMnAssjD9YGBexAt372btiD4_RJ49exsaAawaeDKdY9Y0qE90TvYozLN1THctSokqMA_K1c5y9C03SvUtTMiwKzVI9cvyrDDPcs5JtTawMJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjBd33vi5vf7rW_99ggwPAAiAQZfggKAAA1": [],
     "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/editais-tfm": [],
     "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/horarios": [],
     "https://www.isel.pt/comunidade/estudantes/informacoes-academicas/legislacao-normas-regulamentos": [
@@ -1122,7 +1122,7 @@
       "https://iselpt.sharepoint.com/:b:/r/sites/intrausers/documentos%20partilhados/servi%c3%a7o%20de%20gest%c3%a3o%20de%20infraestruturas%20e%20equipamentos/st_md_01_04_pedido_utilizacao_pq_estacionamento.pdf"
     ],
     "https://www.isel.pt/servicos/servico-de-gestao-financeira": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=10c0f161-2a1d-4b02-be8a-c30dc15339ae&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJI_HhAQFaLyXtf12Heg8GW62YxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBYqIJ0Biz1FtM_P6OpSUZRiAivyizKvUTE2daflFufEF-ccksZn6TCNdsH__SKLNUL2PLJPdVzNIZJSUFxVb6-ulFiQUZermZyUX5xflpJXrJ-bmbmNmAZG5-3ilmkfyC1LzMFIWCovy0zJxUhdTcxMycCyyMP1gYF7EC3XtK9dyfJZPEPZuU_lnsN1FiOMWq723kklzol2kenJGTY2ZklJtkZGFhmZbmWZ4X4JhmkVca7pla4V0akJjn5WlrYGU4gY3xAxtjBzvDLk5VmJuMTI3McvPzU3JSYV7XTwR6TD8_MyVZ_wAvww--zYffLny-rv29xwYBhgdAJMjwQ1AAAA2": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=76f1829c-1ac0-4d62-9728-1b861bf85af7&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKY0_Sx7IBUku90Dek26R9R32cxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQZqlgYVJiqlxqvktJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjO_b1WOaVhVjqF_coiJY1buKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge49UaLtJvDnoc_ES0-SOXzyGU6x6htVJronehVnWLqnOpalRJUYB-Rr5zh7F5qke5emZFgUmqV65PhXGWa4ZyXbGlsZTmBj_MDG2MHOsItTFeYmI1Mjs9z8_JScVJjX9ROBHtPPz0xJ1j_Ay_CDb-rdJy--3Wt_77FBgOEBEAky_BAUAAA1": [],
     "https://www.isel.pt/servicos/biblioteca/recursos-de-pesquisa": [
       "http://b-on.pt",
       "http://www.scielo.org",
@@ -1151,15 +1151,15 @@
       "https://www.spiedigitallibrary.org",
       "https://www.webofscience.com/wos/woscc/basic-search"
     ],
-    "https://my.isel.pt/adfs/ls/?client-request-id=de531b26-0212-452a-b4cf-34dd0b2f6e75&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJQkw6-J8Sk5brlvMldbv280lmMXMWJepnFqTl6BSU7GBkvMDK-YGRcxcTnZ2ZpkGKQmGhulGicnHyLid_fsbQkwwhE5BdlVqV-YuJMyy_KjS_ILy6ZxczvZJCcGpXkmOSebxGc4uq4ilk6o6SkoNhKXz-9KLEgQy83M7kovzg_rUQvOT93EzMbkMzNzzvFLJJfkJqXmaJQUJSflpmTqpCam5iZc4GF8QcL4yJWoHs52ap-3N591WuddVe8C68cwylWfW8jl-RCv0zz4IycHDMjo9wkIwsLy7Q0z_K8AMc0i7zScM_UCu_SgMQ8L09bMyvDCWyMH9gYO9gZdnGqwtxkZGpklpufn5KTCvO6fiLQY_r5mSnJ-gd4GX7w_ZzTsu75uvb3HhsEGB4AkSDDD0EBAA2": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=d6fdca95-de47-44b5-b829-3d30c731925d&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKYeurvNfd7W112aNoaHDecFDuLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDVIMEhMtEpPMzNNuMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5fSuSzU3CDUrcnS1z_DMSVzFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnRvBaf8MfXVz322JyUcZFFyZTjFqu9t5JJc6JdpHpyRk2NmZJSbZGRhYZmW5lmeF-CYZpFXGu6ZWuFdGpCY5-Vpa2plOIGN8QMbYwc7wy5OVZibjEyNzHLz81NyUmFe108Eekw_PzMlWf8AL8MPvmMbV2x9vq79vccGAYYHQCTI8ENQAAA1": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0aaa41643&response_mode=form_post&state=oz6rRTBgtYaRAYg&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=8cec7ba2-12f2-4d92-8411-78d4eceadc09&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hJYVP2m55PQJN8WwYorb17d4ZzFyFWcqJdZnJqjV1Cyg5HxAiPjC0bGVUx8fmaWBmmWBhamSQbGZha3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWcz8WQElBblpXm5OyZWVbmnFq5ilM0pKCoqt9PXTixILMvRyM5OL8ovz00r0kvNzNzGzAcnc_LxTzCL5Bal5mSkKBUX5aZk5qQqpuYmZORdYGH-wMC5iBbpXXGr5np5uAc_2h7P1LlUkM5xi1TeqTHRP9CrOsHRPdSxLiSoxDsjXznH2LjRJ9y5NybAoNEv1yPGvMsxwz0q2NbcynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH354FrW-_3Wt_77FBgOEBEAky_BAUAAA1": [],
+    "https://my.isel.pt/adfs/ls/?client-request-id=d630e58c-bad9-451a-bd15-c46c972790a8&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLoeWpw7eYuKde9okdypqtPWDGLkas4US-zODVHr6BkByPjBUbGF4yMq5j4_MwsDdIsDSzMjJMtkxJvMfH7O5aWZBiBiPyizKrUT0ycaflFufEF-cUls5j5ww3CLSwrq8zNTUtCPS3LVzFLZ5SUFBRb6eunFyUWZOjlZiYX5Rfnp5XoJefnbmJmA5K5-XmnmEXyC1LzMlMUCory0zJzUhVScxMzcy6wMP5gYVzECnTviRJtN4E_D30mXnqSLOeTz3CKVd-oMtE90as4w9I91bEsJarEOCBfO8fZu9Ak3bs0JcOi0CzVI8e_yjDDPSvZ1tLKcAIb4wc2xg52hl2cqjA3GZkameXm56fkpMK8rp8I9Jh-fmZKsv4BXoYffOu2rXz_7V77e48NAgwPgEiQ4YegAAA1": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f9086be1b1&response_mode=form_post&state=zWK9jtEKj1dGZWG&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/servicos/modalidades-de-ingresso/mestrado": [
       "https://diariodarepublica.pt/dr/detalhe/despacho/11215-2024-888687069",
       "https://portal.ipl.pt/isel-cssnet/page",
       "https://www.isel.pt/servicos/modalidades-de-ingresso/mestrado/calendario"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0aaca0baa&response_mode=form_post&state=TmgFaq4E1qRirHL&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f908767a52&response_mode=form_post&state=xEFc3FlUiJ9lYFi&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/curso/outros-cursos/curso-preparatorio-de-fisica": [
       "https://www.isel.pt/curso/outros-curso/curso-preparatorio-de-fisica-programa-detalhado",
       "https://www.isel.pt/docentes/antonio-manuel-carreiras-casaca"
@@ -1175,7 +1175,7 @@
       "https://2223moodle.isel.pt/course/index.php",
       "https://mikrotik.com/training/academy"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0ab3e363e&response_mode=form_post&state=aCFhUAlrBiFOrc7&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f9088e3ba1&response_mode=form_post&state=nHF4x3dOCXlC6P7&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://cimosm.isel.pt/": [
       "http://wxmaxima-developers.github.io/wxmaxima",
       "https://cimosm.isel.pt",
@@ -1227,7 +1227,7 @@
       "https://lcec.isel.pt/wp-login.php",
       "https://wordpress.org"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0ac044fff&response_mode=form_post&state=whCqmOXfMcVPhCp&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f908eab03c&response_mode=form_post&state=R1RTQHnpd8D6MAy&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://unire.isel.pt/": [],
     "https://www.isel.pt/ecossistema-de-inovacao/unidades-de-ied/unidades-de-id": [
       "https://ceaul.org",
@@ -1249,7 +1249,7 @@
       "https://www.isel.pt/docente/rui-jose-oliveira-nobrega-pestana",
       "https://www.isel.pt/docente/victor-manuel-fernandes-mendes"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0ac6861ee&response_mode=form_post&state=Srm7mGL5cd1E2eR&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90912a39e&response_mode=form_post&state=7Y8QMmhjht9foLv&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://oficinadigital.isel.pt/": [
       "https://gingada.pt",
       "https://oficinadigital.isel.pt/3dbiomedsur.html",
@@ -1357,7 +1357,8 @@
     "https://www.isel.pt/en/node/38201": [],
     "https://www.isel.pt/en/node/38908": [],
     "https://www.isel.pt/en/noticias/isel-e-policia-judiciaria-desenvolvem-jogo-educativo": [
-      "https://www.isel.pt/en/curso/bsc-degree/informatics-and-multimedia-engineering"
+      "https://www.isel.pt/en/curso/bsc-degree/informatics-and-multimedia-engineering",
+      "https://www.policiajudiciaria.pt"
     ],
     "https://www.isel.pt/en/privacy-policy": [],
     "https://www.isel.pt/en/research/projects": [],
@@ -1418,7 +1419,7 @@
     ],
     "https://www.isel.pt/en/terms-and-conditions": [],
     "https://www.isel.pt/informacoes-docentes": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0af14aac0&response_mode=form_post&state=6NpRDHidydshOSo&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f909e0ed5b&response_mode=form_post&state=BqrFvcK6tJqWKzI&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/servicos/modalidades-de-ingresso/concurso-m23": [
       "https://www.isel.pt/servicos/modalidades-de-ingresso/concurso-m23/calendarios",
       "https://www.isel.pt/servicos/modalidades-de-ingresso/concurso-m23/informacoes-sobre-as-provas"
@@ -1455,7 +1456,7 @@
       "https://portal académico (netp@)",
       "https://www.isel.pt/servicos/modalidades-de-ingresso/unidades-curriculares-isoladas/calendario"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0afd87bb4&response_mode=form_post&state=PoErEb4flqrwdjj&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90a0d7d74&response_mode=form_post&state=8Ij7ZyW6IVa5pXB&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/ensino/programas-de-mobilidade/bip/bip-2425": [
       "https://forms.office.com/e/jblcwl06wz",
       "https://oceanario.pt",
@@ -1463,9 +1464,9 @@
       "https://www.hychem.pt",
       "https://www.isel.pt/ensino/programas-de-mobilidade/bip/bip-2425-speakers"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0affc70b3&response_mode=form_post&state=AvGtT4Jpeujtd3Y&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90a19544f&response_mode=form_post&state=Wb15zhnt1RxowBW&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-incoming/os-nossos-cursos": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b021fc5d&response_mode=form_post&state=uwKl0IPh3GU12Ml&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90a24572a&response_mode=form_post&state=4UcAMoce4o1DJ26&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/docentes/alessandro-fantoni": [
       "https://orcid.org/0000-0002-9938-0351",
       "https://publons.com/researcher/1494572/alessandro-fantoni",
@@ -1545,13 +1546,13 @@
       "https://www.ipl.pt/servicos/gabinete-relacoes-internacionais-e-mobilidade-academica"
     ],
     "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-alunos-outgoing/testemunhos": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b13bb5aa&response_mode=form_post&state=xmDOl98tWRHZwLh&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90a6bd655&response_mode=form_post&state=f5SL8hubIxaExzy&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/ensino/programas-de-mobilidade/erasmus-staff/instituicoes-parceiras": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b169aba4&response_mode=form_post&state=ZWQzfFxE0LwmLWX&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90a772843&response_mode=form_post&state=EUXnkdtbKwQqDCg&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/ensino/programas-de-mobilidade/outros-programas/informacoes-gerais/programa-vulcanus": [
       "https://www.eu-japan.eu/events/vulcanus-japan"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b1958717&response_mode=form_post&state=mFqfmXhdlorQfxL&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90a829277&response_mode=form_post&state=aD1T6acB0nmwHk6&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/eventos/arquivados": [
       "https://www.isel.pt/eventos/arquivados/2021",
       "https://www.isel.pt/eventos/arquivados/2022",
@@ -1570,12 +1571,11 @@
       "https://www.isel.pt/eventos/arquivados/2025/11",
       "https://www.isel.pt/eventos/congresso-do-30o-aniversario-da-proforum",
       "https://www.isel.pt/eventos/forum-bilateral-italia-portugal-ciencia-e-inovacao",
-      "https://www.isel.pt/eventos/inauguracao-da-instalacao-i-cant-believe-its-not-tree",
       "https://www.isel.pt/eventos/palestra-obra-subterranea-no-espaco-urbano",
       "https://www.isel.pt/eventos/seminario-de-fisica-aplicacoes-opticas-de-cristais-liquidos-1",
       "https://www.isel.pt/eventos/sessao-solene-de-abertura-do-ano-letivo-202526"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b205a6ed&response_mode=form_post&state=ySUQJm8CH9XUuom&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90a8c784b&response_mode=form_post&state=VuIltyicBAvobEd&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/docentes/francisco-mateus-marnoto-de-oliveira-campos": [
       "https://fcampos.isel.pt/inicio",
       "https://orcid.org/0000-0002-1481-0042"
@@ -1592,13 +1592,13 @@
       "https://www.rcf.pt"
     ],
     "https://www.isel.pt/eventos/seminario-de-fisica-ai-physicist-learning-equations-data": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b28d4da6&response_mode=form_post&state=80bA350spY22mjg&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b2ac5367&response_mode=form_post&state=O0gwGgiEWSw1Cnz&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b2c63340&response_mode=form_post&state=L8AxDzhrAY6MFRz&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90aa8130f&response_mode=form_post&state=AtxR8r44yZJsXcX&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90aaf0af5&response_mode=form_post&state=6MRPLofoSpb6jaE&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90ab74172&response_mode=form_post&state=ejXs04t3qXc4hPN&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/noticias/mais-de-3500-estudantes-no-welcome-ipl": [
       "https://www.flickr.com/photos/politecnicodelisboa/albums/72177720329532306"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b2edcf84&response_mode=form_post&state=utDrHvWBxb3PA0Z&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90ac4dc5f&response_mode=form_post&state=HC8jszDrHTYaerh&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/departamento/fisica": [
       "http://cfisica.isel.pt",
       "https://www.facebook.com/adfisel",
@@ -1608,10 +1608,11 @@
       "https://www.isel.pt/docentes/catarina-marques-mendes-almeida-da-rosa-leal",
       "https://www.isel.pt/docentes/paulo-ivo-cortez-teixeira"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b3175b64&response_mode=form_post&state=F2cyMWOycQSHWhM&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b3308a1e&response_mode=form_post&state=RgxNt5ZnJyyXMax&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90ace8175&response_mode=form_post&state=AvRTs1qiAcCCEv6&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90ad73271&response_mode=form_post&state=3ru5NNeer2N9MOk&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/informacoes/202509": [],
     "https://www.isel.pt/informacoes/202510": [],
+    "https://www.isel.pt/informacoes/202511": [],
     "https://www.isel.pt/node/39410": [
       "https://www.isel.pt/media/21139"
     ],
@@ -1634,8 +1635,11 @@
     "https://www.isel.pt/node/41202": [
       "https://www.isel.pt/media/21809"
     ],
-    "https://my.isel.pt/adfs/ls/?client-request-id=ee2e8c7b-143a-4ee9-a29e-8bd82c79f844&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hKo7tF7ZyXy0m_RvO4bOpU_XGYxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBknGqsYWZicktJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjO_v0tJZGhymWuBd3Kxh5vPKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge4NyZO_9-SWhVdrxbJrJaY2DKdY9b2NXJIL_TLNgzNycsyMjHKTjCwsLNPSPMvzAhzTLPJKwz1TK7xLAxLzvDxtDawMJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjBd7B31b8369rfe2wQYHgARIIMPwQFAA2": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=4bd38028-9867-4977-afef-25f9fd6ee347&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLQaLjsnT6j3HP9e9Wff_Meu89i5CpO1MssTs3RKyjZwch4gZHxBSPjKiY-PzNLgxSDJBMDU3MLQ5NbTPz-jqUlGUYgIr8osyr1ExNnWn5RbnxBfnHJLGb-0Nz0oMr01PRsl8xgC-eyVczSGSUlBcVW-vrpRYkFGXq5mclF-cX5aSV6yfm5m5jZgGRuft4pZpH8gtS8zBSFgqL8tMycVIXU3MTMnAssjD9YGBexAt1rc-QR79rgTvfGpP2zCy9oMJxi1fc2ckku9Ms0D87IyTEzMspNMrKwsExL8yzPC3BMs8grDfdMrfAuDUjM8_K0NbEynMDG-IGNsYOdYRenKsxNRqZGZrn5-Sk5qTCv6ycCPaafn5mSrH-Al-EH39rDuzrermt_77FBgOEBEAky_BAUAAA1": [],
+    "https://www.isel.pt/node/41254": [
+      "https://www.isel.pt/media/21867"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90b11db77&response_mode=form_post&state=Zu1nv9RQ3srx837&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90b197d98&response_mode=form_post&state=E6oZaMzB4HDXiGr&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/candidatura": [],
     "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/empresas-incubadas": [
       "https://www.cardio-id.com",
@@ -1643,7 +1647,7 @@
     ],
     "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/espacos": [],
     "https://www.isel.pt/investigacao-e-incovacao/empreendedorismo/incubadora-de-empresas/servicos": [],
-    "https://my.isel.pt/adfs/ls/?client-request-id=23c89c2f-3f1d-4004-a340-f7b26e7800aa&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hLQn3NCWdaexWGxw_dNeRUMq2YxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBkolJoplJUuItJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjN_nqNrfqJPgal7oGmkc07mKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge4tS2294Kb927k77tbibQ66DKdY9b2NXJIL_TLNgzNycsyMjHKTjCwsLNPSPMvzAhzTLPJKwz1TK7xLAxLzvDxtLa0MJ7AxfmBj7GBn2MWpCnOTkamRWW5-fkpOKszr-olAj-nnZ6Yk6x_gZfjB9_pdz9y369rfe2wQYHgARIIMPwQFAA2": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90b304eac&response_mode=form_post&state=EeC75UteOLt0biS&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://isel.pt/tomatoval": [
       "https://isel.pt",
       "https://isel.pt/a-descoberta-do-isel/isel-alive",
@@ -1711,7 +1715,7 @@
       "https://isel.pt/termos-e-condicoes",
       "https://isel.pt/user/register"
     ],
-    "https://my.isel.pt/adfs/ls/?client-request-id=93359ad1-19e7-4b10-8d46-dc31745dfc36&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hK4OMt08nNJAe9etzuGJbF_zGYxchUn6mUWp-boFZTsYGS8wMj4gpFxFROfn5mlQYpBkom5hallmuktJn5_x9KSDCMQkV-UWZX6iYkzLb8oN74gv7hkFjN_QKRPuk-hu7lrmYFLUVDZKmbpjJKSgmIrff30osSCDL3czOSi_OL8tBK95PzcTcxsQDI3P-8Us0h-QWpeZopCQVF-WmZOqkJqbmJmzgUWxh8sjItYge5d8pw7fT-Hld9k1kyf4lwlhlOs-t5GLsmFfpnmwRk5OWZGRrlJRhYWlmlpnuV5AY5pFnml4Z6pFd6lAYl5Xp62xlaGE9gYP7AxdrAz7OJUhbnJyNTILDc_PyUnFeZ1_USgx_TzM1OS9Q_wMvzga79wf9Xbde3vPTYIMDwAIkGGH4ICAA2": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90b4203dd&response_mode=form_post&state=nHtwn0x8RrqungC&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/innovbivalves": [],
     "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2017/ipropbio": [
       "http://ipropbio.sdu.dk",
@@ -1795,7 +1799,9 @@
     "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/Invisible-5g": [
       "https://www.isel.pt/docentes/carlos-alberto-barreiro-mendes"
     ],
-    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/mysafewater": [],
+    "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/mysafewater": [
+      "https://www.isel.pt/docentes/ana-maria-garcia-henriques-barreiros-joanaz-de-melo"
+    ],
     "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2021/pafse": [
       "https://www.isel.pt/docentes/joao-manuel-ferreira-calado",
       "https://www.isel.pt/docentes/nelson-pereira-caetano-marques",
@@ -1829,7 +1835,7 @@
     "https://www.isel.pt/investigacao-e-inovacao/ecossistema-de-inovacao/projetos/2025/resonance": [
       "https://www.cgmlst.org/ncs"
     ],
-    "https://my.isel.pt/adfs/ls/?client-request-id=8a22d773-fb89-4508-8e06-e7b58145e470&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0Ukk1N0wyNksx0jUxTU3TNTE0SNS1NEm10DUyMzUxNzJOTUw1NCsS4hIovq7U1fmbw7WP7fnWRtcnBbMYuYoT9TKLU3P0Ckp2MDJeYGR8wci4ionPz8zSIMUgySw11dLC2OIWE7-_Y2lJhhGIyC_KrEr9xMSZll-UG1-QX1wyi5nfM8i3JCon1zLIw7UooMp1FbN0RklJQbGVvn56UWJBhl5uZnJRfnF-Wolecn7uJmY2IJmbn3eKWSS_IDUvM0WhoCg_LTMnVSE1NzEz5wIL4w8WxkWsQPf-7b-qPGdPuN-Ek-xNC6VdGU6x6nsbuSQX-mWaB2fk5JgZGeUmGVlYWKaleZbnBTimWeSVhnumVniXBiTmeXnaWloZTmBj_MDG2MHOsItTFeYmI1Mjs9z8_JScVJjX9ROBHtPPz0xJ1j_Ay_CDb9XDG8_erWt_77FBgOEBEAky_BAUAAA1": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90c07e089&response_mode=form_post&state=SzrrBHaWmBV36Jm&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/docentes/alexandra-isabel-martins-paulo-costa": [
       "https://orcid.org/0000-0002-5518-6506",
       "https://publons.com/researcher/b-6080-2012",
@@ -1864,9 +1870,9 @@
       "https://www.cenimat.fct.unl.pt",
       "https://www.cienciavitae.pt/portal/0218-71b2-2de0"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b7e39ef6&response_mode=form_post&state=7X6jklxE1a1DOmI&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b7fc0ccc&response_mode=form_post&state=wKaviUzCsorjA0D&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b814d77e&response_mode=form_post&state=xMPVOFboG50teS3&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90ca6ee9c&response_mode=form_post&state=jPvrwBaMjIoGZXX&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90caefb67&response_mode=form_post&state=tqQcFIzATP7ICn9&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90cb71638&response_mode=form_post&state=pCi48JsIYWpoKkT&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/isel-nos-media/2021": [
       "http://pt.cision.com/cp2013/clippingdetails.aspx",
       "https://greensavers.sapo.pt/chef-vitor-claro-prepara-hoje-novas-receitas-circulares",
@@ -1907,7 +1913,7 @@
       "https://www.rostos.pt/inicio2.asp"
     ],
     "https://www.isel.pt/isel-nos-media/2025": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b8867a29&response_mode=form_post&state=8ZD5QffUHvwGZEc&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90cd81461&response_mode=form_post&state=1butFkjaotRpAh4&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/departamento/engenharia-civil": [
       "https://www.isel.pt/departamento/engenharia-civil/docentes"
     ],
@@ -1943,16 +1949,17 @@
       "https://www.isel.pt/departamento/matematica/laboratorios",
       "https://www.isel.pt/docentes/jose-leonel-linhares-da-rocha"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b91f3b20&response_mode=form_post&state=ARUWCl9rALEc67U&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90cfc0729&response_mode=form_post&state=0mufsUd6jkWsfaH&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/isel/quem-somos/instituicao/historia": [],
     "https://www.isel.pt/isel/quem-somos/instituicao/missao": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b94e294c&response_mode=form_post&state=fxtVFjyzLIx24WL&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90d0b5165&response_mode=form_post&state=kVgnTv2SM8QM2la&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/quem-somos/comissao-de-etica": [],
     "https://www.isel.pt/quem-somos/conselho-administrativo": [],
     "https://www.isel.pt/quem-somos/conselho-consultivo-estrategico": [],
     "https://www.isel.pt/quem-somos/conselho-de-gestao-da-qualidade": [],
     "https://www.isel.pt/quem-somos/conselho-pedagogico": [
-      "https://www.isel.pt/docentes/antonio-joao-pina-da-costa-feliciano-abreu"
+      "https://www.isel.pt/docentes/antonio-joao-pina-da-costa-feliciano-abreu",
+      "https://www.isel.pt/docentes/jose-augusto-paixao-coelho"
     ],
     "https://www.isel.pt/quem-somos/conselho-permanente": [],
     "https://www.isel.pt/quem-somos/conselho-representantes": [
@@ -1971,10 +1978,9 @@
     ],
     "https://www.isel.pt/quem-somos/organograma": [],
     "https://www.isel.pt/quem-somos/presidente": [
-      "https://www.isel.pt/docentes/carla-solange-pires-correia-viveiros",
       "https://www.isel.pt/docentes/ricardo-jorge-gonzalez-felipe"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0b9e7e228&response_mode=form_post&state=CPn0uHMDJrQhvXr&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90d321070&response_mode=form_post&state=YH7SCd4vki3XH7n&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/servicos/servico-de-avaliacao-qualidade-e-planeamento": [
       "https://iselpt.sharepoint.com/sites/areacoordenadorescurso"
     ],
@@ -1988,7 +1994,7 @@
     "https://www.isel.pt/servicos/servico-de-informatica-e-redes-de-comunicacao": [],
     "https://www.isel.pt/servicos/servico-de-relacoes-externas-e-internacionalizacao": [],
     "https://www.isel.pt/servicos/servico-de-secretariado-dos-orgaos-de-governo-do-isel": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0ba7eef60&response_mode=form_post&state=7KPaa15fzlG9f7Q&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90d5d2643&response_mode=form_post&state=qkgTCQFz05a3Kwf&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/noticias/2021": [
       "https://www.isel.pt/noticias/equipa-de-futsal-da-aeisel-recebe-premio-fair-play",
       "https://www.isel.pt/noticias/inauguracao-do-piso-0-do-edificio-f-apos-conclusao-das-obras-de-reabilitacao",
@@ -2090,11 +2096,24 @@
       "https://www.isel.pt/noticias/professor-jose-sobral-participou-no-programa-360o-da-rtp3",
       "https://www.isel.pt/noticias/welcome-202526-um-novo-capitulo-comecou-no-isel"
     ],
-    "https://www.isel.pt/noticias/202510": [],
+    "https://www.isel.pt/noticias/202510": [
+      "https://www.isel.pt/noticias/isel-e-policia-judiciaria-desenvolvem-jogo-educativo"
+    ],
     "https://www.isel.pt/noticias/202511": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bb6d9a20&response_mode=form_post&state=LGt6drc8EYcHGf0&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bb86b373&response_mode=form_post&state=2khYGYeAuEBEUot&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bb9f235a&response_mode=form_post&state=xU7H5VhVFdTFay0&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90dc2221b&response_mode=form_post&state=yrUClkUk6aaAcBF&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://www.isel.pt/docentes/carla-solange-pires-correia-viveiros": [
+      "https://orcid.org/0000-0001-5096-1633",
+      "https://publons.com/researcher/619517/carla-viveiros"
+    ],
+    "https://www.isel.pt/docentes/maria-alexandra-cardoso-da-costa": [
+      "https://orcid.org/0000-0002-3397-259x"
+    ],
+    "https://www.isel.pt/eventos/inauguracao-da-instalacao-i-cant-believe-its-not-tree": [
+      "https://www.fundacaoedp.pt/en/node/16681"
+    ],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90dd6f960&response_mode=form_post&state=YqCPXILZQMFq4q2&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90dde1c12&response_mode=form_post&state=pObjxZzFKe162c0&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90de6a17e&response_mode=form_post&state=yZvnzNZnQS4VdtY&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/docente/maria-manuela-almeida-carvalho-vieira": [
       "https://orcid.org/0000-0002-1150-9895"
     ],
@@ -2107,13 +2126,11 @@
     ],
     "https://www.isel.pt/noticias/isel-comemora-abertura-do-ano-letivo-202526-com-uma-sessao-solene": [
       "https://flic.kr/s/ahbqjcywvw",
-      "https://www.fundacaosantanderportugal.pt"
+      "https://www.fundacaosantanderportugal.pt",
+      "https://www.ordemdosengenheiros.pt/pt"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bbd918b9&response_mode=form_post&state=2UtEGx9DciGHM6A&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://www.isel.pt/docentes/maria-alexandra-cardoso-da-costa": [
-      "https://orcid.org/0000-0002-3397-259x"
-    ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bbfe8e58&response_mode=form_post&state=d2Ra5RSCEEZURp6&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90dfb2fcc&response_mode=form_post&state=FEXih2FBU5iUlfJ&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e039450&response_mode=form_post&state=zbdZxZ0JSvUUMlj&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/docentes/catia-raquel-jesus-vaz": [
       "https://cvaz.github.io",
       "https://orcid.org/0000-0001-6074-3074"
@@ -2127,18 +2144,12 @@
       "https://www.ie.ulisboa.pt",
       "https://www.ulisboa.pt"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bc3b09d7&response_mode=form_post&state=LD8Z9ndoeZLnXhC&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://www.isel.pt/docentes/jose-manuel-peixoto-nascimento": [
-      "https://orcid.org/0000-0002-5291-6147",
-      "https://publons.com/researcher/2414606/jose-m-p-nascimento",
-      "https://www.cienciavitae.pt//6912-6f61-1964"
-    ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bc617b8f&response_mode=form_post&state=3jhM9aCES3IKTAn&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e17d838&response_mode=form_post&state=VVo7xklDxOAm9HQ&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/docentes/nuno-paulo-ferreira-henriques": [
       "https://orcid.org/0000-0003-4994-7636"
     ],
     "https://www.isel.pt/noticias/docentes-do-isel-participam-em-workshop-de-acreditacao-de-especialistas-com-o-selo-eur-ace": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bc96b3ad&response_mode=form_post&state=078d506WEgisv2r&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e28d905&response_mode=form_post&state=Bxyrc1nUABtwr0Y&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/docentes/paulo-alexandre-carapinha-marques": [
       "https://www.it.pt/members/index/436"
     ],
@@ -2148,10 +2159,10 @@
       "https://resapes.pt",
       "https://www.psicologia.ulisboa.pt/ensino/apoio-ao-aluno/gape"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bccd7dd9&response_mode=form_post&state=N66rPA70YGfA9JF&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bce5ad51&response_mode=form_post&state=eoQMmEacLfB1ecQ&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bd7b7f47&response_mode=form_post&state=UpPujfsBxzQZYbm&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bd85cf4d&response_mode=form_post&state=7I4hB5fzinHEIUV&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e390c37&response_mode=form_post&state=zB6KQfg0fh2jnlg&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e434b64&response_mode=form_post&state=eh67btl73eooMl5&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e4a6be3&response_mode=form_post&state=AC14kfJe1f9xeLW&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e51f74d&response_mode=form_post&state=m4E2I7h6Pa11nm5&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente": [],
     "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/digital": [
       "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/digital/sigaisel"
@@ -2170,7 +2181,7 @@
       "https://poseur.portugal2020.pt/pt",
       "https://www.isel.pt/servicos/o-isel-apresenta-se/sustentabilidade/energia"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bde84f8d&response_mode=form_post&state=sH4efy51DQQDLfI&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e707bdc&response_mode=form_post&state=zE06AzZmV1IGPBB&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/eventos": [
       "https://www.flickr.com/photos/isel-lisboa/albums/72177720299262106",
       "https://www.flickr.com/photos/isel-lisboa/albums/72177720299267377",
@@ -2193,10 +2204,10 @@
       "https://app.santanderopenacademy.com/pt/program/bolsas-santander-sustentabilidade-empreendedorismo-e-inovacao"
     ],
     "https://www.isel.pt/o-isel-apresenta-se/sustentabilidade/ambiente/isel-eco-campus/temas": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be1381ef&response_mode=form_post&state=34JiHsNc6OJ0OZU&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be1d85cd&response_mode=form_post&state=1Sj4N8KflmHpEL4&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be2814e4&response_mode=form_post&state=iGTGy1CZiFmc6wz&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be323356&response_mode=form_post&state=1jouFHfA1GxqOb6&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e82db48&response_mode=form_post&state=qABCHAMQTmcuNyl&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e8ad91b&response_mode=form_post&state=5MXuc4xljoCVO3f&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e92c390&response_mode=form_post&state=EPo5hOnn9Sl7Oah&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90e99f749&response_mode=form_post&state=TioX1z1lVVi1TW9&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/docentes/carlos-cesar-correia-rodrigues": [
       "https://orcid.org/0000-0002-9184-5054"
     ],
@@ -2205,22 +2216,22 @@
       "https://publons.com/researcher/1357807/amelia-loja",
       "https://www.cienciavitae.pt//a016-59d1-2d00"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be534e70&response_mode=form_post&state=F7MRVLzZHNPvf3x&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90ea80761&response_mode=form_post&state=050vMZhCBHwiV3t&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/clube-bioinformatics": [],
     "https://www.isel.pt/clube-isel-space": [
       "https://linktr.ee/aegis_sat",
       "https://ptspace.pt/pt/home"
     ],
     "https://www.isel.pt/clube-smart-everywhere": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be8026ba&response_mode=form_post&state=b2iPEtDcs2W0f89&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0be8a766f&response_mode=form_post&state=5qHhDlsfT9QUWMD&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90eb8bb8c&response_mode=form_post&state=WlMEpYffpdMupBV&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90ec0cd36&response_mode=form_post&state=Wz5apgR1vENBgrf&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/quem-somos/qualidade/avaliacao": [
       "https://www.isel.pt/quem-somos/qualidade/avaliacao-alunos",
       "https://www.isel.pt/quem-somos/qualidade/avaliacao-externa",
       "https://www.isel.pt/quem-somos/qualidade/avaliacao-interna"
     ],
     "https://www.isel.pt/quem-somos/qualidade/politica-da-qualidade": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0beabb411&response_mode=form_post&state=EiHn8QObWY8wI9q&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90ece6f5e&response_mode=form_post&state=ePyJGy8nFxy5o7a&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/biblioteca/novidades": [
       "https://catalogo.isel.pt/cgi-bin/koha/opac-detail.pl",
       "https://www.isel.pt/servicos/biblioteca/novidades-arquivo"
@@ -2243,12 +2254,12 @@
       "https://www.zotero.org",
       "https://www.zotero.org/support"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bed8a813&response_mode=form_post&state=J5rkBZU3AQ7Jqpd&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90ee87784&response_mode=form_post&state=nWIM49vID678BAO&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/eventos/feira-de-emprego-2025": [
       "https://forms.office.com/e/19dhldckwi"
     ],
     "https://www.isel.pt/servicos/comunidade/estudantes/empregabilidade/concursos-publicos": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0befde075&response_mode=form_post&state=Ez5Jl1sYI7FGWfR&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90f049fb6&response_mode=form_post&state=8dx8A1yBYoDAR8r&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/servicos/comunidade/estudantes/acompanhamento": [
       "https://forms.office.com/e/p9bhehvivd"
     ],
@@ -2259,11 +2270,11 @@
       "https://open.spotify.com/show/3rehfcpqwwj7ilqn9w4eak",
       "https://www.isel.pt/servicos/comunidade/estudantes/espaco-de-apoio-ao-aluno/documentos-de-apoio"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf2da055&response_mode=form_post&state=gCFJWcWDH4slLhM&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf382c6b&response_mode=form_post&state=PAv2ic0Lu3ojHzO&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf432422&response_mode=form_post&state=sFzRrCVyFbjv5NY&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf4cbc1a&response_mode=form_post&state=JQFK0MubEEvHwOP&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf574af8&response_mode=form_post&state=D0trnTF6A7rInNr&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90f1b014f&response_mode=form_post&state=HwTXdctHf6F2kGt&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90f233804&response_mode=form_post&state=osxE9p58AyYfx8e&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90f2a40c9&response_mode=form_post&state=t0ed8F3k7NZjcxE&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90f32297f&response_mode=form_post&state=3fQldL5wKNgcExw&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90f3965a6&response_mode=form_post&state=Eoh5l1d1ryAY0LC&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/servicos/modalidades-de-ingresso/estudante-internacional/provas-acesso": [
       "https://videoconf-colibri.zoom.us/j/91428238973",
       "https://videoconf-colibri.zoom.us/j/94070843870",
@@ -2272,7 +2283,7 @@
       "https://videoconf-colibri.zoom.us/j/96172058863",
       "https://www.dge.mec.pt/fisica-e-quimica-0"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0bf6ddd87&response_mode=form_post&state=jrG7Dbh7JQn4BWM&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90f46e906&response_mode=form_post&state=tREJeDHOcfDyUUE&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/sites/default/files/001_imagens_isel/01_ISEL-Logotipo-RGB_Horizontal-Acro%E2%95%A0%C3%BCnimo-Preto.eps": [],
     "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Acronimo-900.eps": [],
     "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Acronimo-Branco.eps": [],
@@ -2283,7 +2294,7 @@
     "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Principal-900.eps": [],
     "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Principal-Branco.eps": [],
     "https://www.isel.pt/sites/default/files/001_imagens_isel/Logotipos/ISEL%202025/01_ISEL-Logotipo-RGB_Horizontal-Principal-Preto.eps": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0c014496d&response_mode=form_post&state=5p46NkkgDOGB2xm&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90f7ea044&response_mode=form_post&state=0A24HyqIE0Prvo1&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/concursos-de-pessoal-docente": [
       "https://isel.pt/concurso/professor-coordenador/dm-pc-estatistica-processos-estocasticos-analise-estocastica",
       "https://www.isel.pt/concurso/professor-adjunto/dm-calculo-variacoes-eq-diferenciais-sistemas-dinamicos",
@@ -2434,7 +2445,7 @@
       "https://www.isel.pt/concurso/nao-docentes/ts-ssogi-2025"
     ],
     "https://www.isel.pt/servicos/servico-de-gestao-de-recursos-humanos/publicitacao-de-atos": [],
-    "https://gerireid.isel.pt/private/Login?session_verification_key=yTBq7QgiiixfpF4yO7RO1YeeyrQ5l1fM19a5afb686c": [
+    "https://gerireid.isel.pt/private/Login?session_verification_key=ve8U8Uh0XH5SsH43gCVygwEYQrllCVEs19a64d2f8e1": [
       "https://gerireid.isel.pt",
       "https://gerireid.isel.pt/public/logout"
     ],
@@ -2462,10 +2473,10 @@
       "https://isel.pt/servicos/servico-de-informatica-e-redes-de-comunicacao",
       "https://moodle-historico.isel.pt"
     ],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0c07d1a4a&response_mode=form_post&state=PadjKi4OCMIgZJH&resource=https%3A%2F%2Fgraph.microsoft.com": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0c1177366&response_mode=form_post&state=gAQSXA2hE0atlj5&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f90fa7d6a4&response_mode=form_post&state=d6RyHCvIbjTQVYL&resource=https%3A%2F%2Fgraph.microsoft.com": [],
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f9102ac6ee&response_mode=form_post&state=HsV3xrd038FDIZH&resource=https%3A%2F%2Fgraph.microsoft.com": [],
     "https://www.isel.pt/denuncias": [],
-    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690d0c12d7917&response_mode=form_post&state=f5Jy7RhJpPy5Zvl&resource=https%3A%2F%2Fgraph.microsoft.com": []
+    "https://login.microsoftonline.com/Common/oauth2/authorize?domain_hint=sa.isel.pt&whr=isel.pt&redirect_uri=https%3A%2F%2F2526moodle.isel.pt%2Fauth%2Foidc%2F&response_type=code&client_id=e71b36d2-45ef-410a-94e8-2654723eae16&scope=openid%20profile%20email&nonce=N690f91036eee0&response_mode=form_post&state=FWVZvpEjizX7bq7&resource=https%3A%2F%2Fgraph.microsoft.com": []
   },
   "errors": {
     "https://www.isel.pt/user/register": "403 Client Error: Forbidden for url: https://www.isel.pt/user/register",
@@ -2481,9 +2492,8 @@
     "https://www.isel.pt/en/academic-calendar": "403 Client Error: Forbidden for url: https://www.isel.pt/en/academic-calendar",
     "https://www.isel.pt/en/user/register": "403 Client Error: Forbidden for url: https://www.isel.pt/en/user/register",
     "https://www.isel.pt/docente/pedro-emanuel-albuquerque-e-baptista-dos-santos": "404 Client Error: Not Found for url: https://www.isel.pt/docente/pedro-emanuel-albuquerque-e-baptista-dos-santos",
-    "https://site.isel.pt/docentes/maria-teresa-oliveira-moura-e-silva": "HTTPSConnectionPool(host='site.isel.pt', port=443): Max retries exceeded with url: /docentes/maria-teresa-oliveira-moura-e-silva (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022976DB7750>, 'Connection to site.isel.pt timed out. (connect timeout=7.0)'))",
+    "https://site.isel.pt/docentes/maria-teresa-oliveira-moura-e-silva": "HTTPSConnectionPool(host='site.isel.pt', port=443): Max retries exceeded with url: /docentes/maria-teresa-oliveira-moura-e-silva (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000013159C00B90>, 'Connection to site.isel.pt timed out. (connect timeout=7.0)'))",
     "https://www.isel.pt/docentes/jose-virgilio-sousa-coelho-prata": "403 Client Error: Forbidden for url: https://www.isel.pt/docentes/jose-virgilio-sousa-coelho-prata",
-    "http://webmail.isel.pt/": "HTTPSConnectionPool(host='outlook.office365.com', port=443): Read timed out. (read timeout=7.0)",
-    "https://phone.isel.pt/": "HTTPSConnectionPool(host='phone.isel.pt', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022976DB5F90>, 'Connection to phone.isel.pt timed out. (connect timeout=7.0)'))"
+    "https://phone.isel.pt/": "HTTPSConnectionPool(host='phone.isel.pt', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000013159693D90>, 'Connection to phone.isel.pt timed out. (connect timeout=7.0)'))"
   }
 }
